@@ -1,0 +1,917 @@
+20171126,14:00,netherlands,eerste-klasse-20172018,zondag-f,national,WVV,wvv,Noordster,noordster,H,4,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:00,netherlands,eerste-klasse-20172018,zondag-f,national,Assen,assen,GAVC,gavc,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:30,netherlands,eerste-klasse-20172018,zondag-f,national,Hoogeveen,hoogeveen,FVC,fvc,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:30,netherlands,eredivisie-u18-20172018,regular-season,national,De Graafschap U19,bv-de-graafschap-under-18,Willem II U19,willem-ii-u19,D,1,1,D,-1,-1,3,10,0,7,0,5,18,9,2,0
+20171126,12:00,netherlands,vrouwen-hoofdklasse-20172018,zondag,national,Prinses Irene,prinses-irene,Trekvogels,trekvogels,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,12:30,netherlands,vrouwen-hoofdklasse-20172018,zondag,national,Rigtersbleek,netherlands-vv-rigtersbleek,Venray,sv-venray,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:00,netherlands,vrouwen-hoofdklasse-20172018,zondag,national,Eldenia,eldenia,Woezik,woezik,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:30,netherlands,vrouwen-hoofdklasse-20172018,zondag,national,Nuenen,nuenen,Buitenveldert II,sc-buitenveldert-ii,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:30,netherlands,vrouwen-hoofdklasse-20172018,zondag,national,Bavel,bavel,Gelre,fc-gelre,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,15:00,netherlands,vrouwen-hoofdklasse-20172018,zondag,national,Fortuna '54,fortuna-sittard,'t Zand,sportclub-t-zand,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:00,netherlands,vrouwen-eerste-klasse-20172018,group-c,national,De Blokkers,de-blokkers,Kolping Boys,kolping-boys,H,5,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:00,netherlands,vrouwen-eerste-klasse-20172018,group-c,national,Maarssen,maarssen,VDZ Arnhem,vv-vdz-arnhem,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:00,netherlands,vrouwen-eerste-klasse-20172018,group-c,national,Alcmaria Victrix,alcmaria-victrix,Buitenveldert III,buitenveldert-iii,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:00,netherlands,vrouwen-eerste-klasse-20172018,group-c,national,Berghuizen,fc-berghuizen,SDO,rkvv-sdo,A,3,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,14:30,netherlands,vrouwen-eerste-klasse-20172018,group-c,national,Hoogland,hoogland,De Zweef,de-zweef,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,11:00,netherlands,vrouwen-eerste-klasse-20172018,group-d,national,Bekkerveld,bekkerveld,Someren,sv-someren,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,11:30,netherlands,vrouwen-eerste-klasse-20172018,group-d,national,Eldenia II,eldenia-ii,DVC '26,dvc26,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,12:00,netherlands,vrouwen-eerste-klasse-20172018,group-d,national,Nooit Gedacht,nooit-gedacht,OVV ’67,ovv-67,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,12:00,netherlands,vrouwen-eerste-klasse-20172018,group-d,national,HRC ’14,hrc-14,DSE,dse,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,13:30,netherlands,vrouwen-eerste-klasse-20172018,group-d,national,Schijf,schijf,Baronie,baronie,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,02:00,new-zealand,premiership-20172018,regular-season,national,Canterbury United,canterbury-united-christchurch,Hamilton Wanderers,hamilton-wanderers,H,3,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,02:00,new-zealand,premiership-20172018,regular-season,national,Waitakere United,waitakere-united,Team Wellington,team-wellington,H,2,1,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,01:00,new-zealand,asb-youth-league-2017,regular-season,national,Waitakere United U20,waitakere-united-u21,Team Wellington U20,team-wellington-u21,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,01:30,new-zealand,asb-youth-league-2017,regular-season,national,Tasman United U20,tasman-united-u20,Eastern Suburbs U20,eastern-suburbs-u20,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,02:00,new-zealand,asb-youth-league-2017,regular-season,national,Auckland City U20,auckland-city-u21,Hawke's Bay United U20,hawkes-bay-united-u21,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,02:00,new-zealand,asb-youth-league-2017,regular-season,national,Wellington Phoenix U20,wellington-phoenix-u21,Southern United U20,southern-united-u21,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,01:00,new-zealand,national-womens-league-2017,regular-season,national,Auckland Football,auckland-football,Northern Football,northern-football,H,3,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,01:00,new-zealand,national-womens-league-2017,regular-season,national,Capital Football,capital-football,Southern United,new-zealand-southern-united-fc,H,6,2,D,-1,-1,8,8,3,3,6,3,6,8,3,6
+20171126,01:00,new-zealand,national-womens-league-2017,regular-season,national,Central Football,central-football,Canterbury United Pride,canterbury-united-pride,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,02:00,nicaragua,primera-division-20172018,apertura---final,national,Managua,managua-fc,Walter Ferreti,walter-ferreti,D,1,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,18:00,norway,eliteserien-2017,regular-season,national,Aalesund,alesunds-fotballklub,Strømsgodset,stromsgodset-idrettsforening,H,4,3,D,1,1,7,12,5,7,5,5,12,8,2,4
+20171126,18:00,norway,eliteserien-2017,regular-season,national,Brann,sportsklubben-brann-bergen,Tromsø,tromso-idrettslag,D,2,2,D,1,1,8,4,9,5,9,2,17,4,4,3
+20171126,18:00,norway,eliteserien-2017,regular-season,national,Haugesund,fotballklub-haugesund,Kristiansund,kristiansund-ballklubb,A,2,3,H,2,1,9,3,4,2,4,3,14,7,2,2
+20171126,18:00,norway,eliteserien-2017,regular-season,national,Molde,molde-fotballklubb,Sarpsborg 08,fotballklubben-sparta-sarpsborg,D,2,2,D,0,0,9,7,2,5,3,2,9,15,1,1
+20171126,18:00,norway,eliteserien-2017,regular-season,national,Odd,odd-grenland-ballklubb,Rosenborg,rosenborg-ballklubb,H,1,0,D,0,0,8,7,6,2,11,4,12,5,4,2
+20171126,18:00,norway,eliteserien-2017,regular-season,national,Sandefjord,sandefjord-fotball,Lillestrøm,lillestrom-sportsklubb,A,1,3,A,1,2,6,2,2,5,4,6,10,9,0,4
+20171126,18:00,norway,eliteserien-2017,regular-season,national,Sogndal,sogndal-idrettslag,Vålerenga,valerengen-idrettsforeningen,H,5,2,H,2,1,6,4,2,3,4,8,15,6,0,0
+20171126,18:00,norway,eliteserien-2017,regular-season,national,Viking,viking-fotballklubb,Stabæk,stabak-idrettsforening,H,2,0,H,1,0,2,7,4,4,2,10,12,10,7,2
+20171126,02:00,panama,lpf-20172018,apertura---semi-finals,national,Tauro,tauro-fc,Chorrillo,chorrillo-fc,A,1,2,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,00:10,paraguay,division-profesional-2017,clausura,national,Guaraní,club-guarani,Sol de América,sol-de-america,A,0,1,D,0,0,5,7,5,4,7,8,8,15,2,2
+20171126,22:00,paraguay,division-profesional-2017,clausura,national,Cerro Porteño,cerro-porteno,Sportivo Luqueño,club-sportivo-luqueno,H,4,1,H,2,0,6,2,2,1,3,4,13,14,1,0
+20171126,17:00,peru,primera-division-2017,clausura,national,Sporting Cristal,club-sporting-cristal,Alianza Atlético,club-alianza-atletico,H,4,0,H,2,0,5,5,4,7,1,6,16,9,0,2
+20171126,19:15,peru,primera-division-2017,clausura,national,Ayacucho,olimpico-somos-peru,Universitario,club-universitario-de-deportes,D,3,3,D,2,2,5,7,5,5,6,8,22,13,2,0
+20171126,21:30,peru,primera-division-2017,clausura,national,Alianza Lima,club-alianza-lima,Deportivo Municipal,deportivo-municipal,H,1,0,D,0,0,2,5,2,5,2,4,18,20,5,1
+20171126,20:45,peru,segunda-division-2017,championship-decider,national,César Vallejo,universidad-cesar-vallejo,Sport Boys,club-sport-boys-association,D,1,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,15:30,poland,ekstraklasa-20172018,regular-season,national,Lech Poznań,kks-lech-poznan,Wisła Płock,wisla-plock-sa,H,2,1,H,2,1,4,4,3,3,2,3,21,20,2,3
+20171126,18:00,poland,ekstraklasa-20172018,regular-season,national,Śląsk Wrocław,wroclawski-klub-sportowy-slask-wroclaw-ssa,Zagłębie Lubin,zaglebie-lubin-ssa,H,1,0,D,0,0,3,7,4,2,7,11,19,18,1,2
+20171126,13:00,poland,i-liga-20172018,regular-season,national,Raków Częstochowa,ks-rakow-czestochowa,Puszcza Niepołomice,mks-puszcza-niepolomice,H,3,1,H,1,0,3,3,3,7,5,5,18,13,1,1
+20171126,15:00,poland,i-liga-20172018,regular-season,national,Chrobry Głogów,mzks-chrobry-glogow,Ruch Chorzów,ks-ruch-chorzow,H,1,0,D,0,0,8,4,7,4,5,10,12,9,0,1
+20171126,16:00,poland,i-liga-20172018,regular-season,national,Wigry Suwałki,sks-wigry-suwalki,Olimpia Grudziądz,gks-olimpia-grudziadz,H,1,0,D,0,0,4,6,1,3,5,7,19,12,3,2
+20171126,12:00,poland,ii-liga-20172018,regular-season,national,Znicz Pruszków,mks-znicz-pruszkow,Kluczbork,mks-kluczbork,D,1,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,13:00,poland,ii-liga-20172018,regular-season,national,Gwardia Koszalin,ks-gwardia-koszalin,ŁKS Łódź,lks-lodz,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,13:00,poland,ii-liga-20172018,regular-season,national,Radomiak Radom,rks-radomiak-radom,Siarka Tarnobrzeg,siarka-tarnobrezeg,A,1,2,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,13:00,poland,ii-liga-20172018,regular-season,national,Olimpia Elbląg,pks-olimpia-elblag,ROW Rybnik,ks-energetyk-row-rybnik,H,6,3,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,13:00,poland,iii-liga-20172018,group-2,national,Elana Toruń,tkp-elena-torun,Unia Solec Kujawski,ks-unia-solec-kujawski,D,0,0,D,-1,-1,8,0,6,2,5,4,12,14,3,0
+20171126,11:00,poland,central-youth-league-20172018,east,national,Stomil Olsztyn U19,stomil-olsztyn-u19,Progres Kraków U19,progres-krakow-u19,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,12:00,poland,central-youth-league-20172018,east,national,Stal Rzeszów U19,stal-rzeszow-u19,Jagiellonia U19,jagiellonia-u19,A,2,5,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,11:00,poland,central-youth-league-20172018,west,national,Pogoń Szczecin U19,pogo-szczecin-u19,Piast Gliwice U19,piast-gliwice-u19,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,12:00,poland,central-youth-league-20172018,west,national,Lech Poznań U19,lech-pozna-u19,Salos Szczecin U19,salos-szczecin-u19,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,12:00,poland,central-youth-league-20172018,west,national,Odra Opole U19,odra-opole-u19,Warta Poznań U19,warta-pozna-u19,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,13:00,poland,central-youth-league-20172018,west,national,Warta GW U19,warta-gw-u19,Śląsk Wrocław U19,lsk-wroclaw-u19,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,17:00,portugal,portuguese-liga--20172018,regular-season,national,Marítimo,maritimo-funchal,Estoril,gd-estoril-praia,D,0,0,D,0,0,2,6,1,5,2,9,13,18,7,0
+20171126,19:00,portugal,portuguese-liga--20172018,regular-season,national,Paços de Ferreira,pacos-ferreira,Sporting CP,sporting-clube-de-portugal,A,1,2,A,0,1,10,5,3,2,7,2,15,16,2,2
+20171126,21:15,portugal,portuguese-liga--20172018,regular-season,national,Benfica,benfica,Vitória Setúbal,vitoria-setubal,H,6,0,H,2,0,12,2,6,2,5,2,19,15,2,1
+20171126,12:15,portugal,liga-de-honra-20172018,regular-season,national,Leixões,leixoes,Benfica II,benfica-b,D,0,0,D,0,0,9,4,5,5,13,4,18,11,3,4
+20171126,16:00,portugal,liga-de-honra-20172018,regular-season,national,Arouca,fc-arouca,Santa Clara,cd-santa-clara,H,2,0,H,1,0,1,3,0,2,4,1,24,15,1,2
+20171126,16:00,portugal,liga-de-honra-20172018,regular-season,national,Sporting Covilhã,sc-covilha,Real,real-sc,D,0,0,D,0,0,6,4,5,3,3,1,13,17,3,1
+20171126,16:00,portugal,liga-de-honra-20172018,regular-season,national,UD Oliveirense,ud-oliveirense,Cova Piedade,cd-cova-piedade,D,1,1,H,1,0,11,0,5,1,8,2,20,20,0,3
+20171126,16:00,portugal,liga-de-honra-20172018,regular-season,national,Porto II,porto-b,Académica,associacao-academica-de-coimbra,A,1,2,A,0,1,7,7,1,5,3,7,13,19,2,1
+20171126,16:00,portugal,liga-de-honra-20172018,regular-season,national,Penafiel,futebol-clube-de-penafiel,Vitória Guimarães II,vitoria-guimaraes-ii,H,2,1,H,1,0,4,1,4,4,4,4,17,15,2,1
+20171126,16:00,portugal,liga-de-honra-20172018,regular-season,national,Academico Viseu,academico-viseu-fc,Varzim,varzim-sc,D,0,0,D,0,0,4,6,6,4,6,8,13,11,1,2
+20171126,16:00,portugal,ii-divisao-20172018,group-a,national,Merelinense,merelinense-fc,Minas de Argozelo,minas-de-argozelo,H,4,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-a,national,Vilaverdense,vilaverdense-fc,Câmara de Lobos,csd-camara-de-lobos,H,8,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-a,national,Oliveirense,ad-oliveirense,Atlético Arcos,atletico-arcos,H,5,0,D,-1,-1,8,5,3,5,2,4,17,17,11,2
+20171126,16:00,portugal,ii-divisao-20172018,group-a,national,Pedras Salgadas,pedras-salgadas,Bragança,gd-braganca,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-a,national,AR São Martinho,ar-sao-martinho,Montalegre,montalegre,H,1,0,D,-1,-1,13,2,6,3,6,4,17,15,1,1
+20171126,16:00,portugal,ii-divisao-20172018,group-a,national,Arões,aroes,Fafe,ad-fafe,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-a,national,Mirandela,sc-mirandela,Mondinense,mondinense-fc,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-a,national,Vizela,fc-vizela,Torcatense,torcatense,H,5,0,D,-1,-1,1,4,1,0,8,3,16,20,2,0
+20171126,16:00,portugal,ii-divisao-20172018,group-b,national,Espinho,sc-espinho,Freamunde,sc-freamunde,H,1,0,D,-1,-1,3,10,3,2,5,4,12,17,4,3
+20171126,16:00,portugal,ii-divisao-20172018,group-b,national,Aliança de Gandra,alianca-de-gandra,Felgueiras 1932,felgueira-1932,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-b,national,Cinfães,cd-cinfaes,Camacha,ad-camacha,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-b,national,Canelas 2010,canelas-2010,Cesarense,fc-cesarense,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-b,national,Coimbrões,sc-coimbroes,Trofense,cd-trofense,A,1,4,D,-1,-1,8,4,4,2,7,5,13,19,5,7
+20171126,16:00,portugal,ii-divisao-20172018,group-b,national,Sanjoanense,ad-sanjoanense,Gondomar,gondomar-sc,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-b,national,Amarante,amarante-fc,Salgueiros,salgueiros,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-b,national,Pedras Rubras,pedras-rubras,Sousense,uniao-desportiva-sousense,H,2,0,D,-1,-1,2,4,7,1,2,3,20,19,5,2
+20171126,16:00,portugal,ii-divisao-20172018,group-c,national,Águias do Moradal,grupo-desportivo-aguias-do-moradal,Sertanense,sertanense-fc,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-c,national,AD Nogueirense,ad-nogueirense,Águeda,rd-agueda,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-c,national,Lusitano FCV,lusitano-fcv,Mortágua,mortagua-fc,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-c,national,União de Leiria,uniao-leiria,Gafanha,gafanha,D,0,0,D,0,0,12,5,5,4,6,6,14,19,5,1
+20171126,16:00,portugal,ii-divisao-20172018,group-c,national,Ferreira de Aves,ferreira-de-aves,Anadia,anadia-fc,A,0,3,A,0,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-c,national,AD Fornos Algodres,ad-fornos-algodres,Marinhense,ac-marinhense,A,1,3,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-c,national,Oleiros,oleiros,Sourense,gd-sourense,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,13:00,portugal,ii-divisao-20172018,group-d,national,Guadalupe,sporting-clube-de-guadalupe-,Eléctrico,elactrico-fc,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-d,national,Alcanenense,ac-alcanenense,Lusitânia,sc-lusitania,H,3,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-d,national,Vilafranquense,vilafranquense,Caldas,caldas-sc,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-d,national,Loures,loures,1º Dezembro,su-1-dezembro,D,2,2,D,-1,-1,5,5,4,4,8,2,13,10,4,1
+20171126,16:00,portugal,ii-divisao-20172018,group-d,national,Pêro Pinheiro,ca-pero-pinheiro,Mafra,cd-mafra,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-d,national,Coruchense,coruchense,Fátima,cd-fatima,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-d,national,Sintrense,su-sintrense,Sacavenense,sport-grupo-sacavenense,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,17:00,portugal,ii-divisao-20172018,group-d,national,Praiense,sc-praiense,Torreense,scu-torreense,H,2,0,D,-1,-1,5,6,5,3,6,5,11,11,1,1
+20171126,16:00,portugal,ii-divisao-20172018,group-e,national,Estrela Vendas Novas,estrela-de-vendas-novas,Moura,moura,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171126,16:00,portugal,ii-divisao-20172018,group-e,national,Casa Pia,casa-pia-ac,Moncarapachense,moncarapachense,H,5,0,D,-1,-1,3,3,6,1,7,2,17,15,5,2
+20171127,20:45,england,championship-20172018,regular-season,national,Queens Park Rangers,queens-park-rangers-fc,Brentford,brentford-fc,D,2,2,D,0,0,7,9,3,5,7,10,13,15,1,2
+20171127,20:45,italy,serie-a-20172018,regular-season,national,Atalanta,atalanta-bergamo,Benevento,benevento-calcio,H,1,0,D,0,0,9,3,3,2,7,1,11,16,1,0
+20171127,21:00,spain,primera-division-20172018,regular-season,national,Espanyol,reial-club-deportiu-espanyol,Getafe,getafe-club-de-futbol,H,1,0,D,0,0,6,4,4,5,3,2,11,17,5,0
+20171127,17:00,albania,super-league-20172018,regular-season,national,Partizani Tirana,kf-partizani-tirana,Skënderbeu Korçë,ks-skenderbeu-korce,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,33:33,antigua-and-barbuda,premier-division-20172018,regular-season,national,Grenades,genades-fc,Old Road,old-road,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,01:30,argentina,primera-division-20172018,regular-season,national,Rosario Central,club-atletico-rosario-central,Boca Juniors,boca-juniors,H,1,0,H,1,0,7,7,5,3,9,6,21,15,4,1
+20171127,21:00,argentina,primera-division-20172018,regular-season,national,Arsenal,arsenal-de-sarandi,Talleres Córdoba,ca-talleres-cordoba,A,0,1,A,0,1,8,8,1,2,9,5,14,15,0,2
+20171127,23:15,argentina,primera-division-20172018,regular-season,national,Vélez Sarsfield,club-atletico-velez-sarsfield,Olimpo,club-olimpo,H,3,0,D,0,0,5,4,2,0,6,1,18,12,1,1
+20171127,00:15,argentina,prim-b-nacional-20172018,regular-season,national,Villa Dálmine,villa-dalmine,Nueva Chicago,ca-nueva-chicago,H,2,1,H,1,0,5,4,6,2,4,4,12,17,0,0
+20171127,01:00,argentina,prim-b-nacional-20172018,regular-season,national,Club Atlético Mitre,club-atletico-mitre-de-santiago-del-estero,Flandria,csyd-flandria,H,2,1,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,21:00,argentina,prim-c-metro-20172018,regular-season,national,Sportivo Barracas,barracas-bolivar,Berazategui,asociacion-deportiva-berazategui,D,0,0,D,-1,-1,4,4,4,5,8,9,8,12,1,6
+20171127,21:00,argentina,prim-c-metro-20172018,regular-season,national,Luján,lujan,Excursionistas,excursionistas,H,1,0,D,-1,-1,3,3,6,2,3,11,12,9,4,5
+20171127,21:00,argentina,prim-c-metro-20172018,regular-season,national,Sportivo Italiano,club-sportivo-italiano,Deportivo Merlo,club-social-y-deportivo-merlo,H,1,0,D,-1,-1,3,10,2,3,3,9,18,15,0,1
+20171127,21:00,argentina,prim-c-metro-20172018,regular-season,national,Midland,asociacion-ferrocarril-midland,Deportivo Laferrere,laferrere,H,2,0,D,-1,-1,2,7,1,2,4,8,21,17,1,3
+20171127,21:00,argentina,prim-c-metro-20172018,regular-season,national,Defensores de Cambaceres,defensores-de-cambaceres,Leandro Nicéforo Alem,leandro-niceforo-alem,H,3,1,D,-1,-1,3,3,3,2,4,7,15,18,0,2
+20171127,21:00,argentina,prim-c-metro-20172018,regular-season,national,Argentino Quilmes,argentino-de-quilmes,Dock Sud,dock-sud,H,1,0,D,-1,-1,2,2,4,1,4,6,14,13,10,0
+20171127,13:00,argentina,reserve-league-20172018,regular-season,national,Vélez Sársfield Res.,velez-sarsfield-res,Olimpo Res.,olimpo-res,H,2,0,D,-1,-1,2,6,4,5,6,3,10,17,2,2
+20171127,21:00,argentina,reserve-league-20172018,regular-season,national,Newell's Old Boys Res.,newells-old-boys-res,River Plate Res.,river-plate-res,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:00,armenia,first-league-20172018,regular-season,national,Ararat II,ararat-yerevan-ii,Artsakh,artsakh,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:00,armenia,first-league-20172018,regular-season,national,Banants II,banants-yerevan-ii,Lori,lori,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:00,armenia,first-league-20172018,regular-season,national,Erebuni,erebuni,Shirak II,shirak-giumri-ii,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:00,armenia,first-league-20172018,regular-season,national,Pyunik II,pyunik-yerevan-ii,Alashkert II,alashkert-ii,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:00,armenia,first-league-20172018,regular-season,national,Avan Academy,avan-academy,Gandzasar II,gandzasar-kapan-ii,H,5,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,01:00,aruba,division-di-honor-20172018,regular-season,national,River Plate,sv-riverplate,Juventud TL,sv-juventud-tanki-leendert,H,4,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,12:00,azerbaijan,reserve-league-20172018,regular-season,national,Zira Res.,zira-res,Qarabağ Res.,qaraba-adam-res,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,12:00,azerbaijan,reserve-league-20172018,regular-season,national,Sumqayıt Res.,sumqayt-res,Səbail Res.,sabail-res,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,19:30,belgium,beloften-pro-league-20172018,regular-season,national,Genk Res.,genk-res,AS Eupen Res.,as-eupen-res,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,19:30,belgium,beloften-pro-league-20172018,regular-season,national,Antwerp Res.,antwerp-res,Excel Mouscron Res.,mouscron-peruwelz-res,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,19:30,belgium,beloften-pro-league-20172018,regular-season,national,Gent Res.,gent-res,Kortrijk Res.,kortrijk-res,H,7,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,19:30,belgium,beloften-pro-league-20172018,regular-season,national,Club Brugge Res.,club-brugge-res,Standard Liège Res.,standard-liege-res,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,19:30,belgium,beloften-pro-league-20172018,regular-season,national,Sporting Charleroi Res.,sporting-charleroi-res,Waasland-Beveren Res.,waasland-beveren-res,H,4,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,19:30,belgium,beloften-pro-league-20172018,regular-season,national,Anderlecht Res.,anderlecht-res,Zulte-Waregem Res.,zulte-waregem-res,H,4,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,20:00,belgium,beloften-pro-league-20172018,regular-season,national,Mechelen Res.,mechelen-res,Lokeren Res.,lokeren-res,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,00:30,bolivia,lfpb-20162017,clausura,national,Real Potosí,club-real-potosi,Sport Boys,sports-boys-warnes,H,2,1,D,1,1,4,1,10,6,5,7,19,14,3,0
+20171127,13:00,bosnia-herzegovina,premier-liga-20172018,regular-season,national,Željezničar,fk-eljeznicar-sarajevo,Sarajevo,fk-sarajevo,H,2,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,23:00,brazil,serie-a-2017,regular-season,national,Palmeiras,sociedade-esportiva-palmeiras,Botafogo,botafogo-de-futebol-e-regatas,H,2,0,D,0,0,8,4,5,5,5,7,19,15,0,1
+20171127,18:30,brazil,copa-gaucho-u19-2017,semi-finals,national,EC São José U19,ec-sao-jose-u19,Brasil de Pelotas U19,brasil-de-pelotas-u19,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,18:30,brazil,copa-gaucho-u19-2017,semi-finals,national,Internacional U19,sc-internacional-under-19,Soledade U19,soledade-u19,H,6,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,16:30,bulgaria,a-pfg-20172018,regular-season,national,Ludogorets,fk-razgrad-2000,Vitosha Bistritsa,fk-vitosha-bistrica,H,3,0,D,0,0,11,0,10,0,11,0,11,15,7,0
+20171127,16:30,burkina-faso,1ere-division-20172018,regular-season,national,SONABEL,association-sportive-de-la-sonabel,RCK,rc-kadiogo,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,14:00,burundi,ligue-a-20172018,regular-season,national,Delta Star,delta-star-de-gatumba,Le Messager de Bujumbura,le-messager-de-bujumbura,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,00:30,chile,primera-division-20172018,apertura,national,Unión Española,union-espanola,Deportes Temuco,club-de-deportes-temuco,D,1,1,H,1,0,4,5,8,3,8,5,12,9,1,3
+20171127,01:10,colombia,primera-b-2017,clausura---final,national,Leones,deportivo-rionegro,Llaneros,llaneros-futbol-club,D,0,0,D,0,0,6,4,7,4,6,7,18,20,1,0
+20171127,18:00,cyprus,1-division-20172018,regular-season,national,Apollon,apollon-limassol,Ethnikos Achna,ethnikos-achnas,H,3,0,D,0,0,14,1,16,0,10,0,12,8,1,2
+20171127,17:30,czech-republic,czech-liga-20172018,regular-season,national,Zlín,fc-tescoma-zlin,Slovácko,1-fc-slovacko,H,2,1,H,1,0,3,12,0,3,6,7,17,6,2,1
+20171127,17:30,czech-republic,czech-liga-20172018,regular-season,national,Jablonec,fk-jablonec-97,Slavia Praha,sk-slavia-praha,D,1,1,A,0,1,5,11,4,4,2,12,12,10,2,2
+20171127,11:00,czech-republic,juniorska-liga-20172018,regular-season,national,Slavia Praha U21,sk-slavia-praha-under-21,Příbram U21,1fk-pibram-under-21,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,13:00,czech-republic,juniorska-liga-20172018,regular-season,national,Mladá Boleslav U21,fk-mlada-boleslav-under-21,Hradec Králové U21,fc-hradec-kralove-under-21,D,3,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,13:00,czech-republic,juniorska-liga-20172018,regular-season,national,České Budějovice U21,sk-dynamo-eske-budjovice-under-21,Teplice U21,fk-teplice-under-21,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,13:00,czech-republic,juniorska-liga-20172018,msfl,national,Vysočina Jihlava U21,fc-vysoina-jihlava-under-21,Sigma Olomouc U21,sk-sigma-olomouc-under-21,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,19:00,denmark,superliga-20172018,regular-season,national,Midtjylland,fc-midtjylland,AGF,agf-aarhus,H,4,0,H,2,0,6,5,8,2,4,10,15,12,1,1
+20171127,13:00,denmark,reserve-league-20172018,group-1,national,Lyngby Res.,lyngby-res,Brøndby Res.,brondby-res,H,6,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,13:00,denmark,reserve-league-20172018,group-2,national,Nordsjælland Res.,nordsjalland-res,OB Res.,ob-res,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,14:00,denmark,reserve-league-20172018,group-3,national,Silkeborg Res.,silkeborg-res,Horsens Res.,horsens-res,H,5,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,14:00,denmark,reserve-league-20172018,group-4,national,AaB Res.,aab-res,Hobro Res.,hobro-res,H,4,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,13:45,egypt,premier-league-20172018,regular-season,national,Petrojet,petrojet,El Raja,el-raja,A,0,1,D,0,0,7,10,2,6,7,3,12,11,2,2
+20171127,16:00,egypt,premier-league-20172018,regular-season,national,El Geish,talaea-el-geish,Nasr,nasr,A,1,3,A,0,2,4,2,3,7,8,7,17,14,3,3
+20171127,19:00,egypt,premier-league-20172018,regular-season,national,Zamalek,zamalek,Misr Lel Makasa,misr-el-maqasha,A,1,3,A,1,2,7,0,3,3,7,4,18,8,8,1
+20171127,20:45,england,non-league-div-one-20172018,isthmian-north,national,Aveley,aveley-fc,Norwich United,norwich-united,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,20:45,england,non-league-div-one-20172018,isthmian-south,national,Carshalton Athletic,carshalton-athletic-fc,Walton Casuals,walton-casuals-fc,H,2,1,D,-1,-1,1,5,3,4,8,2,9,16,2,0
+20171127,20:45,england,fa-trophy-20172018,3rd-round-qualifying-replays,national,Stourbridge,stourbridge-fc,Bradford Park Avenue,bradford-park-avanue-fc,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,20:00,england,premier-league-2-division-one-20172018,regular-season,national,Everton U23,everton-u23,Manchester United U23,manchester-united-u23,D,0,0,D,0,0,5,6,5,3,5,7,10,11,2,0
+20171127,20:00,england,premier-league-2-division-two-20172018,regular-season,national,Blackburn Rovers U23,blackburn-rovers-u23,West Bromwich Albion U23,west-bromwich-albion-u23,D,2,2,A,0,1,5,1,7,2,9,1,13,9,1,1
+20171127,20:00,england,premier-league-2-division-two-20172018,regular-season,national,Brighton U23,brighton-u23,Wolves U23,wolves-u23,D,1,1,D,0,0,4,2,3,3,6,5,7,14,1,2
+20171127,14:00,england,central-league-20172018,regular-season,national,Sheffield Wednesday U23,sheffield-wednesday-u23,Leeds United U23,leeds-united-u23,A,1,2,D,-1,-1,3,6,3,3,6,7,8,8,1,5
+20171127,14:00,england,central-league-20172018,regular-season,national,Colchester United U23,colchester-united-u23,Coventry City U23,coventry-city-u23,H,4,2,D,-1,-1,8,6,6,8,0,3,5,9,3,6
+20171127,14:00,england,central-league-20172018,regular-season,national,Queens Park Rangers U23,queens-park-rangers-u23,Crystal Palace U23,crystal-palace-u23,A,0,3,D,-1,-1,5,4,8,3,4,5,17,13,3,2
+20171127,14:00,england,central-league-20172018,regular-season,national,Charlton Athletic U23,charlton-athletic-u23,Ipswich Town U23,ipswich-town-u23,D,1,1,D,-1,-1,7,2,4,1,4,3,11,12,4,4
+20171127,14:00,england,central-league-20172018,regular-season,national,Cardiff City U23,cardiff-city-u23,Bristol City U23,bristol-city-u23,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,15:00,england,central-league-20172018,regular-season,national,Sheffield United U23,sheffield-united-u23,Nottingham Forest U23,nottingham-forest-u23,A,1,2,D,-1,-1,5,4,0,2,4,8,13,15,4,4
+20171127,15:00,england,central-league-20172018,regular-season,national,Watford U23,watford-u23,Millwall U23,millwall-u23,H,2,0,D,-1,-1,6,4,2,2,4,3,8,6,4,1
+20171127,20:00,england,central-league-20172018,regular-season,national,Bolton Wanderers U23,bolton-wanderers-u23,Crewe Alexandra U23,crewe-alexandra-u23,H,5,2,D,-1,-1,9,2,5,2,8,4,12,8,1,5
+20171127,20:00,england,fa-youth-cup-20172018,3rd-round,national,Burnley U18,burnley-u18,Leeds United U18,leeds-united-fc-under-18-academy,H,1,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,15:30,ethiopia,premier-league-20172018,regular-season,national,Ethiopia Bunna,ethiopian-coffee,Arba Minch Kenema,arba-minch-textile,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,20:45,france,ligue-2-20172018,regular-season,national,Reims,stade-de-reims,Auxerre,association-de-la-jeunesse-auxerroise,H,2,0,H,1,0,5,4,0,4,5,4,14,8,0,3
+20171127,20:30,germany,2-bundesliga-20172018,regular-season,national,Fortuna Düsseldorf,dusseldorfer-tus-fortuna-1895-ev,Dynamo Dresden,sg-dynamo-dresden,A,1,3,A,1,3,2,2,3,4,2,4,14,15,1,0
+20171127,20:15,germany,regionalliga-20172018,sudwest,national,TSV Steinbach,steinbach,Kickers Offenbach,kickers-offenbach-fc,H,2,1,D,1,1,4,6,2,4,5,7,12,14,5,1
+20171127,19:00,germany,oberliga-20172018,rheinland-pfalzsaar,national,Kaiserslautern II,1-fc-kaiserslautern-ii,Homburg,fc-08-homburg-saar,A,0,1,D,-1,-1,4,7,6,11,5,8,17,9,5,1
+20171127,18:30,greece,super-league-20172018,regular-season,national,AEK Athens,aek-athens-fc,Platanias,platanias,H,3,0,H,1,0,11,2,9,1,15,2,13,20,4,2
+20171127,01:00,guyana,gff-super-league-20172018,regular-season,national,Guyana Defence Force,guyana-defence-force,NA United,na-united,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,15:30,india,i-league-2018,regular-season,national,Shillong Lajong,lajong-sc,Gokulam,gokulam,H,1,0,D,0,0,5,7,1,1,5,3,21,22,2,1
+20171127,33:33,india,u18-league-20172018,group-e,national,Sudeva U18,sudeva-u18,Delhi United SC U18,delhi-united-sc-u18,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,33:33,india,u18-league-20172018,group-e,national,India Youth Soccer U18,india-youth-soccer-u18,Delhi Dynamos 18,delhi-dynamos-18,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:30,iran,azadegan-league-20172018,regular-season,national,Mes Rafsanjan,mes-rafsanjan,Machine Sazi,machine-sazi-tabriz,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:30,iran,azadegan-league-20172018,regular-season,national,Nassaji Mazandaran,nassaji-mazandaran,Naft Masjed Soleyman,naft-ahvaz,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:45,iran,azadegan-league-20172018,regular-season,national,Mes Kerman,mes,Fajr Sepasi,basij-moghavemat-shahid-sepasi-fars-football-club,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:45,iran,azadegan-league-20172018,regular-season,national,Oxin Alborz,oxin-alborz,Iranjavan Bushehr,iranjavan-bushehr-football-club,H,3,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:45,iran,azadegan-league-20172018,regular-season,national,Bargh Jadid Fars,as-bargh-shiraz,Aluminium Arak,shahrdari-arak-fc,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:45,iran,azadegan-league-20172018,regular-season,national,Shahrdari Tabriz,shahrdari-tabriz,Gol Gohar,gol-gohar-football-club,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:45,iran,azadegan-league-20172018,regular-season,national,Saba Qom,saba,Baderan,baderan,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:45,iran,azadegan-league-20172018,regular-season,national,Rah Ahan,rah-ahan,Malavan,malavan,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,12:00,iran,azadegan-league-20172018,regular-season,national,Shahrdari Mahshahr,shahrdari-mahshahr,Khouneh Be Khouneh Babol,khouneh-be-khouneh-babol,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,20:00,israel,ligat-haal-20172018,regular-season,national,Beitar Jerusalem,beitar-jerusalem-fc,Hapoel Be'er Sheva,hapoel-beer-sheva,D,2,2,D,0,0,1,8,1,11,3,5,10,16,0,2
+20171127,18:00,israel,liga-leumit-20172018,regular-season,national,Beitar Tel Aviv Ramla,beitar-shimshon-tel-aviv,Hapoel Rishon LeZion,ironi-rishon-lezion-fc,A,1,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,18:00,israel,liga-leumit-20172018,regular-season,national,Maccabi Herzliya,maccabi-herzliya-fc,Hapoel Petah Tikva,hapoel-petah-tikva-fc,A,1,3,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,18:00,israel,liga-leumit-20172018,regular-season,national,Ironi Nesher,ironi-nesher,Hapoel Ramat HaSharon,ironi-ramat-hasharon-fc,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,20:30,italy,serie-b-20172018,regular-season,national,Cesena,ac-cesena,Brescia,brescia-calcio,H,1,0,H,1,0,4,4,3,3,7,5,17,17,5,2
+20171127,20:45,italy,serie-c1-20172018,girone-b,national,Teramo,teramo-calcio,Sambenedettese,ss-sambenedettese-calcio,A,0,2,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,00:30,jamaica,premier-league-20172018,regular-season,national,Waterhouse,waterhouse-fc,UWI,uwi,H,2,1,H,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,01:00,jamaica,premier-league-20172018,regular-season,national,Harbour View,harbour-view-fc,Arnett Gardens,arnett-gardens-fc,A,1,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,01:00,jamaica,premier-league-20172018,regular-season,national,Montego Bay United,seba-united-fc,Tivoli Gardens,tivoli-gardens-fc,H,2,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,15:00,jordan,jordan-cup-20172018,group-stage,national,Al Jazeera,al-jazeera,Al Ramtha,ramtha-sc,H,4,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,17:30,jordan,jordan-cup-20172018,group-stage,national,Al Yarmouk,al-yarmouk,Al Wihdat,al-weehdat,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,13:00,kosovo,superliga-20172018,regular-season,national,Prishtina,prishtina,Gjilani,gjilani,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,01:00,mexico,primera-division-20172018,apertura---quarter-finals,national,Monterrey,club-de-futbol-monterrey,Atlas,club-atlas-de-guadalajara,H,4,1,H,4,1,9,3,6,5,6,3,13,6,2,1
+20171127,03:00,mexico,primera-division-20172018,apertura---quarter-finals,national,América,club-de-futbol-america,Cruz Azul,cdsc-cruz-azul,D,0,0,D,0,0,3,9,5,7,1,7,19,16,3,0
+20171127,18:00,morocco,gnf-1-20172018,regular-season,national,Raja Casablanca,raja-atlhletic-club,Rapide Oued Zem,rapide-club-de-oued-zem,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,01:30,nc-america,concacaf-womens-u20-2016,caribbean-2nd-round,international,St. Kitts and Nevis U20,st-kitts-and-nevis-u20,Jamaica U20,jamaica-u20,A,0,9,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,20:00,netherlands,eerste-divisie-20172018,regular-season,national,Eindhoven,fc-eindhoven,Cambuur,stichting-cambuur-leeuwarden-bvo,H,2,1,H,1,0,3,4,4,5,9,2,12,9,6,6
+20171127,20:00,netherlands,eerste-divisie-20172018,regular-season,national,Go Ahead Eagles,stichting-go-ahead-eagles,Utrecht II,jong-utrecht,D,0,0,D,0,0,3,1,5,4,7,4,17,6,1,3
+20171127,20:00,netherlands,eerste-divisie-20172018,regular-season,national,Den Bosch,fc-den-bosch,De Graafschap,bv-de-graafschap,D,1,1,D,0,0,1,6,4,6,10,3,10,13,2,1
+20171127,20:00,netherlands,eerste-divisie-20172018,regular-season,national,Ajax II,jong-ajax,Dordrecht,bvo-fc-dordrecht,H,3,0,H,1,0,3,1,4,1,7,4,2,9,3,2
+20171127,20:00,netherlands,eerste-divisie-20172018,regular-season,national,Oss,bvo-top-oss,PSV II,jong-psv,A,0,3,A,0,1,5,7,2,3,5,6,15,13,2,7
+20171127,20:00,netherlands,eerste-divisie-20172018,regular-season,national,Almere City,fc-omniworld,RKC Waalwijk,rkc-waalwijk,H,3,2,H,3,2,6,10,9,4,3,5,11,13,4,3
+20171127,20:00,netherlands,eerste-divisie-20172018,regular-season,national,Telstar,stormvogels-telstar-combinatie,NEC,nijmegen-eendracht-combinatie,H,3,2,D,0,0,0,3,1,2,0,5,10,12,3,5
+20171127,20:00,netherlands,eerste-divisie-20172018,regular-season,national,Helmond Sport,stichting-helmond-sport,Fortuna Sittard,fortuna-sittard,A,1,3,A,1,2,3,3,3,3,6,6,11,12,1,5
+20171127,20:00,netherlands,eerste-divisie-20172018,regular-season,national,Emmen,fc-emmen,MVV,stichting-mvv,H,2,1,H,2,0,3,6,2,2,4,2,10,16,1,0
+20171127,20:00,netherlands,eerste-divisie-20172018,regular-season,national,AZ II,jong-az,Volendam,fc-volendam,A,0,2,A,0,1,7,6,5,8,3,5,10,14,4,1
+20171127,14:00,netherlands,reserve-league-20172018,group-a,national,Feyenoord Res.,feyenoord-res,ADO Den Haag Res.,ado-res,H,3,0,D,-1,-1,5,3,3,5,4,3,4,9,4,4
+20171127,00:10,paraguay,division-profesional-2017,clausura,national,Sportivo Trinidense,sportivo-trinidense,Nacional Asunción,club-nacional,D,1,1,D,0,0,9,3,1,2,5,10,12,15,1,2
+20171127,23:10,paraguay,division-profesional-2017,clausura,national,General Díaz,club-general-diaz,Rubio Ñú,club-rubio-nu,D,0,0,D,0,0,4,2,3,4,5,4,21,13,1,1
+20171127,18:00,poland,ekstraklasa-20172018,regular-season,national,Nieciecza,lks-nieciecza,Wisła Kraków,wisla-krakow-ssa,D,3,3,A,1,2,5,4,2,2,8,2,11,7,0,2
+20171127,20:00,portugal,portuguese-liga--20172018,regular-season,national,Sporting Braga,sporting-braga,Feirense,cd-feirense,H,3,1,H,3,1,6,3,3,3,3,5,16,20,4,2
+20171127,22:00,portugal,portuguese-liga--20172018,regular-season,national,Rio Ave,rio-ave-fc,Vitória Guimarães,vitoria-guimaraes,A,0,1,A,0,1,12,5,6,4,6,3,14,20,2,3
+20171127,19:45,romania,liga-i-20172018,regular-season,national,CFR Cluj,scs-cfr-1907-cluj-sa,Sepsi,sepsi,H,2,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,10:00,russia,premier-league-20172018,regular-season,national,SKA Khabarovsk,ska-energiya-khabarovsk,Lokomotiv Moskva,fk-lokomotiv-moscow,A,1,2,D,1,1,2,8,0,7,1,3,9,14,1,2
+20171127,17:30,russia,premier-league-20172018,regular-season,national,Spartak Moskva,fk-spartak-moskva,Zenit,fk-zenit-sankt-petersburg,H,3,1,H,2,1,2,7,3,4,5,2,17,13,4,1
+20171127,20:30,scotland,development-league-20172018,regular-season,national,Hearts U20,heart-of-midlothian-fc-under-20,Falkirk U20,falkirk-fc-under-20,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,21:00,scotland,development-league-2-20172018,east,national,Stirling Albion U20,stirling-albion-youth,Berwick Rangers U20,berwick-rangers-youth,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,20:45,scotland,development-league-2-20172018,west,national,Airdrieonians U20,airdrienians-youth,Queen of the South U20,queen-of-south-youth,H,7,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,21:00,scotland,development-league-2-20172018,west,national,Ayr United U20,ayr-united-youth,Albion Rovers U20,albion-rovers-u20,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,13:00,serbia,prva-liga-20172018,regular-season,national,Temnić 1924,temni-1924,Bačka Topola,fk-baka-topola,A,0,2,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,18:00,spain,segunda-b-20172018,group-4,national,Córdoba II,cordoba-club-de-futbol-ii,Melilla,union-deportiva-melilla,H,2,0,H,1,0,4,6,4,3,0,3,12,12,9,1
+20171127,20:00,switzerland,challenge-league-20172018,regular-season,national,Wohlen,fc-wohlen,Aarau,fc-aarau,D,1,1,A,0,1,10,5,6,4,8,5,10,12,4,4
+20171127,10:00,tajikistan,vysshaya-liga-2017,regular-season,national,Khosilot Farkhor,fk-khosilot-parkhar,Istiqlol,fk-istiqlol-dushanbe,A,1,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,15:00,tanzania,ligi-kuu-bara-20172018,regular-season,national,Azam,azam-fc,Mtibwa Sugar,mtibwa-sugar-fc,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,18:00,turkey,super-lig-20172018,regular-season,national,Kayserispor,kayserispor,İstanbul Başakşehir,istanbul-buyuksehir-bsk,D,1,1,D,1,1,1,5,3,0,5,2,8,12,1,2
+20171127,16:00,turkey,1-lig-20172018,regular-season,national,Denizlispor,denizlispor,Balıkesirspor,balikesirspor,A,0,2,A,0,2,3,3,3,2,8,4,8,21,5,2
+20171127,11:00,turkey,3-lig-20172018,group-3,national,Elaziz Belediyespor,elaziz-belediyespor,Osmaniyespor,osmaniyespor,H,1,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,12:00,turkey,bolgesel-amator-lig-20172018,group-10,national,Anadolu Üniversitesi,anadolu-universitesi,Kütahyaspor,kutahyaspor,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,12:00,turkey,bolgesel-amator-lig-20172018,group-11,national,Gebzespor,gebzespor,Kestel Belediyespor,kestel-belediyespor,H,4,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,12:00,turkey,bolgesel-amator-lig-20172018,group-6,national,Keçiören Bağlumspor,kecioren-balumspor,Devrek Belediyespor,devrek-belediyespor,H,4,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,11:00,turkey,u21-super-lig-20172018,regular-season,national,Kayserispor U21,kayserispor-u21,İstanbul Başakşehir U21,stanbul-baakehir-u21,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,09:00,vietnam,womens-national-league-2017,regular-season,national,Ho Chi Minh City,ho-chi-minh-city,TKS Viet Nam,tks-viet-nam,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,12:00,vietnam,womens-national-league-2017,regular-season,national,Ho Chi Minh City II,ho-chi-minh-city-ii,PP Ha Nam,pp-ha-nam,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,10:30,world,other-league-matches-2017,regular-season,international,PIFA Sports,premier-india-football-academy-colaba-fc,MS Police,ms-police,D,1,1,D,-1,-1,10,3,4,2,6,5,13,9,7,1
+20171127,13:30,world,other-league-matches-2017,regular-season,international,Dempo,dempo-sports-club,Bardez,bardez,A,2,3,D,-1,-1,4,3,10,4,14,4,12,13,4,0
+20171127,18:30,world,other-league-matches-2017,regular-season,international,PEC Zwolle Res.,pec-zwolle-res,NAC Res.,nac-res,H,2,1,D,-1,-1,6,4,5,8,8,1,15,11,0,3
+20171127,20:30,world,other-league-matches-2017,regular-season,international,Boca Juniors,gibraltar-boca-juniors-gibraltar-fc,Cannons,cannons,A,0,2,D,-1,-1,3,3,2,2,7,5,13,12,4,7
+20171127,21:00,world,friendly-women-2017,friendlies-2,international,France,france,Sweden,sweden,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,09:00,world,friendly-women-2017,friendlies-1,international,Turkey,turkey,Jordan,jordan,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171127,21:00,world,friendly-women-2017,friendlies-1,international,Venezuela,venezuela,Colombia,colombia,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,premier-league-20172018,regular-season,national,Brighton & Hove Albion,brighton--hove-albion-fc,Crystal Palace,crystal-palace-fc,D,0,0,D,0,0,10,5,4,4,4,5,12,7,5,0
+20171128,20:45,england,premier-league-20172018,regular-season,national,Leicester City,leicester-city-fc,Tottenham Hotspur,tottenham-hotspur-football-club,H,2,1,H,2,0,4,9,2,7,3,8,7,9,2,0
+20171128,21:00,england,premier-league-20172018,regular-season,national,Watford,watford-football-club,Manchester United,manchester-united-fc,A,2,4,A,0,3,5,5,3,3,4,3,11,12,1,0
+20171128,21:00,england,premier-league-20172018,regular-season,national,West Bromwich Albion,west-bromwich-albion-football-club,Newcastle United,newcastle-united-football-club,D,2,2,H,1,0,1,6,2,3,1,5,13,12,0,2
+20171128,20:45,england,championship-20172018,regular-season,national,Derby County,derby-county-fc,Ipswich Town,ipswich-town-fc,A,0,1,A,0,1,10,3,7,1,7,1,8,13,0,3
+20171128,21:00,england,championship-20172018,regular-season,national,Reading,reading-fc,Barnsley,barnsley-fc,H,3,0,H,2,0,5,4,0,4,4,4,7,9,0,0
+20171128,19:00,france,ligue-1-20172018,regular-season,national,Amiens SC,amiens-sporting-club-football,Dijon,dijon-football-cote-dor,H,2,1,D,1,1,3,6,2,7,0,2,5,14,5,2
+20171128,19:00,france,ligue-1-20172018,regular-season,national,Strasbourg,racing-club-de-strasbourg,Caen,stade-malherbe-caen-calvados-basse-norma,D,0,0,D,0,0,2,3,4,2,3,11,12,14,1,0
+20171128,21:00,france,ligue-1-20172018,regular-season,national,Bordeaux,fc-girondins-de-bordeaux,Saint-Étienne,association-sportive-de-saint-etienne-loire,H,3,0,H,2,0,2,6,3,6,5,6,12,18,1,3
+20171128,15:00,italy,coppa-italia-20172018,4th-round,national,Cagliari,cagliari-calcio,Pordenone,pordenone-calcio-ssd,A,1,2,D,1,1,6,3,4,4,5,4,17,8,4,2
+20171128,18:00,italy,coppa-italia-20172018,4th-round,national,SPAL,spal-1907,Cittadella,as-cittadella,A,0,2,A,0,1,4,3,0,3,5,2,14,21,2,2
+20171128,21:00,italy,coppa-italia-20172018,4th-round,national,Sampdoria,uc-sampdoria,Pescara,pescara-calcio,H,4,1,H,3,0,2,6,1,6,4,6,10,20,6,2
+20171128,19:30,spain,copa-del-rey-20172018,16th-finals,national,Málaga,malaga-club-de-futbol,Numancia,club-deportivo-numancia,D,1,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,19:30,spain,copa-del-rey-20172018,16th-finals,national,Leganés,club-deportivo-leganes-sad,Real Valladolid,real-valladolid-club-de-futbol,H,1,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:30,spain,copa-del-rey-20172018,16th-finals,national,Real Madrid,real-madrid-club-de-futbol,Fuenlabrada,cd-fuenlabrada,D,2,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:30,spain,copa-del-rey-20172018,16th-finals,national,Levante,levante-union-deportiva,Girona,girona-fc,D,1,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:30,spain,copa-del-rey-20172018,16th-finals,national,Celta de Vigo,real-club-celta-de-vigo,Eibar,sociedad-deportiva-eibar,H,1,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,17:45,algeria,ligue-1-20172018,regular-season,national,MC Alger,mouloudia-chaabia-dalger,USM Alger,union-sportive-madinet-dalger,A,0,2,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:00,algeria,u21-league-1-20172018,regular-season,national,MC Alger U21,mc-alger-u21,USM Alger U21,usm-alger-u21,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,01:30,argentina,primera-division-20172018,regular-season,national,Temperley,club-atletico-temperley,San Martín San Juan,ca-san-martin-de-san-juan,H,1,0,H,1,0,2,6,0,0,5,2,11,14,2,1
+20171128,01:05,argentina,prim-b-nacional-20172018,regular-season,national,Deportivo Morón,club-deportivo-moron,Agropecuario,club-argentino-agropecuario-de-carlos-casares,H,2,1,H,2,1,1,6,2,1,1,3,13,13,2,5
+20171128,21:00,argentina,prim-b-metro-20172018,regular-season,national,Comunicaciones,club-comunicaciones,Colegiales,ca-colegiales,A,0,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:00,argentina,argentino-a-20172018,group-1,national,Sansinena,sansinena,Villa Mitre,villa-mitre,D,1,1,A,0,1,4,4,6,3,6,3,22,13,0,4
+20171128,21:00,argentina,argentino-a-20172018,group-1,national,Rivadavia Lincoln,rivadavia-de-lincoln,Independiente Neuquén,independiente-de-neuquen,A,1,2,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:30,argentina,argentino-a-20172018,group-2,national,Huracán Las Heras,club-atletico-huracan-las-heras,Gimnasia Mendoza,atletico-gimnasia-y-esgrima-de-mendoza,D,2,2,A,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:00,argentina,prim-c-metro-20172018,regular-season,national,El Porvenir,club-el-porvenir,Cañuelas,canuelas-fc,D,1,1,D,-1,-1,1,12,1,6,2,6,13,14,3,8
+20171128,21:00,argentina,prim-d-metro-20172018,regular-season,national,Centro Español,centro-social-y-recreativo-espanol,Puerto Nuevo,club-puerto-nuevo,D,0,0,D,-1,-1,4,4,5,5,5,3,26,16,3,1
+20171128,21:00,argentina,prim-d-metro-20172018,regular-season,national,Juventud Unida,club-social-y-deportivo-juventud-unida,Victoriano Arenas,atletico-victoriano-arenas,A,0,2,D,-1,-1,3,6,5,3,5,1,18,18,3,3
+20171128,21:00,argentina,reserve-league-20172018,regular-season,national,San Lorenzo Res.,san-lorenzo-res,Colón Res.,colon-res,H,3,1,D,-1,-1,4,4,4,1,0,5,15,14,5,1
+20171128,19:00,austria,bundesliga-20172018,regular-season,national,Sturm Graz,sk-puntigamer-sturm-graz,Admira,fc-admira-wacker-modling,H,6,1,H,4,1,9,2,8,0,6,2,12,15,1,1
+20171128,13:00,azerbaijan,cup-20172018,8th-finals,national,Qarabağ,fk-karabakh-agdam,Qaradağ Lökbatan,neftchi-ism-baki,H,2,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:00,azerbaijan,cup-20172018,8th-finals,national,Neftçi,fk-neftchi,Zaqatala,zaqatala,H,5,0,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:00,belgium,beker-van-belgie-20172018,8th-finals,national,KV Oostende,kv-oostende,Sint-Truiden,sint-truidense-vv,H,2,0,H,2,0,1,9,3,4,6,12,15,10,8,1
+20171128,20:00,belgium,beker-van-belgie-20172018,8th-finals,national,Royal Excel Mouscron,rrc-peruwelz,Sporting Charleroi,royal-charleroi-sporting-club,A,0,1,D,0,0,1,4,1,6,6,2,15,10,3,2
+20171128,15:00,botswana,premier-league-20172018,regular-season,national,BDF XI,botswana-defence-force-fc,Miscellaneous,miscellaneous-serowe,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,17:00,botswana,premier-league-20172018,regular-season,national,Galaxy,galaxy-fc,Township Rollers,twonship-rollers,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:15,brazil,brasileiro-de-aspirantes-2017,semi-finals,national,Internacional U23,internacional-u23,Atlético Mineiro U23,atletico-mineiro-u23,H,2,1,D,-1,-1,6,3,7,1,7,3,13,16,4,0
+20171128,23:30,brazil,brasileiro-de-aspirantes-2017,semi-finals,national,Santos U23,santos-u23,São Paulo U23,sao-paulo-u23,H,2,0,D,-1,-1,5,5,3,2,7,4,16,8,1,1
+20171128,14:00,bulgaria,a-pfg-20172018,regular-season,national,Slavia Sofia,pfc-slavia-sofia,Cherno More,pfc-cherno-more-varna,H,2,0,H,1,0,5,8,3,3,3,6,13,17,2,2
+20171128,16:30,bulgaria,a-pfg-20172018,regular-season,national,Botev Plovdiv,fk-botev-plovdiv,Beroe,pfk-beroe-stara-zagora,D,1,1,H,1,0,6,1,7,1,3,2,16,23,3,2
+20171128,01:45,colombia,primera-a-2017,clausura---quarter-finals,national,América de Cali,corporacion-deportiva-america,Junior,corporacion-popular-deportiva-junior,D,0,0,D,0,0,9,2,1,4,5,2,17,16,1,1
+20171128,11:00,czech-republic,juniorska-liga-20172018,msfl,national,Slovácko U21,1-fc-slovacko-under-21,Zbrojovka Brno U21,fc-zbrojovka-brno-under-21,H,4,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,19:00,denmark,dbu-pokalen-20172018,8th-finals,national,Jammerbugt,blokhus-fc,SønderjyskE,sonderjyske,A,1,4,A,0,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:00,denmark,u19-ligaen-20172018,regular-season,national,AGF U19,agf,København U19,fc-kobenhavn-under-19,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,18:30,denmark,u17-ligaen-20172018,regular-season,national,Silkeborg U17,silkeborg-u17,Midtjylland U17,midtjylland-u17,A,1,6,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:45,egypt,premier-league-20172018,regular-season,national,Tanta,tanta,Al Mokawloon,al-moqawloon-al-arab,A,0,1,D,0,0,4,9,2,5,8,8,23,17,0,1
+20171128,16:00,egypt,premier-league-20172018,regular-season,national,ENPPI,enppi,Asyouty Sport,asyouty-sport,D,0,0,D,0,0,2,3,5,3,5,2,20,19,0,4
+20171128,19:00,egypt,premier-league-20172018,regular-season,national,Al Masry,el-masry,Al Ahly,al-ahly,A,0,2,A,0,1,7,3,3,4,5,5,13,19,5,1
+20171128,20:45,england,league-one-20172018,regular-season,national,Blackpool,blackpool-fc,Blackburn Rovers,blackburn-rovers-football-club,A,2,4,A,1,2,4,7,4,6,7,3,8,13,1,1
+20171128,20:45,england,league-one-20172018,regular-season,national,Charlton Athletic,charlton-athletic-football-club,Peterborough United,peterborough-united-fc,D,2,2,A,0,1,10,3,2,7,5,4,13,15,2,1
+20171128,20:45,england,conference-national-20172018,regular-season,national,Bromley,bromley-fc,Aldershot Town,aldershot-town-fc,A,0,2,A,0,1,6,1,5,2,3,2,15,13,9,1
+20171128,20:45,england,non-league-premier-20172018,isthmian,national,Harrow Borough,harrow-borough-fc,Billericay Town,billericay-town-fc,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-premier-20172018,isthmian,national,Folkestone Invicta,folkestone-invicta-fc,Enfield Town,enfield-town-fc,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-premier-20172018,southern,national,Banbury United,banbury-united-fc,Kettering Town,kettering-town-fc,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-premier-20172018,southern,national,Basingstoke Town,basingstoke-town-fc,Weymouth,weymouth-fc,D,3,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-premier-20172018,southern,national,Biggleswade Town,biggleswade-town-fc,King's Lynn Town,kings-lynn-town-fc,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-premier-20172018,southern,national,Bishop's Stortford,bishops-stortford-fc,Dunstable Town,dunstable-town-fc,H,4,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-premier-20172018,southern,national,Chesham United,chesham-united-fc,Stratford Town,stratford-town-fc,A,1,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-premier-20172018,southern,national,Gosport Borough,gosport-borough-fc,Kings Langley,kings-langley,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-premier-20172018,southern,national,St Ives Town,st-ives-town-,Hitchin Town,hitchin-town-fc,A,1,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-premier-20172018,southern,national,Tiverton Town,tiverton-town-fc,Merthyr Town,merthyr-town-football-club-,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,isthmian-north,national,Potters Bar Town,potters-bar-town-fc,Haringey Borough,haringey-borough,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,isthmian-north,national,Mildenhall Town,mildenhall-town-fc,AFC Hornchurch,afc-hornchurch,A,0,6,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,isthmian-north,national,Bowers & Pitsea,bowers--pitsea-,Maldon & Tiptree,maldon-town-fc,H,4,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,isthmian-north,national,Dereham Town,dereham-town,Grays Athletic,grays-athletic-fc,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,isthmian-north,national,Waltham Abbey,waltham-abbey-fc,Tilbury,tilbury-fc,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,isthmian-north,national,AFC Sudbury,afc-sudbury,Soham Town Rangers,soham-town-rangers-fc,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,isthmian-south,national,Molesey,molesey-fc,Thamesmead Town,thamesmead-town-fc,D,3,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,isthmian-south,national,Herne Bay,herne-bay,Horsham,horsham-fc,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,isthmian-south,national,Hythe Town,hythe-town-fc,VCD Athletic,vcd-athletic-fc,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-central,national,AFC Dunstable,afc-dunstable,Bedford Town,bedford-town-fc,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-central,national,Arlesey Town,arlesey-town-fc,AFC Kempston Rovers,association-football-club-kempston-rovers,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-central,national,Chalfont St Peter,chalfont-saint-peter-fc,Aylesbury United,aylesbury-united-fc,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-central,national,Fleet Town,fleet-town-fc,Egham Town,egham-town-fc,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-central,national,Hayes & Yeading United,hayes-and-yeading-fc,Beaconsfield Town,beaconsfield-sycob-fc,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-central,national,Marlow,marlow-fc,Hanwell Town,hanwell-town-fc,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-central,national,Moneyfields,moneyfields-football-club,Uxbridge,uxbridge-fc,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-central,national,Thame United,thame-united-fc,Northwood,northwood-fc,D,3,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-central,national,AFC Rushden & Diamonds,afc-rushden--diamonds,Cambridge City,cambridge-city-fc,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-s--w,national,Bristol Manor Farm,bristol-manor-farm-football-club,Taunton Town,taunton-town-fc,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-s--w,national,North Leigh,north-leigh-fc,Winchester City,winchester-city-fc,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-s--w,national,Shortwood United,shortwood-united-fc,Barnstaple Town,barnstaple-town,D,3,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-s--w,national,Swindon Supermarine,swindon-supermarine-fc,Bishop's Cleeve,bishops-cleeve-fc,H,4,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,non-league-div-one-20172018,southern-s--w,national,Yate Town,yate-town-fc,Paulton Rovers,paulton-rovers-fc,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:30,england,football-league-trophy-20172018,2nd-round,national,Rochdale,rochdale-afc,Doncaster Rovers,doncaster-rovers-fc,D,1,1,H,1,0,6,4,2,7,7,1,10,7,1,1
+20171128,20:45,england,football-league-trophy-20172018,group-stage,national,Exeter City,exeter-city-fc,Chelsea U21,chelsea-under-21,A,1,3,D,1,1,6,5,3,6,4,4,4,7,2,4
+20171128,20:45,england,football-league-trophy-20172018,group-stage,national,Wycombe Wanderers,wycombe-wanderers-fc,West Ham United U21,west-ham-united-under-21,H,2,0,H,1,0,3,2,4,3,4,1,14,18,0,1
+20171128,20:45,england,football-league-trophy-20172018,group-stage,national,Yeovil Town,yeovil-town-fc,Plymouth Argyle,plymouth-argyle-fc,H,2,1,A,0,1,7,2,2,1,7,2,11,18,5,0
+20171128,21:00,england,football-league-trophy-20172018,group-stage,national,Barnet,barnet-fc,Tottenham Hotspur U21,tottenham-hotspur-under-21,H,2,1,A,0,1,8,2,4,3,11,2,8,10,5,0
+20171128,20:45,england,fa-trophy-20172018,3rd-round-qualifying,national,Bath City,bath-city-fc,Margate,margate-fc,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,fa-trophy-20172018,3rd-round-qualifying-replays,national,Warrington Town,warrington-town-fc,Tamworth,tamworth-fc,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,fa-trophy-20172018,3rd-round-qualifying-replays,national,Kidderminster Harriers,kidderminster-harriers-fc,Boston United,boston-united-fc,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,fa-trophy-20172018,3rd-round-qualifying-replays,national,Workington,workington-afc,Glossop North End,glossop-north-end-fc,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,fa-trophy-20172018,3rd-round-qualifying-replays,national,Bognor Regis Town,bognor-regis-town-fc,Hemel Hempstead Town,hemel-hempstead-town-fc,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,fa-trophy-20172018,3rd-round-qualifying-replays,national,Slough Town,slough-town-fc,Hendon,hendon-fc,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,fa-trophy-20172018,3rd-round-qualifying-replays,national,Royston Town,royston-town-fc,Eastbourne Borough,eastbourne-borough-fc,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,isthmian-league-cup-20172018,3rd-round,national,Wingate & Finchley,wingate-and-finchley-fc,Sittingbourne,sittingbourne-fc,H,3,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,Romulus,romulus-fc,Kidsgrove Athletic,kidsgrove-athletic-fc,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,Nantwich Town,nantwich-town-fc,Witton Albion,witton-albion-fc,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,Gresley,gresley-rovers-fc,Basford United,basford-united,A,2,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,Hednesford Town,hednesford-town-fc,Newcastle Town,newcastle-town-fc,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,Matlock Town,matlock-town-fc,Grantham Town,grantham-town-fc,H,3,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,Mossley,mossley-afc,Altrincham,altrincham-fc,D,3,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,Ramsbottom United,ramsbottom-united-football-club,Hyde United,hyde-united-fc,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,Scarborough Athletic,scarborough-athletic-,Ossett Town,ossett-town-fc,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,South Shields,south-shields,Stocksbridge Park Steels,stocksbridge-park-steels-fc,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,Stafford Rangers,stafford-rangers-fc,Alvechurch,alvechurch-fc,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,northern-premier-league-challenge-cup-20172018,2nd-round,national,Mickleover Sports,mickleover-sports-fc,Bedworth United,bedworth-united-fc,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,england,bedfordshire-senior-challenge-cup-20172018,quarter-finals,national,Barton Rovers,barton-rovers-fc,Luton Town CC,luton-town-cc,A,1,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,15:00,england,lancashire-senior-cup-20172018,quarter-finals,national,Bury CC,bury-cc,Preston North End CC,preston-north-end-cc,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:00,england,central-league-20172018,north-west,national,Bradford City Res.,bradford-city-res,Walsall Res.,walsall-res,H,3,1,D,-1,-1,1,9,7,4,6,4,10,3,2,6
+20171128,14:00,england,central-league-20172018,north-west,national,Port Vale Res.,port-vale-res,Morecambe Res.,morecambe-res,H,4,2,D,-1,-1,7,4,8,4,6,3,7,10,0,7
+20171128,14:00,england,central-league-20172018,north-west,national,Rotherham United Res.,rotherham-united-res,York City Res.,york-city-res,H,3,1,D,-1,-1,3,9,5,6,6,3,8,6,2,1
+20171128,14:00,england,central-league-20172018,southern,national,Cheltenham Town Res.,cheltenham-town-res,Forest Green Rovers Res.,forest-green-res,H,4,2,D,-1,-1,11,5,5,1,4,9,13,9,5,0
+20171128,15:00,england,central-league-20172018,southern,national,AFC Wimbledon Res.,afc-wimbledon-res,Southend United Res.,southend-united-res,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:00,england,premier-academy-league-20172018,north,national,Liverpool U18,liverpool-fc-under-18-academy,Manchester City U18,manchester-city-fc-under-18-academy,D,1,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:00,england,u18-premier-league-cup-20172018,group-stage,national,Leicester City U18,leicester-city-fc-under-18-academy,Fulham U18,fulham-fc-u18-academy,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,33:33,england,youth-alliance-cup-20172018,sectional-quarter-finals,national,Oxford United U18,oxford-united-u18,Leyton Orient U18,leyton-orient-u18,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:00,ethiopia,premier-league-20172018,regular-season,national,Sidama Bunna,sidama-coffee,Kedus Giorgis,stgeorge-sa,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:00,europe,premier-league-international-cup-20172018,group-stage,international,Liverpool U23,liverpool-u23,Sparta Praha U23,sparta-praha-u23,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,10:00,europe,womens-wc-qualifying-europe-2019,group-stage,international,Romania,romania,Moldova,moldova,H,3,1,H,1,0,5,0,7,0,10,1,15,12,3,2
+20171128,13:30,europe,womens-wc-qualifying-europe-2019,group-stage,international,Bosnia-Herzegovina,bosnia-herzegovina,Wales,wales,A,0,1,D,0,0,8,4,2,2,8,4,17,8,1,5
+20171128,17:30,europe,womens-wc-qualifying-europe-2019,group-stage,international,Slovakia,slovakia,Northern Ireland,northern-ireland,A,1,3,D,1,1,10,4,10,3,4,2,7,10,1,5
+20171128,18:00,europe,womens-wc-qualifying-europe-2019,group-stage,international,Portugal,portugal,Italy,italy,A,0,1,A,0,1,6,4,7,5,10,1,9,15,1,3
+20171128,19:00,europe,womens-wc-qualifying-europe-2019,group-stage,international,Switzerland,switzerland,Albania,albania,H,5,1,H,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:00,europe,womens-wc-qualifying-europe-2019,group-stage,international,Netherlands,netherlands,Republic of Ireland,ireland-republic,D,0,0,D,0,0,7,0,17,1,14,2,9,6,0,1
+20171128,20:05,europe,womens-wc-qualifying-europe-2019,group-stage,international,England,england,Kazakhstan,kazakhstan,H,5,0,H,1,0,10,0,8,0,10,0,5,3,5,0
+20171128,20:15,europe,womens-wc-qualifying-europe-2019,group-stage,international,Spain,spain,Austria,austria,H,4,0,H,3,0,2,5,2,1,7,2,4,15,2,3
+20171128,21:00,france,ligue-2-20172018,regular-season,national,Bourg-en-Bresse,football-club-bourg-peronnas,Orléans,us-orleans,H,4,0,H,2,0,3,7,2,3,6,4,17,18,4,3
+20171128,21:00,france,ligue-2-20172018,regular-season,national,Châteauroux,la-berrichonne-chateauroux,Paris,paris-football-club-98,D,0,0,D,0,0,3,4,5,2,5,3,13,8,6,3
+20171128,21:00,france,ligue-2-20172018,regular-season,national,Clermont,clermont-foot-auvergne,Brest,stade-brestois-29,A,1,2,H,1,0,13,3,7,4,7,5,15,14,2,1
+20171128,21:00,france,ligue-2-20172018,regular-season,national,Gazélec Ajaccio,gazelec-fco-ajaccio,Niort,chamois-niortais-football-club,A,0,2,A,0,1,8,3,2,4,10,1,20,15,1,3
+20171128,21:00,france,ligue-2-20172018,regular-season,national,Lens,racing-club-de-lens,Ajaccio,athletic-club-ajaccien,H,2,0,H,2,0,5,5,6,3,4,4,11,12,3,2
+20171128,21:00,france,ligue-2-20172018,regular-season,national,Lorient,football-cub-lorient-bretagne-sud,Nîmes,nimes-olympique,A,1,2,A,0,2,3,6,2,4,6,7,17,13,1,4
+20171128,21:00,france,ligue-2-20172018,regular-season,national,Nancy,association-sportive-nancy-lorraine,Le Havre,le-havre-athletic-club-football-associat,A,0,3,A,0,2,7,1,3,3,9,3,12,16,5,1
+20171128,21:00,france,ligue-2-20172018,regular-season,national,Quevilly Rouen,union-sportive-quevillaise,Tours,tours-football-club,H,4,0,H,1,0,2,4,7,4,2,2,21,18,2,2
+20171128,21:00,france,ligue-2-20172018,regular-season,national,Sochaux,fc-sochaux-montbeliard,Valenciennes,valenciennes-anzin-football-club,H,3,1,D,1,1,2,4,4,2,8,3,16,14,3,2
+20171128,19:30,germany,oberliga-20172018,mittelrhein,national,Siegburger SV,siegburger,Hilal Maroc Bergheim,hilal-maroc-bergheim,H,1,0,D,-1,-1,7,1,9,0,4,3,13,13,5,2
+20171128,19:30,germany,regional-cup-mittelrhein-20172018,8th-finals,national,SV Bergheim,sv-bergheim,Alemannia Aachen,alemannia-aachen,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:30,gibraltar,premier-division-20172018,regular-season,national,Lynx,lynx,Manchester 62,manchester-united,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:00,greece,cup-20172018,2nd-round,national,OFI,ofi-heraklion-fc,Apollon Smirnis,apollon-smirnis,H,2,1,D,0,0,13,1,4,4,2,3,14,23,6,2
+20171128,14:00,greece,cup-20172018,2nd-round,national,Sparta,sparti,Atromitos,pae-aps-atromitos-athens,A,0,4,A,0,3,0,10,0,17,2,5,9,10,0,4
+20171128,16:15,greece,cup-20172018,2nd-round,national,Apollon Larissa,apollon-larisas,Lamia,lamia,A,0,2,D,0,0,5,9,1,3,3,6,11,16,4,5
+20171128,16:15,greece,cup-20172018,2nd-round,national,Panserraikos,panserraikos-fc,Xanthi,ao-xanthi,A,1,2,A,0,1,2,0,1,1,6,4,6,20,7,0
+20171128,18:30,greece,cup-20172018,2nd-round,national,Aris,aris-thessaloniki-fc,PAS Giannina,pas-giannina,D,1,1,D,0,0,2,2,2,2,5,1,13,24,1,0
+20171128,33:33,grenada,premier-division-2017,regular-season,national,Eagles Super Strikers,eagles-super-strikers,Hurricanes,carib-hurricane,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:00,hungary,magyar-kupa-20172018,8th-round,national,Várda SE,varda-se,Puskás,puskas-ferenc-akademia-fc,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,15:30,india,i-league-2018,regular-season,national,East Bengal,east-bengal-club-fc,Aizawl,aizawl-fc,D,2,2,D,0,0,6,5,4,0,5,0,19,19,0,1
+20171128,33:33,india,u18-league-20172018,group-e,national,Delhi Dynamos 18,delhi-dynamos-18,Bhaichung Bhutia FS U18,bhaichung-bhutia-fs-u18,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,33:33,india,u18-league-20172018,group-a,national,Mohun Bagan U18,mohun-bagan-u18,SAI-Kolkata U18,sai-kolkata-u18,A,0,3,D,-1,-1,6,4,4,1,5,3,16,14,1,2
+20171128,33:33,india,u18-league-20172018,group-a,national,United U18,united-u18,ATK U18,atk-u18,H,2,1,D,-1,-1,7,4,1,4,2,4,17,7,12,1
+20171128,33:33,indonesia,divisi-utama-2017,championship---3rd-place-final,national,PSIS Semarang,psis-semarang,Martapura,martapura,D,4,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,33:33,indonesia,divisi-utama-2017,championship---final,national,PSMS,psms-medan,Persebaya Surabaya,persebaya-surabaya,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:30,italy,coppa-italia-serie-c-20172018,2nd-round,national,Piacenza,piacenza-calcio,Alessandria,us-alessandria-1912,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,02:35,jamaica,premier-league-20172018,regular-season,national,Cavalier,cavalier-sc,Portmore United,portmore-united-fc,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,15:00,jordan,jordan-cup-20172018,group-stage,national,Shabab Al Ordon,jordan-youth-club--shabab-al-ordon-al-quadisiya,Mansheyat,al-manshia,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,17:30,jordan,jordan-cup-20172018,group-stage,national,Al Faisaly,al-faysali,Al Ahli,al-ahly,H,4,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:00,montenegro,first-league-20172018,regular-season,national,Mladost,fk-mladost-podgorica,Zeta,fk-zeta-golubovci,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:00,montenegro,second-league-20172018,regular-season,national,Cetinje,cetinje,Berane,fk-berane,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:00,montenegro,second-league-20172018,regular-season,national,Bokelj,fk-bokelj-kotor,Mornar,fk-mornar-bar,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:00,namibia,premier-league-20162017,regular-season,national,Black Africa,black-africa,African Stars,african-stars,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,northern-ireland,country-antim-shield-20172018,semi-finals,national,Crusaders,crusaders-fc,Carrick Rangers,carrick-rangers-fc,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,northern-ireland,country-antim-shield-20172018,semi-finals,national,Ballymena United,ballymena-united-fc,Ards,ards-fc,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:45,oman,league-20172018,regular-season,national,Saham,saham,Al-Nasr,al-nasr,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,15:10,oman,league-20172018,regular-season,national,Mrbat,mrbat,Al Salam,alslam,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,16:45,oman,league-20172018,regular-season,national,Fanja,fanja-fc,Al-Nahda,al-nahda,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,16:45,oman,league-20172018,regular-season,national,Oman Club,oman-fc,Al-Shabab,alshabab,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,16:45,oman,league-20172018,regular-season,national,Al Oruba,al-oruba,Muscat,muscat,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,17:45,oman,league-20172018,regular-season,national,Sohar,sohar-club,Al Suwaiq,al-suwaiq,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,18:15,oman,league-20172018,regular-season,national,Dhofar,dhufar,Al-Mudhaibi,al-mudhaibi,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,19:15,peru,primera-division-2017,clausura,national,Unión Comercio,club-deportivo-union-comercio,Academia Cantolao,academia-cantolao,D,2,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:30,peru,primera-division-2017,clausura,national,Comerciantes Unidos,club-social-deportivo-y-cultural-comerciantes-unidos,Real Garcilaso,asociacion-civil-real-atletico-garcilaso,A,2,3,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:00,philippines,pfl-2017,regular-season,national,Global,global-smartmatic-fc,Ceres,ceres,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,18:00,poland,cup-20172018,quarter-finals,national,Górnik Zabrze,ks-gornik-zabrze,Chojniczanka Chojnice,chojniczanka-chojnice,H,3,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,poland,cup-20172018,quarter-finals,national,Legia Warszawa,kp-legia-warsaw,Bytovia Bytów,mks-bytovia-bytow,H,4,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,17:00,portugal,league-cup-20172018,group-stage,national,União Madeira,cf-uniao-madeira,Belenenses,clube-futebol--os-belenenses,D,1,1,A,0,1,3,2,1,4,6,3,14,16,1,1
+20171128,17:30,reunion,d1-promotionelle-20172018,regular-season,national,Marsouins,as-les-marsouins,Excelsior,excelsior-st-joseph,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:00,romania,cupa-romaniei-20172018,8th-finals,national,Unirea Slobozia,fc-unirea-2004-slobozia,CSM Iaşi,acs-mu-politehnica-iai---tricolorul-breaza,A,0,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,17:00,romania,cupa-romaniei-20172018,8th-finals,national,Afumaţi,cs-afumai,CS U Craiova,cs-u-craiova,D,1,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:00,romania,cupa-romaniei-20172018,8th-finals,national,Botoşani,fc-sa-botosani,Viitorul,sc-fc-viitorul-constanta,H,3,2,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:15,san-marino,campionato-20172018,regular-season,national,Folgore,ss-folgore-falciano,Cosmos,sp-cosmos,D,3,3,A,1,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:15,san-marino,campionato-20172018,regular-season,national,Tre Penne,sp-tre-penne,Tre Fiori,sp-tre-fiori,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,21:15,san-marino,campionato-20172018,regular-season,national,Cailungo,sp-cailungo,Faetano,sc-faetano,H,3,2,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:05,saudi-arabia,division-1-20172018,regular-season,national,Al Shoalah,al-shoalah,Al Khaleej,al-khaleej-saihat,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:20,saudi-arabia,division-1-20172018,regular-season,national,Al Orubah,al-orubah,Al Ta'ee,al-taee-hail,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:30,saudi-arabia,division-1-20172018,regular-season,national,Najran,najran-sport-club,Al Mojzel,al-mojzel,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,15:30,saudi-arabia,division-1-20172018,regular-season,national,Hajer,hajer,Al Wahda,al-wehda-mecca,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,scotland,first-division-20172018,regular-season,national,St. Mirren,saint-mirren-fc,Livingston,livingston-fc,H,3,1,A,0,1,9,3,5,6,6,2,7,17,1,2
+20171128,20:45,scotland,first-division-20172018,regular-season,national,Dumbarton,dumbarton-fc,Queen of the South,queen-of-the-south-fc,D,2,2,H,1,0,5,8,3,4,3,5,12,6,1,2
+20171128,20:45,scotland,first-division-20172018,regular-season,national,Inverness CT,inverness-caledonian-thistle-fc,Brechin City,brechin-city-fc,H,4,0,H,2,0,10,4,9,0,5,5,10,9,1,0
+20171128,14:30,scotland,development-league-20172018,regular-season,national,Kilmarnock U20,kilmarnock-fc-under-20,Ross County U20,ross-county-fc-under-20,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,15:00,scotland,development-league-20172018,regular-season,national,Hamilton Academical U20,hamilton-academical-fc-under-20,Aberdeen U20,aberdeen-fc-under-20,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,15:00,scotland,development-league-20172018,regular-season,national,Motherwell U20,motherwell-fc-under-20,Hibernian U20,hibernian-fc-edinburgh-under-20,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,19:00,scotland,development-league-20172018,regular-season,national,Dundee U20,dundee-fc-under-20,St. Mirren U20,st-mirren-under-20,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,19:00,scotland,development-league-20172018,regular-season,national,Partick Thistle U20,partick-thistle-u20,Dundee United U20,dundee-united-fc-under-20,H,4,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,16:00,slovakia,super-liga-20172018,regular-season,national,Zemplín Michalovce,mfk-zemplin-michalovce,Trenčín,fk-as-trencin,D,1,1,D,0,0,9,6,5,5,7,4,15,19,2,1
+20171128,14:00,slovakia,u19-league-20172018,regular-season,national,Ružomberok U19,ruomberok-u19,Zemplín Michalovce U19,zemplin-michalovce-u19,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,13:00,syria,premier-league-20172018,regular-season,national,Jehad,al-jehad,Teshrin,teshrin,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:30,trinidad-and-tobago,t--t-pro-league-2017,regular-season,national,Defence Force,defence-force,Club Sando,club-sando,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,23:00,trinidad-and-tobago,t--t-pro-league-2017,regular-season,national,North East Stars,north-east-stars,San Juan Jabloteh,san-juan-jabloteh,A,2,3,A,0,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,23:00,trinidad-and-tobago,t--t-pro-league-2017,regular-season,national,Point Fortin,point-fortin,St. Ann's Rangers,st-anns-rangers,H,7,0,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,23:00,trinidad-and-tobago,t--t-pro-league-2017,regular-season,national,Central,central-fc,Police,police-fc,A,2,7,A,1,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:00,turkey,bolgesel-amator-lig-20172018,group-10,national,Bozüyük Vitraspor,bozuyuk-vitraspor,Alibeyköyspor,alibeykoyspor,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:00,turkey,bolgesel-amator-lig-20172018,group-11,national,Nilüfer Erdemlispor,nilufer-erdemlispor,Başiskele Doğantepespor,baiskele-doantepespor,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:00,turkey,bolgesel-amator-lig-20172018,group-11,national,İnegöl Kurtuluş Spor,negol-kurtulu-spor,Sapancaspor,sapanca-genclikspor,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:30,turkey,bolgesel-amator-lig-20172018,group-11,national,Kartal Bulvarspor,kartal-bulvarspor,İstanbul Beylikdüzüspor,stanbul-beylikduzuspor,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:00,turkey,bolgesel-amator-lig-20172018,group-12,national,Çerkezköy 1911 Spor,cerkezkoy-1911-spor,Edirnespor,edirnespor,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:00,turkey,bolgesel-amator-lig-20172018,group-4,national,1926 Bulancakspor,bulancakspor,Görelespor,gorelespor,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:00,turkey,bolgesel-amator-lig-20172018,group-9,national,Çayırovaspor,cayrovaspor,Havran Fatih Belediye,havran-fatih-belediye,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,11:00,turkey,cup-20172018,group-stage,national,Kars 36,kars-36,Gençlerbirliği,genclerbirligi,A,1,2,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:30,turkey,cup-20172018,group-stage,national,Beşiktaş,besiktas-jk,Manisaspor,manisaspor,H,9,0,H,4,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:45,turkey,cup-20172018,group-stage,national,Ankara Demirspor,ankara-demirspor,Akhisarspor,akhisar-belediye-gs,A,0,3,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,16:00,turkey,cup-20172018,group-stage,national,Osmanlıspor,bb-ankaraspor,Yeni Malatyaspor,malatya-belediyespor,H,3,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,18:30,turkey,cup-20172018,group-stage,national,Galatasaray,galatasaray-sk,Sivas Belediyespor,sivas-4-eylul-belediyespor,H,5,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:00,uganda,fufa-super-league-20172018,regular-season,national,Police,police,BUL,bidco-fc,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:30,uganda,fufa-super-league-20172018,regular-season,national,Masavu,masavu,SC Villa,sports-villa,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:30,uganda,fufa-super-league-20172018,regular-season,national,Soana,soana,Express,express,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:30,uganda,fufa-super-league-20172018,regular-season,national,Jinja SSS,jinja-sss,Maroons,maroons-fc,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:30,uganda,fufa-super-league-20172018,regular-season,national,Vipers,bunamwaya-sc,URA,uganda-revenue-authority-fc,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:30,uganda,fufa-super-league-20172018,regular-season,national,Proline,nalubaale-fc,Bright Stars,bright-stars,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:30,uganda,fufa-super-league-20172018,regular-season,national,Onduparaka,onduparaka,UPDF,updf,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,14:30,uganda,fufa-super-league-20172018,regular-season,national,Mbarara City,mbarara-city,KCCA,kampala-city-council,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:00,ukraine,u21-league-20172018,regular-season,national,Zorya Luhansk U21,fc-zorya-luhansk-under-21,Shakhtar Donetsk U21,fc-shakhtar-donetsk-under-21,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,09:45,vietnam,u21-championship-2017,group-stage,national,HV An Giang U21,an-giang-u21,SLNA U21,slna-u21,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,12:30,vietnam,u21-championship-2017,group-stage,national,Binh Duong U21,binh-duong-u21,PVF Vietnam U21,pvf-vietnam-u21,H,3,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,20:45,wales,premier-league-20172018,1st-phase,national,Cefn Druids,cefn-druids-afc,The New Saints,the-new-saints-fc,A,1,3,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,10:30,world,other-league-matches-2017,regular-season,international,Kenkre,kenkre-football-academy-fc,Mumbai Customs,mumbai-customs,A,0,1,D,-1,-1,3,8,0,4,1,4,9,16,1,5
+20171128,15:00,world,other-league-matches-2017,regular-season,international,Helmond Sport Res.,helmond-sport-res,Heerenveen Res.,heerenveen-res,H,1,0,D,-1,-1,8,3,7,5,3,7,13,10,3,4
+20171128,18:15,world,other-league-matches-2017,regular-season,international,Magpies,magpies,Angels,angels,H,3,1,D,-1,-1,5,6,6,2,7,4,13,10,3,4
+20171128,18:30,world,other-league-matches-2017,regular-season,international,RKC Waalwijk Res.,rkc-waalwijk-res,Roda JC Res.,roda-jc-res,A,1,3,D,-1,-1,7,8,5,8,4,9,17,16,2,3
+20171128,18:30,world,other-league-matches-2017,regular-season,international,Cambuur Res.,cambuur-res,Go Ahead Eagles Res.,go-ahead-eagles-res,H,3,1,D,-1,-1,4,6,6,1,4,4,3,7,3,1
+20171128,20:45,world,other-league-matches-2017,regular-season,international,Banstead Athletic,banstead-athletic-fc,Leatherhead,leatherhead-fc,A,2,5,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,19:00,world,friendly-women-2017,friendlies-2,international,Canada,canada,Norway,norway,H,3,2,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171128,11:00,world,friendly-women-2017,friendlies-1,international,Thailand,thailand,New Zealand,new-zealand,A,0,5,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:45,england,premier-league-20172018,regular-season,national,AFC Bournemouth,afc-bournemouth,Burnley,burnley-fc,A,1,2,A,0,1,4,6,0,2,5,2,9,11,0,1
+20171129,20:45,england,premier-league-20172018,regular-season,national,Arsenal,arsenal-fc,Huddersfield Town,huddersfield-town-fc,H,5,0,H,1,0,7,2,2,2,9,3,9,10,2,3
+20171129,20:45,england,premier-league-20172018,regular-season,national,Chelsea,chelsea-football-club,Swansea City,swansea-city-afc,H,1,0,D,0,0,15,1,11,1,8,1,10,7,0,0
+20171129,21:00,england,premier-league-20172018,regular-season,national,Everton,everton-football-club,West Ham United,west-ham-united-fc,H,4,0,H,2,0,2,6,1,2,1,2,15,5,2,1
+20171129,21:00,england,premier-league-20172018,regular-season,national,Manchester City,manchester-city-football-club,Southampton,southampton-fc,H,2,1,D,0,0,6,5,10,1,9,2,12,11,1,1
+20171129,21:00,england,premier-league-20172018,regular-season,national,Stoke City,stoke-city-fc,Liverpool,liverpool-fc,A,0,3,A,0,1,5,9,2,5,3,3,8,10,3,2
+20171129,19:00,france,ligue-1-20172018,regular-season,national,Angers SCO,angers-sporting-club-de-louest,Rennes,stade-rennais-fc,A,1,2,H,1,0,7,4,5,1,3,4,9,11,2,1
+20171129,19:00,france,ligue-1-20172018,regular-season,national,Guingamp,en-avant-de-guingamp,Montpellier,montpellier-herault-sport-club,D,0,0,D,0,0,8,3,2,2,7,1,16,21,1,2
+20171129,19:00,france,ligue-1-20172018,regular-season,national,Olympique Lyonnais,olympique-lyonnais,Lille,lille-olympique-sporting-club-metropole,A,1,2,A,1,2,4,2,6,2,6,3,8,11,2,1
+20171129,19:00,france,ligue-1-20172018,regular-season,national,Metz,fc-de-metz,Olympique Marseille,olympique-de-marseille,A,0,3,A,0,2,0,9,6,8,3,7,12,9,2,2
+20171129,19:00,france,ligue-1-20172018,regular-season,national,Nantes,fc-nantes,Monaco,association-sportive-monaco-fc,H,1,0,D,0,0,11,5,3,1,6,6,9,12,3,1
+20171129,19:00,france,ligue-1-20172018,regular-season,national,Toulouse,toulouse-fc,Nice,olympique-gymnaste-club-de-nice-cote-dazur,A,1,2,H,1,0,6,4,2,2,7,0,16,10,2,6
+20171129,21:00,france,ligue-1-20172018,regular-season,national,PSG,paris-saint-germain-fc,Troyes,esperance-sportive-troyes-aube-champagne,H,2,0,D,0,0,11,1,4,4,7,2,12,15,3,1
+20171129,15:00,italy,coppa-italia-20172018,4th-round,national,Sassuolo,us-sassuolo-calcio,Bari 1908,as-bari,H,2,1,H,1,0,3,2,4,1,3,6,23,14,0,3
+20171129,18:00,italy,coppa-italia-20172018,4th-round,national,Chievo,ac-chievo-verona,Hellas Verona,hellas-verona-fc,D,1,1,D,1,1,11,3,7,4,12,3,12,19,2,3
+20171129,21:00,italy,coppa-italia-20172018,4th-round,national,Torino,torino-fc,Carpi,carpi-fc-1909,H,2,0,H,2,0,6,2,5,1,5,2,12,22,1,2
+20171129,20:45,scotland,premier-league-20172018,1st-phase,national,Motherwell,motherwell-fc,Celtic,celtic-fc,D,1,1,D,0,0,4,7,1,5,5,9,19,9,1,1
+20171129,20:45,scotland,premier-league-20172018,1st-phase,national,Rangers,rangers-fc,Aberdeen,aberdeen-fc,H,3,0,H,2,0,6,2,4,2,0,7,22,13,3,2
+20171129,19:30,spain,copa-del-rey-20172018,16th-finals,national,Sevilla,sevilla-futbol-club,FC Cartagena,futbol-club-cartagena,H,4,0,H,3,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,spain,copa-del-rey-20172018,16th-finals,national,Barcelona,futbol-club-barcelona,Real Murcia,real-murcia-cf,H,5,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,spain,copa-del-rey-20172018,16th-finals,national,Real Sociedad,real-sociedad-de-futbol,Lleida Esportiu,club-lleida-esportiu,A,2,3,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:30,spain,copa-del-rey-20172018,16th-finals,national,Atlético Madrid,club-atletico-de-madrid,Elche,elche-club-de-futbol,H,3,0,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:30,spain,copa-del-rey-20172018,16th-finals,national,Athletic Club,athletic-club,Formentera,sd-formentera,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:30,spain,copa-del-rey-20172018,16th-finals,national,Las Palmas,union-deportiva-las-palmas,Deportivo La Coruña,real-club-deportivo-de-la-coruna,A,2,3,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,albania,cup-20172018,2nd-round,national,Erzeni Shijak,kf-erzeni-shijak,Kukësi,ks-perparimi-kukes,A,1,4,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,albania,cup-20172018,2nd-round,national,Besëlidhja Lezhë,ks-beselidhja-lezhe,Skënderbeu Korçë,ks-skenderbeu-korce,A,0,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,albania,cup-20172018,2nd-round,national,Kamza,ks-dajti-kamze,Teuta Durrës,ks-teuta-durres,D,1,1,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,albania,cup-20172018,2nd-round,national,Bylis,ks-bylis-ballsh,Luftëtari Gjirokastër,ks-luftetari-gjirokaster,H,2,1,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,albania,cup-20172018,2nd-round,national,Lushnja,ks-lushnja,Laçi,kf-laci,A,1,3,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,albania,cup-20172018,2nd-round,national,Turbina Cërrik,ks-turbina-cerrik,Flamurtari,ks-flamurtari-vlore,A,1,6,A,0,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,18:00,albania,cup-20172018,2nd-round,national,Tirana,kf-tirana,Vllaznia Shkodër,ks-vllaznia-shkoder,H,2,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,01:05,argentina,prim-b-metro-20172018,regular-season,national,Platense,ca-platense,San Telmo,club-atletico-san-telmo,H,4,0,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,argentina,prim-b-metro-20172018,regular-season,national,Fénix,fenix,Almirante Brown,club-almirante-brown,H,3,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,argentina,prim-b-metro-20172018,regular-season,national,Sacachispas,sacachispas-fc,Estudiantes Caseros,club-atletico-estudiantes,A,0,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,argentina,prim-b-metro-20172018,regular-season,national,UAI Urquiza,atletico-ferrocarril-urquiza,Deportivo Español,club-social-dyc-espanol,A,1,2,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,argentina,prim-b-metro-20172018,regular-season,national,Villa San Carlos,villa-san-carlos,Atlanta,club-atetico-atlanta,H,1,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:05,argentina,prim-b-metro-20172018,regular-season,national,Defensores de Belgrano,ca-defensores-de-belgrano,Tristán Suárez,club-social-y-deportivo-tristan-suarez,H,2,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,01:00,argentina,argentino-a-20172018,group-1,national,Cipolletti,club-cipolletti,Alvarado,club-atletico-alvarado,H,1,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,01:00,argentina,argentino-a-20172018,group-1,national,Ferro Carril Oeste LP,ca-ferro-carril-oeste-general-pico,Deportivo Roca,club-deportivo-roca,A,1,2,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,01:30,argentina,argentino-a-20172018,group-2,national,Juventud Unida Univ.,juventud-unida-universitario,Deportivo Maipú,deportivo-maipu,D,0,0,D,0,0,13,3,6,1,4,2,11,17,4,3
+20171129,01:30,argentina,argentino-a-20172018,group-2,national,Estudiantes Río Cuarto,asociacion-atletica-estudiantes,San Lorenzo Alem,club-atletico-san-lorenzo-de-alem,H,5,1,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,22:00,argentina,argentino-a-20172018,group-2,national,Unión Aconquija,club-union-aconquija,Unión Villa Krause,club-atletico-union-de-villa-krause,A,1,2,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,01:00,argentina,argentino-a-20172018,group-4,national,Sarmiento Resistencia,club-atletico-sarmiento-de-resistencia,Crucero del Norte,asociacion-mutual-crucero-del-norte,D,1,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,02:00,argentina,argentino-a-20172018,group-4,national,Gimnasia y Tiro,club-gimnasia-y-tiro,Juventud Antoniana,juventud-antoniana,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,02:00,argentina,argentino-a-20172018,group-4,national,AH Zapla,asociacion-cultural-y-deportiva-altos-hornos-zapla,San Jorge Tucumán,club-social-y-deportivo-san-jorge-de-san-miguel-de-tucuman-,A,0,1,A,0,1,4,6,2,5,4,4,14,7,4,3
+20171129,21:00,argentina,argentino-a-20172018,group-4,national,Sportivo Patria,sportivo-patria,Chaco For Ever,club-atletico-chaco-for-ever,A,0,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,argentina,argentino-b-2017,quarter-finals,national,Sol de Mayo,club-social-y-deportivo-sol-de-mayo,Huracán de Comodoro,huracan-de-comodoro-rivadavia,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,argentina,argentino-b-2017,quarter-finals,national,Circulo Deportivo,circulo-deportivo,Racing Olavarría,racing-athletic-club,D,0,0,D,-1,-1,8,2,11,3,14,2,9,11,1,4
+20171129,21:00,argentina,argentino-b-2017,quarter-finals,national,Atlético Camioneros,camioneros-lujan,Sportivo Baradero,baradero,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,argentina,argentino-b-2017,quarter-finals,national,Atletico Pellegrini,atletico-pellegrini,Sportivo Guzmán,sportivo-guzman,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,argentina,argentino-b-2017,quarter-finals,national,Central Norte,central-norte,Talleres de Perico,atletico-talleres-de-perico,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,argentina,argentino-b-2017,quarter-finals,national,San Martín Formosa,general-san-martin-de-formosa,Resistencia Central,resistencia-central,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,argentina,argentino-b-2017,quarter-finals,national,Deportivo Achirense,deportivo-achirense,Rivadavia Venado Tuerto,club-sportivo-rivadavia-de-venado-tuerto,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:30,argentina,argentino-b-2017,quarter-finals,national,Deportivo Madariaga,deportivo-madariaga,Sol de América,club-sol-de-america,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,22:00,argentina,argentino-b-2017,quarter-finals,national,Boxing Club,boxing-club,Deportivo Rincón,deportivo-rincon,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,22:00,argentina,argentino-b-2017,quarter-finals,national,Sportivo Peñarol,club-sportivo-penarol,Deportivo Montecaseros,deportivo-montecaseros,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:00,armenia,premier-league-20172018,regular-season,national,Pyunik,fc-pyunik,Ararat,fc-ararat-yerevan,H,4,0,H,3,0,6,5,3,5,6,8,19,19,2,1
+20171129,18:30,austria,bundesliga-20172018,regular-season,national,Salzburg,fc-red-bull-salzburg,Mattersburg,sportverein-mattersburg,H,2,0,D,0,0,12,8,3,4,7,4,13,12,1,1
+20171129,18:30,austria,bundesliga-20172018,regular-season,national,St. Pölten,skn-sankt-polten,Austria Wien,fk-austria-memphis-magna,H,1,0,D,0,0,6,1,3,0,7,5,19,12,3,1
+20171129,18:30,austria,bundesliga-20172018,regular-season,national,LASK Linz,lask-linz,Wolfsberger AC,wolfsberger-athletik-club,H,2,0,D,0,0,4,3,7,1,5,3,11,17,2,0
+20171129,20:30,austria,bundesliga-20172018,regular-season,national,Rapid Wien,sk-rapid-wien,Rheindorf Altach,sc-rheindorf-altach,A,1,2,D,0,0,7,3,4,1,12,2,12,14,5,5
+20171129,10:30,azerbaijan,cup-20172018,8th-finals,national,Şüvəlan,olimpik-baki,Səbail,sabail,A,1,2,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,10:30,azerbaijan,cup-20172018,8th-finals,national,MOIK,fk-moik-baki,Keşlə,fc-inter-baki,A,0,3,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,10:30,azerbaijan,cup-20172018,8th-finals,national,Kapaz,fk-ganja,Binə,bina,H,3,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,11:00,azerbaijan,cup-20172018,8th-finals,national,Qabala,fk-qabala,Mil-Muğan,mil-muan,H,8,0,H,3,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:00,azerbaijan,cup-20172018,8th-finals,national,Sumqayıt,fk-khazar-sumgayet,Sabah,azerbaijan-sabah-fk,H,3,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:00,azerbaijan,cup-20172018,8th-finals,national,Zira,zira,Xəzər,xazar,H,3,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,15:20,bahrain,premier-league-20172018,regular-season,national,East Riffa,east-riffa-club,Al-Hidd,al-hidd,H,2,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:00,bahrain,premier-league-20172018,regular-season,national,Al Ahli,al-ahli-manama,Al Ittihad,al-ittihad,H,1,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:35,bahrain,premier-league-20172018,regular-season,national,Al Najma,al-najma-manama,Al Shabab,al-shabbab-manama,H,1,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,belgium,beker-van-belgie-20172018,8th-finals,national,Kortrijk,kv-kortrijk,Antwerp,royal-antwerp-fc,H,4,2,H,1,0,7,5,1,1,7,5,12,23,2,4
+20171129,20:00,belgium,beker-van-belgie-20172018,8th-finals,national,Mechelen,kv-mechelen,Genk,krc-genk,D,1,1,D,1,1,5,7,4,5,4,9,15,15,2,1
+20171129,20:30,belgium,beker-van-belgie-20172018,8th-finals,national,Gent,koninklijke-atletiek-associatie-gent,Lokeren,sporting-lokeren-oost-vlaanderen,H,2,1,H,1,0,2,6,3,2,5,4,19,13,1,2
+20171129,20:30,belgium,beker-van-belgie-20172018,8th-finals,national,Waasland-Beveren,kv-red-star-waasland,AS Eupen,koninklijke-as-eupen,H,2,0,H,1,0,8,4,9,2,4,3,14,25,1,6
+20171129,20:45,belgium,beker-van-belgie-20172018,8th-finals,national,Anderlecht,royal-sporting-club-anderlecht,Standard Liège,standard-de-liege,A,0,1,A,0,1,10,1,2,2,8,4,21,18,3,2
+20171129,13:00,bosnia-herzegovina,cup-20172018,quarter-finals,national,Zvijezda '09 Brgule,zvijezda-09-brgule,Olimpik Sarajevo,fk-olimpik-sarajevo,D,0,0,D,0,0,3,4,2,6,3,5,22,16,1,3
+20171129,13:00,bosnia-herzegovina,cup-20172018,quarter-finals,national,Krupa na Vrbasu,krupa-na-vrbasu,Rudar Prijedor,fk-rudar-prijedor,H,3,2,H,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:00,bosnia-herzegovina,cup-20172018,quarter-finals,national,Sloboda Tuzla,fk-sloboda-tuzla,Sloga,sloga,H,2,0,D,0,0,5,2,4,1,3,2,23,28,2,2
+20171129,16:00,botswana,premier-league-20172018,regular-season,national,Centre Chiefs,centre-chiefs,Police XI,police-xi,H,4,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:00,botswana,premier-league-20172018,regular-season,national,Orapa United,orapa-united,TAFIC,tafic-fc,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,bulgaria,a-pfg-20172018,regular-season,national,OFK Pirin,pfk-pirin-blagoevgrad,Etar,etar,H,3,2,A,0,1,4,7,0,0,2,7,10,16,3,5
+20171129,16:30,bulgaria,a-pfg-20172018,regular-season,national,Dunav 2010,dunav-2010-ruse,Levski Sofia,pfc-levski-sofia,A,0,4,A,0,2,10,4,7,2,4,4,13,15,1,4
+20171129,12:00,cambodia,hun-sen-cup-2017,semi-finals,national,Svay Rieng,royal-sword-fc,Electricite du Cambodge,electricite-du-cambodge,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,cambodia,hun-sen-cup-2017,semi-finals,national,Boeung Ket,boeung-ket-rubber-field-fc,Naga World,nagacorp-fc,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,15:00,croatia,hr-nogometni-cup-20172018,quarter-finals,national,Dinamo Zagreb,nk-dinamo-zagreb,Istra 1961,nk-istra-1961-pula,H,4,2,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,18:00,croatia,hr-nogometni-cup-20172018,quarter-finals,national,Osijek,nk-osijek,Hajduk Split,hnk-hajduk-split,A,1,3,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,18:00,cyprus,1-division-20172018,regular-season,national,Ermis,ermis-fc-aradippou,APOEL,apoel-nicosia,A,0,4,A,0,1,4,3,1,2,1,6,19,14,2,3
+20171129,14:00,cyprus,cup-20172018,1st-round,national,Olympiakos,olympiakos-nicosia-fc,Anagennisi Deryneia,anagennisi-fc-deryneia-,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:00,cyprus,cup-20172018,1st-round,national,Xylotympou,xylotympou,Anorthosis,anorthosis-famagusta-fc,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,11:30,czech-republic,u19-league-20172018,regular-season,national,Příbram U19,pibram-u19,Viktoria Plzeň U19,fc-viktoria-plze-under-19,A,2,10,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:00,czech-republic,1-liga-20172018,regular-season,national,Viktoria Plzeň,fc-viktoria-plzen,Sparta Praha,ac-sparta-praha,A,0,8,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:30,denmark,reserve-league-20172018,group-2,national,Esbjerg Res.,esbjerg-res,SønderjyskE Res.,sonderjyske-res,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,15:00,denmark,u17-ligaen-20172018,regular-season,national,HB Køge U17,hb-koge-u17,AaB U17,aab-u17,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:00,ecuador,primera-b-2017,regular-season,national,Colón,colon-fc,Gualaceo,gualaceo,A,1,2,A,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,ecuador,primera-b-2017,regular-season,national,Imbabura,imbabura-sporting-club,Mushuc Runa,mushuc-runa-sc,H,6,3,A,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,ecuador,primera-b-2017,regular-season,national,Manta,manta-futbol-club,Santa Rita,ecuador-club-deportivo-y-social-santa-rita,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,ecuador,primera-b-2017,regular-season,national,Olmedo,club-deportivo-olmedo,LDU Loja,ldu-de-loja,H,1,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:45,egypt,premier-league-20172018,regular-season,national,El Daklyeh,el-daklyeh,El Entag El Harby,harbe,A,0,1,D,0,0,4,6,1,4,8,2,22,24,1,2
+20171129,16:00,egypt,premier-league-20172018,regular-season,national,Smouha,semouha,Al Ittihad,el-ittihad-al-sakandary,D,1,1,H,1,0,4,1,3,2,3,6,19,21,5,6
+20171129,18:30,egypt,premier-league-20172018,regular-season,national,Wadi Degla,wady-degla,Ismaily,ismaily-sporting-club,A,1,2,A,0,1,5,2,2,4,9,4,10,17,2,0
+20171129,21:30,el-salvador,primera-division-20172018,apertura---quarter-finals,national,Municipal Limeño,municipal-limeno,Santa Tecla,santa-tecla-fc,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:45,england,non-league-div-one-20172018,isthmian-south,national,Cray Wanderers,cray-wanderers-fc,Ramsgate,ramsgate-fc,H,5,1,D,-1,-1,3,3,2,2,2,4,14,17,2,2
+20171129,20:45,england,non-league-div-one-20172018,isthmian-south,national,Lewes,lewes-fc,Phoenix Sports,phoenix-sports,H,1,0,D,-1,-1,8,2,3,1,7,3,10,9,5,2
+20171129,20:45,england,non-league-div-one-20172018,southern-s--w,national,Kidlington,kidlington,Cirencester Town,cirencester-town-fc,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,england,football-league-trophy-20172018,group-stage,national,Chesterfield,chesterfield-fc,Manchester City U21,manchester-city-eds-under-21,D,2,2,D,0,0,5,6,8,0,5,2,18,3,1,1
+20171129,20:45,england,football-league-trophy-20172018,group-stage,national,Crawley Town,crawley-town-football-club,Fulham U21,fulham-under-21,A,1,3,A,0,2,12,1,5,2,7,4,10,9,1,4
+20171129,20:45,england,fa-trophy-20172018,3rd-round-qualifying,national,Farnborough,farnborough-fc,Hartley Wintney,hartley-wintney,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:30,england,fa-trophy-20172018,3rd-round-qualifying-replays,national,Chelmsford City,chelmsford-city-fc,Wealdstone,wealdstone-fc,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:45,england,fa-trophy-20172018,3rd-round-qualifying-replays,national,Heybridge Swifts,heybridge-swifts-fc,Kingstonian,kingstonian-fc,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:45,england,fa-trophy-20172018,3rd-round-qualifying-replays,national,Southport,southport-fc,Stockport County,stockport-county-fc,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:45,england,southern-league-cup-20172018,2nd-round,national,Larkhall Athletic,larkhall-athletic-fc,Salisbury,salisbury,H,4,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,england,central-league-20172018,southern,national,AFC Bournemouth Res,afc-bournemouth-res,MK Dons Res.,milton-keynes-dons-res,H,3,0,D,-1,-1,7,3,9,1,7,7,10,11,3,1
+20171129,14:00,england,u21-cup-premier-league-20172018,group-stage,national,Newcastle United U23,newcastle-united-u23,Swansea City U23,swansea-city-u23,H,6,3,D,-1,-1,6,7,6,3,2,2,7,11,2,3
+20171129,20:00,england,u21-cup-premier-league-20172018,group-stage,national,Portsmouth U23,portsmouth-u23,Barnsley U23,barnsley-u23,A,0,1,D,-1,-1,7,4,3,3,5,4,13,8,4,2
+20171129,20:00,europe,premier-league-international-cup-20172018,group-stage,international,Legia Warszawa U23,legia-warszawa-u23,Hertha BSC II,hertha-bsc-berlin-ii,A,0,2,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,europe,premier-league-international-cup-20172018,group-stage,international,Dinamo Zagreb U23,dinamo-zagreb-u23,Wolfsburg II,vfl-wolfsburg-ii,H,3,2,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:00,macedonia-fyr,cup-20172018,quarter-finals,national,Akademija Pandev,akademija-pandev,Teteks,teteks,H,4,1,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:00,macedonia-fyr,cup-20172018,quarter-finals,national,Skopje,fk-skopje,Renova,renova,A,1,2,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:00,macedonia-fyr,cup-20172018,quarter-finals,national,Pobeda,fk-pobeda-junior-prilep-,Pelister,fk-pelister,D,2,2,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,10:00,georgia,play-offs-23-2017,finals,national,Telavi,telavi,Guria,guria-lanchkhuti,H,2,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,11:30,georgia,play-offs-23-2017,finals,national,Meshakhte,meshakhte-tkibuli,Norchi Dinamo,norchi-dinamoeli-tbilisi,A,0,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:00,germany,regionalliga-20172018,bayern,national,Bayern München II,fc-bayern-munchen-ii,Buchbach,tsv-buchbach,H,4,0,H,3,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,germany,oberliga-20172018,mittelrhein,national,Alfter,vfl-alfter,Borussia Freialdenhoven,borussia-freialdenhoven,H,2,1,D,-1,-1,5,9,1,3,5,4,14,17,1,7
+20171129,19:30,germany,oberliga-20172018,rheinland-pfalzsaar,national,Mechtersheim,tus-mechtersheim-1914,Dudenhofen,dudenhofen,D,1,1,D,-1,-1,4,5,6,5,5,7,19,24,5,4
+20171129,19:00,germany,2-bundesliga-women-20172018,nord,national,Wolfsburg II,vfl-wolfsburg-ii,Herforder SV,hsv-borussia-friedenstal,H,4,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:30,gibraltar,premier-division-20172018,regular-season,national,Lincoln Red Imps,newcastle-fc,St Joseph's,st-josephs-fc,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,greece,football-league-2-20172018,group-2,national,Almopos,almopos,Pierikos,sfk-pierikos-katerini,H,1,0,D,-1,-1,3,2,5,1,3,4,9,15,2,1
+20171129,14:00,greece,football-league-2-20172018,group-2,national,Kampaniakos Chalastra,kampaniakos-chalastras-fc,Langadas,langadas,H,4,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,greece,football-league-2-20172018,group-2,national,Naousa,fas-naousa,Philippos Alexandreia,philippos-alexandreia,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,greece,football-league-2-20172018,group-2,national,Agrotikos Asteras,pmas-agrotikos-asteras-evosmou,Kilkisiakos,kilkisiakos,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,greece,football-league-2-20172018,group-2,national,Makedonikos Efkarpia,makedonikos,Edessaikos,edessaikos,D,0,0,D,-1,-1,1,4,1,5,5,4,12,17,5,1
+20171129,14:00,greece,football-league-2-20172018,group-2,national,Karitsa,karitsa,Kardia,kardias,A,2,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,greece,cup-20172018,2nd-round,national,Aiginiakos,akadimia-platamona,PAOK,paok-fc,A,0,5,A,0,1,3,13,5,8,3,5,15,19,2,6
+20171129,16:15,greece,cup-20172018,2nd-round,national,Trikala,trikala,Kerkyra,pae-ao-kerkyra,D,0,0,D,0,0,4,2,4,3,6,4,33,29,0,3
+20171129,16:15,greece,cup-20172018,2nd-round,national,AOX Kissamikos,kissamikos-pogs,Olympiakos Piraeus,olympiakos-cfp,D,1,1,A,0,1,3,5,2,3,3,7,13,13,2,1
+20171129,18:30,greece,cup-20172018,2nd-round,national,Anagennisi Karditsas,pae-anagennisi-karditsas-1904,Larissa,ae-larisa,D,0,0,D,0,0,1,3,1,5,1,7,22,15,1,3
+20171129,18:30,greece,cup-20172018,2nd-round,national,Panachaiki,panahaiki-2005,Panathinaikos,panathinaikos-fc,D,1,1,D,1,1,4,6,5,1,3,5,13,17,3,3
+20171129,33:33,grenada,premier-division-2017,regular-season,national,TAMCC,tamcc,SAB Spartans,sab-spartans,A,2,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,33:33,grenada,premier-division-2017,regular-season,national,Chantimelle,chantimelle,Hard Rock,hard-rock,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,33:33,grenada,premier-division-2017,regular-season,national,St. John's,st-johns,Mt. Rich,mt-rich,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:30,guatemala,liga-nacional-20172018,apertura---quarter-finals,national,Guastatoya,guastatoya,Municipal,csd-municipal,D,1,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,11:30,hong-kong,reserve-division-20172018,regular-season,national,Pegasus Res.,sun-pegasus-res,R&F Res.,rf-res,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,11:30,hong-kong,reserve-division-20172018,regular-season,national,Kitchee Res.,kitchee-res,Warriors Res.,hong-kong-warriors-fc-reserves,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:30,hong-kong,reserve-division-20172018,regular-season,national,Eastern Res.,eastern-salon-res,Yuen Long Res.,yuen-long-res,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:30,hong-kong,reserve-division-20172018,regular-season,national,Southern District Res.,royal-southern-res,Wofoo Tai Po Res.,wofoo-tai-po-res,A,1,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:00,hungary,nb-iii-20172018,keleti,national,ESMTK,esmtk-budapest,MTK II,mtk-hungaria-fc-ii,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Soroksár SC,soroksar-erzsebet-budapest,Diósgyőr,diosgyori-vtk,A,1,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Gyöngyös,gyongyos-ak,Honvéd,budapest-honved-fc,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Budafoki MTE,budafoki-mte,Debrecen,debreceni-vsc-megaforce,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Vecsés,vecsesi-fc-1911,Újpest,ujpest-fc,A,0,5,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Vác,vac-ujbuda-ltc,Videoton,fc-fehervar,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Nagykanizsai ULE,nagykanizsai-ule,Érdi VSE,erdi-vse,H,3,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Nagyecsed RSE,nagyecsed-rse,Siófok,bfc-siofok,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Sényő Carnifex,seny-carnifex,Rákosmenti KSK,rakosmente,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Tiszaújváros,fc-tiszaujvaros,Békéscsaba,elore-fc-bekescsaba,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Szarvasi,szarvasi-fc,Zalaegerszegi TE,zalaegerszegi-te,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,magyar-kupa-20172018,8th-round,national,Cigánd SE,cigand-se,Dorogi,dorogi-fc,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:00,hungary,magyar-kupa-20172018,8th-round,national,Dunaújváros-Pálhalma,palhalma-se,Balmazújváros Sport,balmazujvarosi-fc,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:00,hungary,magyar-kupa-20172018,8th-round,national,Csákvári TK,csakvari-tk,Paksi SE,paksi-se,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:30,hungary,magyar-kupa-20172018,8th-round,national,Győri ETO,gyori-eto-fc,Nyíregyháza Spartacus,nyiregyhaza-spartacus-fc,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,hungary,magyar-kupa-20172018,8th-round,national,MTK,mtk-hungaria-fc,Gyirmót,gyirmot-se,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,10:00,hungary,u19-league-20172018,regular-season,national,Honvéd U19,honved-u19,Ferencváros U19,ferencvaros-u19,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,hungary,noi-magyar-kupa-20172018,quarter-finals,national,Győri ETO,gyori-eto-fc,MTK,mtk-hungaria-fc,A,1,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:00,hungary,noi-magyar-kupa-20172018,quarter-finals,national,Nyírség,nyirseg-nsc,Diósgyőri VTK,diosgyri-vtk,A,0,8,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:00,hungary,noi-magyar-kupa-20172018,quarter-finals,national,Ferencváros,ferencvarosi-tc,Újpest,ujpesti-te,H,16,1,D,-1,-1,7,0,7,1,7,0,7,7,9,1
+20171129,21:00,iceland,reykjavik-youth-cup-20172018,group-stage,national,Víkingur U19,vikingur-u19,KR U19,kr-u19,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,15:30,india,indian-super-league-2017,regular-season,national,Pune City,pune-city,Mumbai City,mumbai-city,H,2,1,A,0,1,6,6,5,1,7,5,10,25,3,3
+20171129,13:00,india,i-league-2018,regular-season,national,Indian Arrows,aiff-xi,Chennai City,chennai-city,H,3,0,H,1,0,1,5,1,8,5,11,20,11,6,2
+20171129,12:30,iraq,iraqi-league-20172018,regular-season,national,Al Talaba,al-talaba,Alsinaat Alkahrabaiya,alsinaat-alkahrabaiya,H,2,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:30,iraq,iraqi-league-20172018,regular-season,national,Al Najaf,al-najaf,Al Quwa Al Jawiya,al-quwa-al-jawiya,H,3,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:30,iraq,iraqi-league-20172018,regular-season,national,Naft Al-Janoob,nafit-al-janob,Al Hudod,al-hudod,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:30,iraq,iraqi-league-20172018,regular-season,national,Naft Maysan,nafut-maysan,Baghdad,al-amana,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:30,iraq,iraqi-league-20172018,regular-season,national,Karbala,karbala,Al Minaa Basra,al-minaa,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:00,iraq,iraqi-league-20172018,regular-season,national,Al Zawra'a,al-zawraa,Al Kahrabaa,kahrba,H,1,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,israel,toto-cup-ligat-al-20172018,semi-finals,national,Maccabi Tel Aviv,maccabi-tel-aviv-fc,Ironi Kiryat Shmona,hapoel-ironi-kiryat-shmona-fc,H,2,0,H,1,0,3,8,2,3,6,3,9,13,1,1
+20171129,16:30,italy,serie-c1-20172018,girone-c,national,Sicula Leonzio,sicula-leonzio,Catanzaro,fc-catanzaro,A,1,2,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:30,italy,coppa-italia-serie-c-20172018,2nd-round,national,Livorno,as-livorno-calcio,Arezzo,ac-arezzo,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:45,italy,coppa-italia-primavera-20172018,8th-finals,national,Lazio U19,lazio-primavera-u20,Bari U19,bari-primavera-u20,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,italy,coppa-italia-primavera-20172018,8th-finals,national,Chievo Verona U19,chievo-verona-primavera-u20,Perugia U19,perugia-prim,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,italy,coppa-italia-primavera-20172018,8th-finals,national,Roma U19,roma-u19,Palermo U19,palermo-primavera-u20,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:30,italy,coppa-italia-primavera-20172018,8th-finals,national,Internazionale U19,fc-internazionale-milano-primavera-u20,Novara U19,novara-primavera-u20,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:30,italy,coppa-italia-primavera-20172018,8th-finals,national,Atalanta U19,atalanta-primavera-u20,Udinese U19,udinese-primavera-u20,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:30,italy,coppa-italia-primavera-20172018,8th-finals,national,Fiorentina U19,fiorentina-primavera-u20,Milan U19,italy-ac-milan-under-19,A,0,4,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:30,italy,coppa-italia-primavera-20172018,8th-finals,national,Juventus U19,juventus-u19,Torino U19,torino-primavera-u20,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:30,italy,coppa-italia-primavera-20172018,8th-finals,national,Sampdoria U19,sampdoria-primavera-u20,Genoa U19,genoa-primavera-u20,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,11:30,japan,j1-league-2017,regular-season,national,Urawa Reds,urawa-red-diamonds,Kawasaki Frontale,kawasaki-frontale,A,0,1,A,0,1,6,1,5,2,4,4,13,24,4,1
+20171129,11:30,korea-republic,fa-cup-2017,final,national,Busan I'Park,busan-ipark,Ulsan,ulsan-horang-i,A,1,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,luxembourg,ligue-1-20172018,regular-season,national,Bettembourg,sc-bettembourg,Racing,racing-fc-union-letzebuerg,H,4,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:00,mauritania,premier-league-20172018,regular-season,national,Tidjikja,asc-el-ahmedi-fc-de-sebkha,Tevragh-Zeïne,fc-khairy,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:00,mexico,segunda-division-20172018,apertura---quarter-finals,national,Toluca Premier,toluca-ii,Tigres Premier,club-tigres-de-la-uanl-ii,D,0,0,D,-1,-1,5,7,1,2,2,8,15,12,3,1
+20171129,17:00,mexico,segunda-division-20172018,apertura---quarter-finals,national,América Premier,america-ii,Pumas UNAM Premier,pumas-unam-ii,A,1,2,D,-1,-1,7,0,6,1,9,4,15,17,3,2
+20171129,17:00,mexico,segunda-division-20172018,apertura---quarter-finals,national,Guadalajara Premier,guadalajara-ii,Tijuana Premier,tijuana-ii,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:00,morocco,gnf-1-20172018,regular-season,national,Moghreb Tétouan,maghrib-association-tetouan,Wydad Casablanca,wydad-athletic-club,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:00,morocco,gnf-1-20172018,regular-season,national,FUS Rabat,fath-union-sportive,Difaâ El Jadida,difaa-hassani-jdidi,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,18:00,norway,play-offs-12-2017,final,national,Sogndal,sogndal-idrettslag,Ranheim,ranheim-il,H,1,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,palestine,west-bank-league-20172018,regular-season,national,Shabab Al Khader,shabab-al-khader,Markz Balata,markz-balata,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,palestine,west-bank-league-20172018,regular-season,national,Shabab Dora,shabab-dora,Ahli Al-Khalil,ahli-qalqilyah,A,2,9,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,palestine,west-bank-league-20172018,regular-season,national,Al-Birah Institution,al-birah-institution,Thagafi Tulkarem,thagafi-tulkarem,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:00,palestine,west-bank-league-20172018,regular-season,national,Shabab Al Khaleel,shabab-al-khaleel,Hilal Al-Quds,hilal-al-quds,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:00,palestine,west-bank-league-20172018,regular-season,national,Jabal Al Mukaber,jabal-al-mukaper,Shabab Al-Dhahiriya,shabab-al-thahrea,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:15,peru,primera-division-2017,clausura,national,Alianza Atlético,club-alianza-atletico,Sport Rosario,sport-rosario,A,1,4,A,0,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:30,peru,primera-division-2017,clausura,national,Deportivo Municipal,deportivo-municipal,Melgar,club-fbc-melgar,D,1,1,D,0,0,6,3,2,5,3,0,32,10,2,3
+20171129,18:00,poland,cup-20172018,quarter-finals,national,Arka Gdynia,arka-gdynia-ssa,Chrobry Głogów,mzks-chrobry-glogow,D,1,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:45,poland,cup-20172018,quarter-finals,national,Korona Kielce,mks-korona-kielce,Zagłębie Lubin,zaglebie-lubin-ssa,H,2,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,poland,central-youth-league-20172018,east,national,Cracovia U19,cracovia-u19,Wisła Kraków U19,wisla-krakow-u19,H,6,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,poland,poland-cup-women-20172018,8th-finals,national,Stilon Gorzów,ztkkf-stilon-gorzow-wielkopolski,Olimpia Szczecin,olimpia-szczecin,A,0,5,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:30,poland,poland-cup-women-20172018,8th-finals,national,Helios Białystok,helios-bialystok,Górnik Łęczna,gks-gornik-leczna-sa,A,0,17,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,18:30,poland,poland-cup-women-20172018,8th-finals,national,Katowice,katowice,Wrocław,kz-azs-wroclaw,A,0,4,D,-1,-1,3,6,7,6,3,6,6,12,0,2
+20171129,16:00,qatar,league-2-20172018,regular-season,national,Al Mu'aidar,meather,Al Wakrah,al-wakra-sc,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:00,qatar,league-2-20172018,regular-season,national,Al Mesaimeer,mesaimeer,Al Shamal,al-shamal,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:00,romania,liga-iii-20172018,serie-4,national,CNP Timişoara,cnp-timioara,Șoimii Lipova,oimii-lipova,H,3,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:30,romania,cupa-romaniei-20172018,8th-finals,national,Mioveni,cs-dacia-mioveni,Gaz Metan Mediaş,gaz-metan-medias,A,0,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,romania,cupa-romaniei-20172018,8th-finals,national,Universitatea Cluj,alb-negru,Dinamo Bucureşti,fc-dinamo-1948-sa-bucuresti,D,1,1,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,15:50,saudi-arabia,pro-league-20172018,regular-season,national,Al Raed,al-raed-buraidah,Al Feiha,al-feiha,H,2,0,D,0,0,0,5,2,1,3,3,11,14,9,2
+20171129,17:40,saudi-arabia,pro-league-20172018,regular-season,national,Al Nassr,al-nasr-riyadh,Al Fateh,al-fath-alahsa,H,3,1,H,2,0,5,4,11,2,6,5,6,11,3,0
+20171129,13:00,saudi-arabia,division-1-20172018,regular-season,national,Al Qaisoma,al-qaisoma,Al-Kawkab,al-kawkab,A,4,6,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:15,saudi-arabia,division-1-20172018,regular-season,national,Al Hazm,al-hazm-rass,Al Najoom,al-najoom,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:40,saudi-arabia,division-1-20172018,regular-season,national,Al Watani,al-watani-tabuk,Dhamk,dhamk,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,15:30,saudi-arabia,division-1-20172018,regular-season,national,Al Nahdha,al-nahdha,Jeddah,al-rbeea,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,scotland,development-league-20172018,regular-season,national,St. Johnstone U20,saint-johnstone-fc-under-20,Celtic U20,celtic-fc-under-20,A,1,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:30,scotland,development-league-2-20172018,east,national,Cowdenbeath U20,cowdenbeath-youth,Forfar Athletic U20,forfar-athletic-youth,A,1,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:45,scotland,development-league-2-20172018,west,national,Queen's Park U20,queens-park-youth,Greenock Morton U20,greenock-morton-youth,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,13:00,serbia,super-liga-20172018,regular-season,national,Zemun,fk-zemun,Rad Beograd,fk-rad-beograd,H,2,0,H,2,0,4,5,2,1,5,4,21,13,1,2
+20171129,16:00,serbia,super-liga-20172018,regular-season,national,Voždovac,fk-vozdovac,Partizan,fk-partizan-beograd,A,0,1,A,0,1,5,5,2,3,2,2,19,14,0,6
+20171129,17:00,serbia,super-liga-20172018,regular-season,national,Radnički Niš,fk-radnicki-nis,Mačva Šabac,fk-macva-sabac,H,3,0,H,1,0,8,1,7,2,8,6,14,19,2,1
+20171129,17:00,serbia,super-liga-20172018,regular-season,national,Mladost Lučani,fk-mladost-lucani,Čukarički,fk-cukaricki,D,1,1,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:00,serbia,super-liga-20172018,regular-season,national,Napredak,fk-napredak-krusevac,Bačka Palanka,fk-backa-balanka,D,1,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:00,serbia,super-liga-20172018,regular-season,national,Vojvodina,fk-vojvodina-novi-sad,Borac Čačak,fk-borac-cacak,A,0,1,A,0,1,2,2,5,4,10,2,14,22,5,0
+20171129,17:00,serbia,super-liga-20172018,regular-season,national,Spartak Subotica,fk-subotica,Javor Ivanjica,fk-javor-ivanjica,H,4,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,18:00,serbia,super-liga-20172018,regular-season,national,Crvena Zvezda,fk-crvena-zvezda-beograd,Radnik Surdulica,fk-radnik-surdulica,H,5,0,H,2,0,10,0,4,0,8,3,10,9,2,0
+20171129,14:00,slovakia,u19-league-20172018,regular-season,national,Žilina U19,ilina-u19,Partizán Bardejov U19,partizan-bardejov-u19,H,4,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:15,slovenia,cup-20172018,quarter-finals,national,Maribor,nk-maribor,Olimpija,nk-olimpija-ljubljana,D,1,1,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,18:30,south-africa,psl-20172018,regular-season,national,SuperSport United,supersport-united,Ajax Cape Town,ajax-cape-town,H,1,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,01:15,south-america,copa-sudamericana-2017,semi-finals,international,Independiente,ca-independiente,Libertad,club-libertad,H,3,1,H,3,1,1,6,0,3,4,5,10,18,0,0
+20171129,17:00,spain,tercera-division-20182018,group-12,national,Santa Úrsula,santa-ursula,Tenisca,sd-tenisca,H,5,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:00,spain,copa-federacion-20172018,16th-finals,national,Cartagena II,fc-cartagena-ii,Ontinyent,ontinyent-cf,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:00,spain,copa-federacion-20172018,16th-finals,national,Saguntino,atletico-saguntino,Mallorca II,real-club-deportivo-mallorca-ii,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,spain,copa-federacion-20172018,16th-finals,national,Silva,silva,Langreo,union-popular-langreo,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,spain,copa-federacion-20172018,16th-finals,national,Peña Sport,cd-pena-sport,Deportivo Alaves II,deportivo-alaves-ii,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,spain,copa-federacion-20172018,16th-finals,national,Ardoi,cd-ardoi,Utebo,utebo-fc,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,spain,copa-federacion-20172018,16th-finals,national,SS Reyes,ud-san-sebastian-de-los-reyes,Rayo Majadahonda,rayo-majadahonda,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,spain,copa-federacion-20172018,16th-finals,national,Arcos,arcos-cf,Real Betis II,real-betis-ii,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,spain,copa-federacion-20172018,16th-finals,national,Real Avilés,real-aviles-industrial-cf,Burgos,burgos-club-de-futbol,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:00,spain,copa-federacion-20172018,16th-finals,national,Olímpic de Xàtiva,olimpic-de-xativa,UCAM Murcia,costa-calida-cf,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:15,spain,copa-federacion-20172018,16th-finals,national,Tarazona,sd-tarazona,SD Logroñés,sd-logrones,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:30,spain,copa-federacion-20172018,16th-finals,national,Rápido Bouzas,club-rapido-de-bouzas,Pontevedra,pontevedra-cf,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:30,spain,copa-federacion-20172018,16th-finals,national,UP Plasencia,union-polideportiva-plasencia,UD San Fernando,ud-san-fernando,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:30,spain,copa-federacion-20172018,16th-finals,national,Villanovense,cf-villanovense,Tenerife II,club-deportivo-tenerife-ii,H,4,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,20:30,spain,copa-federacion-20172018,16th-finals,national,Villarrobledo,cp-villarrobledo,Huétor Tájar,cd-huetor-tajar,H,5,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:30,sudan,premier-league-2017,regular-season,national,Hay Al Wadi,hay-al-wadi,Al Hilal Kadougli,al-hilal-kadougli,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,23:00,surinam,hoofdklasse-20172018,regular-season,national,Transvaal,transvaal,WBC,wbc,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:30,swaziland,mtn-premier-league-20172018,regular-season,national,Manzini Sundowns,manzini-sundowns,Manzini Wanderers,manzini-wanderers,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:30,swaziland,mtn-premier-league-20172018,regular-season,national,Malanti Chiefs,malanti-chiefs,Vovovo,vovovo,A,1,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,17:30,swaziland,mtn-premier-league-20172018,regular-season,national,Tambuti,tambuti,Young Buffaloes,young-buffaloes,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,swaziland,mtn-premier-league-20172018,regular-season,national,Matsapha United,matsapha-united,Highlanders,mbabane-highlanders,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,swaziland,mtn-premier-league-20172018,regular-season,national,Red Lions,phindrix-fc,Mbabane Swallows,mbabane-swallows,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,swaziland,mtn-premier-league-20172018,regular-season,national,Green Mamba,green-mamba-fc,Moneni Pirates,moneni-pirates,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,switzerland,schweizer-pokal-20172018,quarter-finals,national,Zürich,fc-zurich,Thun,fc-thun,H,4,3,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,19:30,switzerland,schweizer-pokal-20172018,quarter-finals,national,Basel,fc-basel,Luzern,fc-luzern,H,2,1,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,01:00,trinidad-and-tobago,t--t-pro-league-2017,regular-season,national,W Connection,w-connection,Morvant Caledonia United,caledonia-aia,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,tunisia,ligue-1-20172018,regular-season,national,ES Tunis,esperance-sportive-de-tunis,Zarzis,esperance-sportive-de-zarzis,H,2,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,tunisia,ligue-1-20172018,regular-season,national,Kairouan,js-kairouanaise,Stade Tunisien,stade-tunisien,A,1,2,A,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,tunisia,ligue-1-20172018,regular-season,national,Métlaoui,etoile-sportive-de-metlaoui,Club Africain,club-africain,D,1,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,tunisia,ligue-1-20172018,regular-season,national,CO Médenine,co-medenine,Etoile du Sahel,etoile-sportive-du-sahel,H,2,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,11:00,turkey,cup-20172018,group-stage,national,Batman Petrolspor,batman-petrolspor,Konyaspor,konyaspor,A,0,3,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:30,turkey,cup-20172018,group-stage,national,Kasımpaşa,kasimpasa-sk,Boluspor,boluspor,A,1,3,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:00,turkey,cup-20172018,group-stage,national,Sivasspor,sivasspor,Bucaspor,bucaspor,H,2,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,14:30,turkey,cup-20172018,group-stage,national,Kardemir Karabükspor,kardemir-dc-karabukspor,İstanbulspor,istanbulspor-as,H,2,1,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:45,turkey,cup-20172018,group-stage,national,Adanaspor,adanaspor-fk,Bursaspor,bursaspor,A,0,2,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,18:30,turkey,cup-20172018,group-stage,national,Fenerbahçe,fenerbahce-spor-kulubu,Adana Demirspor,adana-demirspor,H,6,0,H,3,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:30,turkey,u19-elit-ligi-20172018,group-1,national,Galatasaray U19,galatasaray-u19,Sivasspor U19,sivasspor-u19,H,6,0,H,4,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,16:00,ukraine,cup-20172018,quarter-finals,national,Vorskla,fc-vorskla-poltava,Mariupol',fc-illychivets-mariupol,A,1,2,D,1,1,1,2,5,1,4,3,14,15,1,3
+20171129,18:00,ukraine,cup-20172018,quarter-finals,national,Desna,fc-desna-chernihiv,Dynamo Kyiv,fc-dynamo-kyiv,A,0,2,A,0,1,6,6,5,3,3,5,16,16,2,3
+20171129,18:00,ukraine,cup-20172018,quarter-finals,national,Lviv,fc-lviv,Dnipro-1,dnipro-1,D,1,1,H,1,0,2,11,5,6,4,7,20,22,0,1
+20171129,18:30,ukraine,cup-20172018,quarter-finals,national,Shakhtar Donetsk,joint-stock-company-fc-shakhtar-donetsk,Veres,fc-veres-rivne,H,4,0,H,2,0,3,2,6,2,7,6,22,15,3,2
+20171129,12:00,ukraine,u19-league-20172018,regular-season,national,Karpaty Lviv U19,fc-karpaty-lviv-under-19,Dynamo Kyiv U19,fc-dynamo-kyiv-under-19,A,1,5,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,uruguay,segunda-division-2017,play-offs---quarter-finals,national,Villa Española,csyd-villa-espanola,Progreso,club-atletico-progreso,A,0,2,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,uruguay,segunda-division-2017,play-offs---quarter-finals,national,Central Español,central-espanol-fc,Deportivo Maldonado,club-deportivo-maldonado,H,2,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,uruguay,segunda-division-2017,play-offs---quarter-finals,national,Villa Teresa,ca-villa-teresa,Cerro Largo,cerro-largo-fc,A,1,2,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,21:00,uruguay,segunda-division-2017,play-offs---quarter-finals,national,Rentistas,club-atletico-rentistas,Cerrito,club-sportivo-cerrito,A,1,2,A,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,33:33,venezuela,copa-venezuela-2017,finals,national,Mineros de Guayana,ac-mineros-de-guayana,Zamora,zamora-futbol-club,H,4,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,10:00,vietnam,u21-championship-2017,group-stage,national,Dong Thap U21,dong-thap-u21,Hoang Anh Gia Lai U21,hoang-anh-gia-lai-u21,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,12:30,vietnam,u21-championship-2017,group-stage,national,Viettel U21,viettel-u21,Hue U21,hue-u21,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171129,10:30,world,other-league-matches-2017,regular-season,international,Central Bank of India,central-bank-of-india,Century Rayon,century-rayon,D,1,1,D,-1,-1,2,4,1,1,6,7,16,17,5,1
+20171129,20:45,world,other-league-matches-2017,regular-season,international,Tooting & Mitcham United,tooting-and-mitcham-united-fc,Corinthian-Casuals,corinthian-casuals-fc,H,1,0,D,-1,-1,1,4,3,3,1,8,11,14,2,5
+20171129,18:00,world,other-competition-matches-youth-2017,regular-season,international,Amazonas U20,amazonas-u20,Mato Grosso U20,mato-grosso-u20,A,0,2,D,-1,-1,2,4,2,4,6,5,14,25,5,5
+20171129,19:00,world,other-competition-matches-youth-2017,regular-season,international,Rio Grande do Sul U20,rio-grande-do-sul-u20,Acre U20,acre-u20,H,4,0,D,-1,-1,11,0,10,0,3,3,20,24,4,4
+20171129,19:00,world,other-competition-matches-youth-2017,regular-season,international,Espirito Santo XI U20,espirito-santo-u20,Rio Grande do Norte U20,rio-grande-do-norte-u20,D,1,1,D,-1,-1,8,3,8,0,8,7,11,12,4,0
+20171129,19:00,world,other-competition-matches-youth-2017,regular-season,international,Santa Catarina U20,santa-catarina-u20,Mato Grosso do Sul U20,mato-grosso-do-sul-u20,H,3,1,D,-1,-1,11,3,8,3,7,3,20,17,4,1
+20171129,19:00,world,other-competition-matches-youth-2017,regular-season,international,São Paulo (State) U20,sao-paulo-state-u20,Sergipe (State) U20,brazil-estado-do-sergipe-under-20,H,2,0,D,-1,-1,8,2,4,1,8,5,18,12,2,2
+20171129,19:00,world,other-competition-matches-youth-2017,regular-season,international,Tocantins U20,tocantins-u20,Ceará (State) U20,ceara-u20,D,1,1,D,-1,-1,2,8,8,3,4,8,13,17,7,1
+20171129,19:00,world,other-competition-matches-youth-2017,regular-season,international,Goiás (State) U20,goias-state-u20,Roraima U20,roraima-u20,H,3,1,D,-1,-1,5,2,2,5,7,1,16,9,2,5
+20171129,19:00,world,other-competition-matches-youth-2017,regular-season,international,Piauí U20,piaui-u20,Paraíba U20,paraiba-u20,H,3,2,D,-1,-1,3,5,2,1,7,10,19,16,3,3
+20171129,33:33,world,friendly-women-2017,friendlies-2,international,Chile,chile,Brazil,brazil,A,0,3,A,0,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,18:00,italy,coppa-italia-20172018,4th-round,national,Udinese,udinese-calcio,Perugia,perugia-calcio,H,8,3,H,3,1,6,4,2,2,6,10,6,11,0,1
+20171130,21:00,italy,coppa-italia-20172018,4th-round,national,Genoa,genoa-cfc,Crotone,fc-crotone,H,1,0,D,0,0,5,3,6,3,5,4,8,23,1,3
+20171130,00:45,south-america,copa-libertadores-2017,finals,international,Lanús,ca-lanus,Grêmio,gremio-foot-ball-porto-alegrense,A,1,2,A,0,2,5,0,1,1,7,7,17,18,0,3
+20171130,19:00,spain,copa-del-rey-20172018,16th-finals,national,Deportivo Alavés,deportivo-alaves,Getafe,getafe-club-de-futbol,H,3,0,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,19:30,spain,copa-del-rey-20172018,16th-finals,national,Villarreal,villarreal-club-de-futbol,Ponferradina,sociedad-deportiva-ponferradina,H,3,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,19:30,spain,copa-del-rey-20172018,16th-finals,national,Espanyol,reial-club-deportiu-espanyol,Tenerife,club-deportivo-tenerife,H,3,2,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,21:30,spain,copa-del-rey-20172018,16th-finals,national,Valencia,valencia-club-de-futbol,Real Zaragoza,real-zaragoza,H,4,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,21:30,spain,copa-del-rey-20172018,16th-finals,national,Real Betis,real-betis,Cádiz,cadiz-club-de-futbol,A,3,5,A,2,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,14:00,albania,cup-20172018,2nd-round,national,Pogradeci,ks-pogradeci,Partizani Tirana,kf-partizani-tirana,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,23:15,argentina,primera-division-20172018,regular-season,national,San Lorenzo,club-atletico-san-lorenzo-de-almagro,Atlético Tucumán,club-atletico-tucuman,H,2,0,H,1,0,5,7,1,5,3,4,11,11,3,5
+20171130,01:45,argentina,argentino-a-20172018,group-2,national,Sportivo Desamparados,sportivo-desamparados,Gutiérrez,gutierrez-sport-club-de-mendoza,A,0,1,D,0,0,5,2,5,3,8,3,12,16,5,8
+20171130,00:30,argentina,argentino-a-20172018,group-3,national,Atlético Paraná,club-atletico-parana,Sportivo Las Parejas,sportivo-atletico,H,1,0,H,1,0,5,2,5,5,3,5,19,12,0,5
+20171130,01:00,argentina,argentino-a-20172018,group-3,national,Sportivo Belgrano,club-sportivo-belgrano,Libertad,club-deportivo-libertad,H,3,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:00,argentina,argentino-a-20172018,group-3,national,Defensores Belgrano VR,club-defensores-de-belgrano,Central Córdoba SdE,club-atletico-central-cordoba-de-santiago,D,0,0,D,0,0,10,1,5,2,5,1,11,13,1,3
+20171130,01:00,argentina,argentino-a-20172018,group-3,national,Unión Sunchales,atletico-union-de-sunchales,Douglas Haig,douglas-haig,H,2,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:15,argentina,argentino-a-20172018,group-3,national,Gimnasia Concepción,gimnasia-y-esgrima-er,Def. de Pronunciamiento,club-defensores-de-pronunciamiento,H,3,0,H,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:10,argentina,argentino-a-20172018,group-4,national,Guaraní A. Franco,club-guarani-antonio-franco,Deportivo Mandiyú,club-deportivo-mandiyu,H,4,1,H,2,1,2,5,0,2,5,2,23,16,2,0
+20171130,01:00,argentina,argentino-b-2017,quarter-finals,national,Ferro Carril Sud,ferrocarril-sud,Independiente S.Cayetano,independiente-scayetano,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:00,argentina,argentino-b-2017,quarter-finals,national,Racing Córdoba,club-atletico-racing-de-cordoba,Vélez de San Ramón,velez-de-san-ramon,H,4,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:00,argentina,argentino-b-2017,quarter-finals,national,Atlético San Jorge,atletico-san-jorge,Belgrano Paraná,club-atletico-belgrano-de-parana,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:15,argentina,argentino-b-2017,quarter-finals,national,Juventud Pergamino,juventud-pergamino,Independiente Chivilcoy,atletico-independiente-de-chivilcoy,A,0,1,D,-1,-1,2,1,0,2,4,2,16,23,0,3
+20171130,01:15,argentina,argentino-b-2017,quarter-finals,national,Huracán San Rafael,club-huracan-san-rafael,Sportivo del Bono,sportivo-del-bono,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,02:00,argentina,argentino-b-2017,quarter-finals,national,Club Atlético Güemes,club-atletico-guemes-de-santiago-del-estero,Sarmiento Leones,ca-aeronautico-biblioteca-y-mutual-sarmiento,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:00,argentina,reserve-league-20172018,regular-season,national,Huracán Res.,huracan-res,Patronato Res.,patronato-res,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,11:00,armenia,first-league-20172018,regular-season,national,Avan Academy,avan-academy,Shirak II,shirak-giumri-ii,H,6,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,15:20,bahrain,premier-league-20172018,regular-season,national,Manama,manama,Malkiya,malkiya-club,D,2,2,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,17:35,bahrain,premier-league-20172018,regular-season,national,Al Riffa,bahrain-riffa-club,Muharraq,almuharraq-sports-club,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,20:45,belgium,beker-van-belgie-20172018,8th-finals,national,Zulte-Waregem,sv-zulte-waregem,Club Brugge,club-brugge-kv,D,2,2,A,0,1,8,10,3,5,4,2,17,13,2,10
+20171130,20:00,bolivia,lfpb-20162017,clausura,national,Wilstermann,club-jorge-wilstermann,Sport Boys,sports-boys-warnes,H,3,1,H,1,0,6,2,5,1,6,5,16,9,3,5
+20171130,23:15,bolivia,lfpb-20162017,clausura,national,Nacional Potosí,nacional-potosi,Guabirá,club-deportivo-guabira,H,2,1,H,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,16:00,botswana,premier-league-20172018,regular-season,national,Gaborone United,gaborone-utd,UF Santos,uniao-flamengo-santos,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,18:00,botswana,premier-league-20172018,regular-season,national,Security Systems,security-systems,Extension Gunners,extension-gunners-fc,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,18:30,brazil,copa-gaucho-u19-2017,final,national,Internacional U19,sc-internacional-under-19,EC São José U19,ec-sao-jose-u19,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,20:00,brazil,copa-do-brasil-u17-2017,finals,national,Palmeiras U17,palmeiras-u17,Corinthians U17,corinthians-u17,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,12:00,bulgaria,a-pfg-20172018,regular-season,national,Vitosha Bistritsa,fk-vitosha-bistrica,Lokomotiv Plovdiv,pfc-lokomotiv-plovdiv,D,1,1,D,1,1,1,10,0,4,4,8,12,18,1,0
+20171130,14:00,bulgaria,a-pfg-20172018,regular-season,national,Vereya,vereya-stara-zagora,Ludogorets,fk-razgrad-2000,H,2,1,D,1,1,0,7,2,5,3,8,21,22,3,2
+20171130,16:30,bulgaria,a-pfg-20172018,regular-season,national,CSKA Sofia,pfc-cska-sofia,Septemvri Sofia,septemvri,H,2,0,H,1,0,9,1,3,1,11,2,14,7,4,2
+20171130,10:00,bulgaria,u18-cup-20172018,quarter-finals,national,Ludogorets U18,ludogorets-u18,Levski Sofia U18,levski-sofia-u18,D,1,1,D,-1,-1,7,0,5,3,8,3,13,21,1,1
+20171130,10:00,bulgaria,u18-cup-20172018,quarter-finals,national,Cherno More U18,cherno-more-u18,Montana U18,montana-u18,H,7,1,D,-1,-1,9,1,8,0,7,1,7,19,1,2
+20171130,12:00,bulgaria,u18-cup-20172018,quarter-finals,national,Beroe Stara Zagora U18,beroe-stara-zagora-u18,Botev Plovdiv U18,botev-plovdiv-u18,A,1,2,D,-1,-1,5,1,3,7,7,5,14,18,0,3
+20171130,12:00,bulgaria,u18-cup-20172018,quarter-finals,national,Botev 2002 Plovdiv U18,botev-2002-plovdiv-u18,Septemvri Sofia U18,septemvri-sofia-u18,A,1,3,D,-1,-1,6,3,3,0,5,5,12,13,1,8
+20171130,01:45,colombia,primera-a-2017,clausura---quarter-finals,national,Millonarios,club-deportivo-los-millonarios,La Equidad,la-equidad,H,2,1,H,1,0,4,2,3,5,4,4,21,18,4,0
+20171130,16:00,croatia,hr-nogometni-cup-20172018,quarter-finals,national,Rudeš,nk-rude-zagreb,Lokomotiva Zagreb,nk-lokomotiva-zagreb,A,1,2,D,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:00,czech-republic,juniorska-liga-20172018,regular-season,national,Příbram U21,1fk-pibram-under-21,Viktoria Plzeň U21,fc-viktoria-plze-under-21,D,3,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:30,ecuador,primera-b-2017,regular-season,national,Aucas,sociedad-deportiva-aucas,América de Quito,club-deportivo-america,H,1,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:30,ecuador,primera-b-2017,regular-season,national,Técnico Universitario,tecnico-universitario,LDU Portoviejo,ldu-de-portoviejo,H,4,3,A,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:30,el-salvador,primera-division-20172018,apertura---quarter-finals,national,Chalatenango,cd-chalatenango,Isidro Metapán,asociacion-deportiva-isidro-metapan,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,02:30,el-salvador,primera-division-20172018,apertura---quarter-finals,national,Pasaquina,pasaquina,Alianza,alianza-fc,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,22:15,el-salvador,primera-division-20172018,apertura---quarter-finals,national,Águila,cd-aguila,FAS,club-deportivo-fas,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,20:00,england,u21-cup-premier-league-20172018,group-stage,national,Hull City U23,hull-city-u23,Sunderland U23,sunderland-u23,A,0,3,D,-1,-1,5,2,2,1,3,3,10,12,2,3
+20171130,20:00,europe,premier-league-international-cup-20172018,group-stage,international,Arsenal U23,arsenal-u23,Reading U23,reading-u23,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,20:00,europe,premier-league-international-cup-20172018,group-stage,international,PSV U23,psv-u23,Sparta Praha U23,sparta-praha-u23,H,4,3,H,3,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,10:00,georgia,play-offs-12-20162017,finals,national,Sioni,fc-sioni-bolnisi,Dinamo Batumi,fc-dinamo-batumi,H,3,2,H,3,2,4,6,0,3,6,2,16,28,1,1
+20171130,11:30,georgia,play-offs-12-20162017,finals,national,Kolkheti Poti,fc-kolkheti-1913-poti,Merani Martvili,fc-merani-martvili,H,2,1,H,2,1,4,4,0,2,4,5,25,21,1,1
+20171130,20:30,gibraltar,premier-division-20172018,regular-season,national,Europa,college-cosmo,Mons Calpe,mons-calpe,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,14:00,greece,cup-20172018,2nd-round,national,Iraklis,iraklis-thessaloniki-fc,Platanias,platanias,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,14:00,greece,cup-20172018,2nd-round,national,Ergotelis,ergotelis,Panaitolikos,panaitolikos-agrinio,A,0,5,A,0,1,5,2,2,1,1,2,9,18,1,4
+20171130,16:15,greece,cup-20172018,2nd-round,national,Apollon Pontou,apollon-kalamaria-fc,Levadiakos,levadiakos-fc,A,1,2,D,0,0,3,2,5,2,6,2,13,15,2,2
+20171130,16:15,greece,cup-20172018,2nd-round,national,Panegialios,panaigialios-aigio,Panionios,panionios-nfc,H,1,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,18:30,greece,cup-20172018,2nd-round,national,Kallithea,gs-kallithea,AEK Athens,aek-athens-fc,A,2,3,D,2,2,3,5,0,9,0,9,8,12,5,3
+20171130,01:30,guadeloupe,division-dhonneur-20172018,regular-season,national,Moulien,club-sportif-moulien,La Gauloise,la-gauloise,A,1,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,15:30,india,indian-super-league-2017,regular-season,national,Goa,india-fc-goa,Bengaluru,bengaluru,H,4,3,H,3,1,5,2,0,5,1,4,11,17,5,1
+20171130,11:45,iran,premier-league-20172018,regular-season,national,Gostaresh Foolad Tabriz,gostaresh-folad-tabriz,Saipa,saipa,H,3,1,H,3,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,12:30,iran,premier-league-20172018,regular-season,national,Paykan,peykan,Esteghlal,esteghlal,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,12:30,iran,premier-league-20172018,regular-season,national,Foolad,foolad-khuzestan-football-club,Sepidrood Rasht,sepidrood-rasht,H,2,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,12:45,iran,premier-league-20172018,regular-season,national,Sepahan,sepahan,Esteghlal Khuzestan,esteghlal-meli-sanati-khuzestan-fc,D,1,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,12:30,iraq,iraqi-league-20172018,regular-season,national,Zakho,zakho,Al Hussein,iraq-al-hussein-sc,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,12:30,iraq,iraqi-league-20172018,regular-season,national,Al Simawa,al-simawa,Naft,nafut,D,1,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,12:30,iraq,iraqi-league-20172018,regular-season,national,Al Diwaniya,al-diwaniya,Al Shorta,al-shorta,A,1,2,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,12:30,iraq,iraqi-league-20172018,regular-season,national,Al Bahri,al-bahri,Naft Al-Wasat,naft-al-wasat,H,1,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,20:00,israel,toto-cup-ligat-al-20172018,semi-finals,national,Maccabi Haifa,maccabi-haifa-fc,Hapoel Be'er Sheva,hapoel-beer-sheva,A,0,1,D,0,0,6,9,3,9,6,3,13,11,4,1
+20171130,17:30,jordan,league-20172018,regular-season,national,Al Buqa'a,al-baqaa,That Ras,that-ras,D,0,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,04:00,mexico,primera-division-20172018,apertura---semi-finals,national,América,club-de-futbol-america,Tigres UANL,club-tigres-de-la-unl,A,0,1,D,0,0,5,14,0,2,7,12,11,18,1,1
+20171130,02:00,mexico,liga-de-ascenso-20172018,apertura----finals,national,Alebrijes de Oaxaca,alebrijes-de-oaxaca,Juárez,fc-juarez,H,1,0,H,1,0,2,2,4,2,2,1,15,17,1,3
+20171130,02:00,mexico,segunda-division-20172018,apertura---quarter-finals,national,Inter Playa del Carmen,promotora-deportiva-inter-playa-del-carmen-ac,Reboceros La Piedad,petroleros-de-salamanca,H,2,1,D,-1,-1,5,2,3,3,6,6,12,13,0,3
+20171130,03:00,mexico,segunda-division-20172018,apertura---quarter-finals,national,UA Chihuahua,club-dorados-fuerza-uach,Loros Universidad,loros-de-la-universidad-de-colima,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,23:00,mexico,segunda-division-20172018,apertura---quarter-finals,national,Veracruz Premier,mexico-cd-tiburones-rojos-de-veracruz-ii,Monarcas Morelia Premier,club-monarcas-morelia-ii,D,1,1,D,-1,-1,6,2,1,2,3,2,20,29,3,2
+20171130,22:00,mexico,segunda-division-20172018,serie-b---apertura-finals,national,Coyotes,coyotes,Yalmakan,yalmakan,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,17:00,mexico,u20-league-20172018,apertura---semi-finals,national,Querétaro U20,queretaro-u20,Santos Laguna U20,santos-laguna-u20,D,3,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,23:00,mexico,u20-league-20172018,apertura---semi-finals,national,Guadalajara U20,guadalajara-u20,Atlas U20,atlas-u20,A,0,5,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,16:30,mexico,u17-league-20172018,apertura---semi-finals,national,Guadalajara U17,guadalajara-u17,Santos Laguna U17,santos-laguna-u17,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,17:00,mexico,u17-league-20172018,apertura---semi-finals,national,Morelia U17,morelia-u17,Pumas UNAM U17,pumas-unam-u17,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:00,moldova,compionatul-moldovei-20172018,regular-season,national,ŞS11 / Real Succes,s11--real-succes,Cioburciu,cioburciu,H,4,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,15:00,palestine,west-bank-league-20172018,regular-season,national,Taraji Wadi Al-Nes,taraji-wadi-al-nes,Shabab Alsamu,shabab-alsamu,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:00,peru,primera-division-2017,clausura,national,Universidad San Martín,club-deportivo-universidad-san-martin-de-porres,Alianza Lima,club-alianza-lima,A,1,2,D,1,1,8,3,5,3,5,0,18,18,0,1
+20171130,19:15,peru,primera-division-2017,clausura,national,Juan Aurich,club-juan-aurich-de-chiclayo,Sporting Cristal,club-sporting-cristal,H,2,1,D,1,1,6,5,5,4,7,8,21,12,2,5
+20171130,21:30,peru,primera-division-2017,clausura,national,Sport Huancayo,club-deportivo-sport-huancayo,Ayacucho,olimpico-somos-peru,D,1,1,D,0,0,6,3,6,3,22,9,5,9,1,2
+20171130,12:00,poland,poland-cup-women-20172018,8th-finals,national,Tarnovia Tarnów,tarnovia-tarnow,Czarni Sosnowiec,czarni-sosnowiec,A,0,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,14:00,qatar,stars-league-20172018,regular-season,national,Al Gharafa,al-gharrafa-club-doha-,Al Arabi,al-arabi-sc-doha-,H,3,1,D,0,0,7,3,3,3,10,1,14,16,2,5
+20171130,16:10,qatar,stars-league-20172018,regular-season,national,Umm Salal,umm-salal-sc,Al Rayyan,al-rayyan-sc,D,1,1,D,0,0,1,10,3,4,2,10,10,7,2,2
+20171130,13:00,romania,liga-iii-20172018,serie-5,national,CFR Cluj II,cfr-1907-cluj-ii,Unirea Tășnad,unirea-tnad,H,6,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:00,romania,cupa-romaniei-20172018,8th-finals,national,Hermannstadt,hermannstadt,Juventus Bucureşti,sc-juventus-bucuresti,H,2,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,17:30,romania,cupa-romaniei-20172018,8th-finals,national,Chindia Târgovişte,cf-chindia-targoviste,Astra,astra-ploiesti,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,20:30,romania,cupa-romaniei-20172018,8th-finals,national,ACS Poli Timişoara,acs-recas,FCSB,sc-fc-steaua-bucuresti-sa,A,0,3,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,11:00,russia,u21-premier-league-20172018,regular-season,national,Arsenal Tula U21,arsenal-tula-u21,Spartak Moskva U21,fk-spartak-moskva-under-21,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,12:00,russia,u21-premier-league-20172018,regular-season,national,CSKA Moskva U21,pfk-cska-moskva-under-21,Tosno U21,tosno-u21,H,5,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,15:45,saudi-arabia,pro-league-20172018,regular-season,national,Al Faisaly,al-faysaly-al-majmaah,Al Batin,al-baten,A,0,1,A,0,1,14,4,7,7,8,2,16,11,5,2
+20171130,15:45,saudi-arabia,pro-league-20172018,regular-season,national,Al Shabab,al-shabab-riyadh,Al Taawon,al-taawon-buraidah,H,2,1,H,2,0,0,4,3,6,3,6,16,13,1,2
+20171130,17:40,saudi-arabia,pro-league-20172018,regular-season,national,Al Ittifaq,al-ittifaq-dammam,Al Ittihad,al-ittihad-jeddah,A,1,2,H,1,0,3,7,10,4,7,5,13,15,2,0
+20171130,20:15,switzerland,schweizer-pokal-20172018,quarter-finals,national,Young Boys,bsc-young-boys-bern,St. Gallen,fc-sankt-gallen-1879,H,2,1,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,20:15,switzerland,schweizer-pokal-20172018,quarter-finals,national,Lugano,fc-lugano,Grasshopper,grasshopper-club-zurich,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:25,tunisia,ligue-1-20172018,regular-season,national,Stade Gabésien,stade-gabesien,Monastir,us-monastirienne,D,0,0,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,14:00,tunisia,ligue-1-20172018,regular-season,national,Ben Guerdane,union-sportive-de-ben-guerdane,Gabès,avenir-sportif-de-gabes,H,2,0,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,15:30,tunisia,ligue-1-20172018,regular-season,national,CS Sfaxien,club-sportif-sfaxien,CA Bizertin,club-athletique-bizertin,H,3,1,A,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,11:30,turkey,cup-20172018,group-stage,national,Orhangazispor,orhangazispor-bursa,Antalyaspor,antalyaspor,A,0,3,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:30,turkey,cup-20172018,group-stage,national,Giresunspor,giresunspor,Alanyaspor,alanyaspor,H,4,2,H,3,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,14:30,turkey,cup-20172018,group-stage,national,Kahramanmaraşspor,kahramanmarasspor,İstanbul Başakşehir,istanbul-buyuksehir-bsk,A,1,3,A,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,15:30,turkey,cup-20172018,group-stage,national,BB Erzurumspor,erzurum-buyukehir-belediyespor,Trabzonspor,trabzonspor,A,0,4,A,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,18:30,turkey,cup-20172018,group-stage,national,Kayserispor,kayserispor,Eyüpspor,eyupspor,H,3,2,H,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,11:00,ukraine,u19-league-20172018,regular-season,national,Oleksandria U19,oleksandria-u19,Shakhtar Donetsk U19,fc-shakhtar-donetsk-under-19,A,1,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:40,united-arab-emirates,premier-league-20172018,regular-season,national,Ajman,ajman,Al Wahda,al-wahda-fc-abu-dhabi,D,2,2,D,0,0,1,7,6,4,3,8,22,9,2,2
+20171130,13:40,united-arab-emirates,premier-league-20172018,regular-season,national,Hatta,hatta-dubai,Al Wasl,al-wasl-dubai,D,2,2,D,1,1,2,7,2,4,2,6,21,21,1,0
+20171130,16:30,united-arab-emirates,premier-league-20172018,regular-season,national,Al Sharjah,al-sharjah,Al Jazira,al-jazeera-abu-dhabi,A,1,2,D,0,0,3,5,1,2,7,6,16,20,3,2
+20171130,13:40,united-arab-emirates,u18-league-20152016,group-a,national,Dibba Al Fujairah U18,dabba-al-fujairah-u18,Al Dhafra U18,al-dhafra-u18,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:40,united-arab-emirates,u18-league-20152016,group-a,national,Al Ain U18,al-ain-u18,Emirates U18,emirates-u18,H,4,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:45,united-arab-emirates,u18-league-20152016,group-a,national,Al Nasr U18,al-nasr-u18,Hatta U18,hatta-u18,H,3,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:45,united-arab-emirates,u18-league-20152016,group-a,national,Al Wahda U18,al-wahda-u18,Al Wasl U18,al-wasl-u18,H,2,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:45,united-arab-emirates,u18-league-20152016,group-a,national,Al Jazira U18,al-jazira-u18,Shabab Al Ahli U18,al-ahli-u18,D,1,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:45,united-arab-emirates,u18-league-20152016,group-a,national,Ajman U18,ajman-u18,Sharjah U18,sharjah-u18,H,3,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:40,united-arab-emirates,u18-league-20152016,group-b,national,Al Dhaid U18,al-dhaid-u18,Al Orooba U18,al-orooba-u18,A,0,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:40,united-arab-emirates,u18-league-20152016,group-b,national,Deba Al Hissin U18,deba-al-hissin-u18,Al Taawon U18,al-taawon-u18,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:40,united-arab-emirates,u18-league-20152016,group-b,national,Al Bataeh U18,al-bataeh-u18,Khor Fakkan U18,khor-fakkan-u18,D,2,2,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:40,united-arab-emirates,u18-league-20152016,group-b,national,Ras Al Khaimah U18,ras-al-khaimah-u18,Al Rams U18,al-rams-u18,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:40,united-arab-emirates,u18-league-20152016,group-b,national,Al Fujairah U18,al-fujairah-u18,Al Arabi U18,al-arabi-u18,H,1,0,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,13:45,united-arab-emirates,u18-league-20152016,group-b,national,Bani Yas U18,bani-yas-u18,Al Ittihad Kalba U18,al-ittihad-kalba-u18,A,2,3,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,01:30,united-states,mls-2017,mls-cup---conference-finals,national,Toronto,toronto-fc,Columbus Crew,columbus-crew,H,1,0,D,0,0,6,3,3,0,1,5,13,13,1,3
+20171130,11:00,vietnam,cup-2017,finals,national,Song Lam Nghe An,pjico-song-lam-nghe-an,Binh Duong,becamex-binh-duong,H,5,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,10:00,vietnam,u21-championship-2017,group-stage,national,SLNA U21,slna-u21,PVF Vietnam U21,pvf-vietnam-u21,H,2,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,12:30,vietnam,u21-championship-2017,group-stage,national,HV An Giang U21,an-giang-u21,Binh Duong U21,binh-duong-u21,A,0,1,D,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+20171130,10:30,world,other-league-matches-2017,regular-season,international,Karnataka,karnataka,Mumbai Strikers,mumbai-strikers,D,1,1,D,-1,-1,9,4,4,3,10,0,14,14,2,1
+20171130,20:45,world,other-league-matches-2017,regular-season,international,Billericay Town,billericay-town-fc,Basildon United,basildon-united-,H,3,0,D,-1,-1,13,1,7,0,16,4,12,6,3,2
+20171130,20:45,world,other-league-matches-2017,regular-season,international,Brentwood Town,brentwood-town-fc,Colchester United CC,colchester-united-cc,A,1,7,D,-1,-1,3,3,3,7,3,5,5,8,0,3
+20171130,01:00,world,under-17-friendlies-2017,friendlies-1,international,United States U17,united-states-under-17,England U17,england-under-17,A,0,1,D,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1

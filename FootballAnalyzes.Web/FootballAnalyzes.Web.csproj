@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FootballAnalyzes.Data\FootballAnalyzes.Data.csproj" />
     <ProjectReference Include="..\FootballAnalyzes.Services\FootballAnalyzes.Services.csproj" />
+    <ProjectReference Include="..\FootballAnalyzes.UpdateDatabase\FootballAnalyzes.UpdateDatabase.csproj" />
   </ItemGroup>
 
 </Project>

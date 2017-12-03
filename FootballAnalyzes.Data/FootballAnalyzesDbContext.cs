@@ -1,5 +1,6 @@
 ﻿namespace FootballAnalyzes.Web.Data
 {
+    using System.Linq;
     using FootballAnalyzes.Data.Models;
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,12 @@
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+
+            foreach (var relationship in builder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+            }            
+
             builder.Entity<FootballGame>()
                 .HasOne(g => g.HomeTeam)
                 .WithMany()
@@ -39,6 +46,16 @@
                 .HasOne(a => a.Game)
                 .WithMany(g => g.Predictions)
                 .HasForeignKey(a => a.GameId);
+
+            builder.Entity<FootballGame>()
+               .HasOne(g => g.FullTimeResult)
+               .WithOne()
+               .HasForeignKey<FootballGame>(g => g.FullTimeResultId);
+
+            builder.Entity<FootballGame>()
+               .HasOne(g => g.FirstHalfResult)
+               .WithOne()
+               .HasForeignKey<FootballGame>(g => g.FirstHalfResultId);
 
             base.OnModelCreating(builder);
         }

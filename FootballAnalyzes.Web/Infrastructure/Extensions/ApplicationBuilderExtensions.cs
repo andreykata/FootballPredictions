@@ -2,8 +2,8 @@
 {
     using System;
     using System.Threading.Tasks;
-    using FootballAnalyzes.Data;
     using FootballAnalyzes.Data.Models;
+    using FootballAnalyzes.UpdateDatabase;
     using FootballAnalyzes.Web.Data;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Identity;
@@ -20,47 +20,16 @@
 
                 var userManager = serviceScope.ServiceProvider.GetService<UserManager<User>>();
                 var roleManager = serviceScope.ServiceProvider.GetService<RoleManager<IdentityRole>>();
+                var db = serviceScope.ServiceProvider.GetService<FootballAnalyzesDbContext>();
 
                 Task
                     .Run(async () =>
                     {
-                        var adminName = WebConstants.AdministratorRole;
+                        await AddAdminUser(userManager, roleManager);
 
-                        var roles = new[]
+                        if (await db.FootballGames.CountAsync() == 0)
                         {
-                            adminName
-                        };
-
-                        foreach (var role in roles)
-                        {
-                            var roleExists = await roleManager.RoleExistsAsync(role);
-
-                            if (!roleExists)
-                            {
-                                await roleManager.CreateAsync(new IdentityRole
-                                {
-                                    Name = role
-                                });
-                            }
-                        }
-
-                        var adminEmail = "admin@abv.bg";
-
-                        var adminUser = await userManager.FindByEmailAsync(adminEmail);
-
-                        if (adminUser == null)
-                        {
-                            adminUser = new User
-                            {
-                                Email = adminEmail,
-                                UserName = adminName,
-                                Name = adminName,
-                                Birthdate = DateTime.UtcNow
-                            };
-
-                            await userManager.CreateAsync(adminUser, "admin12");
-
-                            await userManager.AddToRoleAsync(adminUser, adminName);
+                            await Seed.ReadGamesFromFile(db);
                         }
 
                     })
@@ -68,6 +37,48 @@
             }
 
             return app;
+        }
+
+        private static async Task AddAdminUser(UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
+        {
+            var adminName = WebConstants.AdministratorRole;
+
+            var roles = new[]
+            {
+                adminName
+            };
+
+            foreach (var role in roles)
+            {
+                var roleExists = await roleManager.RoleExistsAsync(role);
+
+                if (!roleExists)
+                {
+                    await roleManager.CreateAsync(new IdentityRole
+                    {
+                        Name = role
+                    });
+                }
+            }
+
+            var adminEmail = "admin@abv.bg";
+
+            var adminUser = await userManager.FindByEmailAsync(adminEmail);
+
+            if (adminUser == null)
+            {
+                adminUser = new User
+                {
+                    Email = adminEmail,
+                    UserName = adminName,
+                    Name = adminName,
+                    Birthdate = DateTime.UtcNow
+                };
+
+                await userManager.CreateAsync(adminUser, "admin12");
+
+                await userManager.AddToRoleAsync(adminUser, adminName);
+            }
         }
     }
 }

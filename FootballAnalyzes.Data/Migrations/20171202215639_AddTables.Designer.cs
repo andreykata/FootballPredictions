@@ -9,12 +9,13 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
 using System;
 
-namespace FootballAnalyzes.Web.Data.Migrations
+namespace FootballAnalyzes.Data.Migrations
 {
     [DbContext(typeof(FootballAnalyzesDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20171202215639_AddTables")]
+    partial class AddTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -28,8 +29,6 @@ namespace FootballAnalyzes.Web.Data.Migrations
 
                     b.Property<int>("AwayTeamId");
 
-                    b.Property<int>("FirstHalfResultId");
-
                     b.Property<int>("FullTimeResultId");
 
                     b.Property<int>("GameStatisticId");
@@ -39,15 +38,10 @@ namespace FootballAnalyzes.Web.Data.Migrations
                     b.Property<int>("LeagueId");
 
                     b.Property<DateTime>("MatchDate");
-
-                    b.Property<int?>("TeamId");
-
+                    
                     b.HasKey("Id");
 
                     b.HasIndex("AwayTeamId");
-
-                    b.HasIndex("FirstHalfResultId")
-                        .IsUnique();
 
                     b.HasIndex("FullTimeResultId")
                         .IsUnique();
@@ -58,9 +52,7 @@ namespace FootballAnalyzes.Web.Data.Migrations
                     b.HasIndex("HomeTeamId");
 
                     b.HasIndex("LeagueId");
-
-                    b.HasIndex("TeamId");
-
+                    
                     b.ToTable("FootballGames");
                 });
 
@@ -78,8 +70,6 @@ namespace FootballAnalyzes.Web.Data.Migrations
                     b.Property<int>("Result");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("GameId");
 
                     b.ToTable("GameResults");
                 });
@@ -346,20 +336,15 @@ namespace FootballAnalyzes.Web.Data.Migrations
                         .HasForeignKey("AwayTeamId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("FootballAnalyzes.Data.Models.GameResult", "FirstHalfResult")
-                        .WithOne()
-                        .HasForeignKey("FootballAnalyzes.Data.Models.FootballGame", "FirstHalfResultId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
                     b.HasOne("FootballAnalyzes.Data.Models.GameResult", "FullTimeResult")
-                        .WithOne()
+                        .WithOne("Game")
                         .HasForeignKey("FootballAnalyzes.Data.Models.FootballGame", "FullTimeResultId")
                         .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("FootballAnalyzes.Data.Models.GameStatistic", "GameStatistic")
                         .WithOne("Game")
                         .HasForeignKey("FootballAnalyzes.Data.Models.FootballGame", "GameStatisticId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("FootballAnalyzes.Data.Models.Team", "HomeTeam")
                         .WithMany()
@@ -369,19 +354,11 @@ namespace FootballAnalyzes.Web.Data.Migrations
                     b.HasOne("FootballAnalyzes.Data.Models.League", "League")
                         .WithMany("Games")
                         .HasForeignKey("LeagueId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("FootballAnalyzes.Data.Models.Team")
                         .WithMany("Games")
                         .HasForeignKey("TeamId");
-                });
-
-            modelBuilder.Entity("FootballAnalyzes.Data.Models.GameResult", b =>
-                {
-                    b.HasOne("FootballAnalyzes.Data.Models.FootballGame", "Game")
-                        .WithMany()
-                        .HasForeignKey("GameId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("FootballAnalyzes.Data.Models.Prediction", b =>
@@ -389,7 +366,7 @@ namespace FootballAnalyzes.Web.Data.Migrations
                     b.HasOne("FootballAnalyzes.Data.Models.FootballGame", "Game")
                         .WithMany("Predictions")
                         .HasForeignKey("GameId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
