@@ -1,0 +1,39 @@
+﻿@model IEnumerable<FootballGameSM>
+@{
+    ViewData["Title"] = "All Games";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>League </th>
+            <th>Home Team</th>
+            <th>Away Team</th>
+            <th>FT</th>
+            <th>HT</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var game in Model)
+        {
+            <tr>
+                <td>@(game.MatchDate.ToString("dd-MM-yy HH:mm"))</td>
+                <td>@($"{game.League.Country},{game.League.Name},{game.League.Year},{game.League.Stage}")</td>
+                <td>@game.HomeTeam.Name</td>
+                <td>@game.AwayTeam.Name</td>
+                <td>@($"{ game.FullTimeResult.HomeTeamGoals} - {game.FullTimeResult.AwayTeamGoals}")</td>
+                @if (game.FirstHalfResult != null)
+                {
+                    <td>@($"{ game.FirstHalfResult.HomeTeamGoals} - {game.FirstHalfResult.AwayTeamGoals}")</td>
+                }
+                else
+                {
+                        <td></td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

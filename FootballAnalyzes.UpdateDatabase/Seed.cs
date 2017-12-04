@@ -175,8 +175,8 @@
             // Add away team in DB if it doesn't exist
             TeamBM awayTeamBM = new TeamBM()
             {
-                Name = gameParams[9],
-                UniqueName = gameParams[8]
+                Name = gameParams[8],
+                UniqueName = gameParams[9]
             };
 
             var awayTeam = db
@@ -202,8 +202,8 @@
             // Add home team in DB if it doesn't exist
             TeamBM homeTeamBM = new TeamBM()
             {
-                Name = gameParams[7],
-                UniqueName = gameParams[6]
+                Name = gameParams[6],
+                UniqueName = gameParams[7]
             };
 
             Team homeTeam = db

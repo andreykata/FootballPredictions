@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
 using AutoMapper;
+using FootballAnalyzes.Data.Models;
+using FootballAnalyzes.Services.Models.Games;
 
 namespace FootballAnalyzes.Web.Infrastructure.Mapping
 {
@@ -8,6 +10,14 @@ namespace FootballAnalyzes.Web.Infrastructure.Mapping
     {
         public AutoMapperProfile()
         {
+            this.CreateMap<GameStatistic, GameStatisticSM>();
+            this.CreateMap<GameResult, GameResultSM>();
+            this.CreateMap<Team, TeamSM>();
+            this.CreateMap<League, LeagueSM>();
+            this.CreateMap<FootballGame, FootballGameSM>();
+
+
+
             //var allTypes = AppDomain
             //    .CurrentDomain
             //    .GetAssemblies()
