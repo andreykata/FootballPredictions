@@ -1,7 +1,6 @@
 ﻿namespace FootballAnalyzes.Data.Migrations
 {
     using System;
-    using FootballAnalyzes.Web.Data;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Infrastructure;
     using Microsoft.EntityFrameworkCore.Metadata;

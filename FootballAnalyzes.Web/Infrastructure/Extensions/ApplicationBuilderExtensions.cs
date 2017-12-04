@@ -2,9 +2,9 @@
 {
     using System;
     using System.Threading.Tasks;
+    using FootballAnalyzes.Data;
     using FootballAnalyzes.Data.Models;
     using FootballAnalyzes.UpdateDatabase;
-    using FootballAnalyzes.Web.Data;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;

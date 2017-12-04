@@ -1,4 +1,4 @@
-namespace FootballAnalyzes.Web.Infrastructure.Extensions
+namespace FootballAnalyzes.Web.Services
 {
     using System.Text.Encodings.Web;
     using System.Threading.Tasks;

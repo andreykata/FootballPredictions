@@ -24,17 +24,17 @@
         [ForeignKey("AwayTeamId")]
         public Team AwayTeam { get; set; }
         
-        public int FullTimeResultId { get; set; }
+        public int? FullTimeResultId { get; set; }
 
         [ForeignKey("FullTimeResultId")]
         public GameResult FullTimeResult { get; set; }
 
-        public int FirstHalfResultId { get; set; }
+        public int? FirstHalfResultId { get; set; }
 
         [ForeignKey("FirstHalfResultId")]
         public GameResult FirstHalfResult { get; set; }
 
-        public int GameStatisticId { get; set; }
+        public int? GameStatisticId { get; set; }
 
         [ForeignKey("GameStatisticId")]
         public GameStatistic GameStatistic { get; set; }

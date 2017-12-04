@@ -5,26 +5,10 @@ using System.Collections.Generic;
 
 namespace FootballAnalyzes.Data.Migrations
 {
-    public partial class AddTables : Migration
+    public partial class AllModels : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
-                name: "GameResults",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    AwayTeamGoals = table.Column<int>(nullable: false),
-                    GameId = table.Column<int>(nullable: false),
-                    HomeTeamGoals = table.Column<int>(nullable: false),
-                    Result = table.Column<int>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_GameResults", x => x.Id);
-                });
-
             migrationBuilder.CreateTable(
                 name: "GameStatistics",
                 columns: table => new
@@ -81,14 +65,31 @@ namespace FootballAnalyzes.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "GameResults",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    AwayTeamGoals = table.Column<int>(nullable: false),
+                    GameId = table.Column<int>(nullable: false),
+                    HomeTeamGoals = table.Column<int>(nullable: false),
+                    Result = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GameResults", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "FootballGames",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     AwayTeamId = table.Column<int>(nullable: false),
-                    FullTimeResultId = table.Column<int>(nullable: false),
-                    GameStatisticId = table.Column<int>(nullable: false),
+                    FirstHalfResultId = table.Column<int>(nullable: true),
+                    FullTimeResultId = table.Column<int>(nullable: true),
+                    GameStatisticId = table.Column<int>(nullable: true),
                     HomeTeamId = table.Column<int>(nullable: false),
                     LeagueId = table.Column<int>(nullable: false),
                     MatchDate = table.Column<DateTime>(nullable: false),
@@ -101,6 +102,12 @@ namespace FootballAnalyzes.Data.Migrations
                         name: "FK_FootballGames_Teams_AwayTeamId",
                         column: x => x.AwayTeamId,
                         principalTable: "Teams",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_FootballGames_GameResults_FirstHalfResultId",
+                        column: x => x.FirstHalfResultId,
+                        principalTable: "GameResults",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
@@ -127,7 +134,12 @@ namespace FootballAnalyzes.Data.Migrations
                         principalTable: "Leagues",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
-                    
+                    //table.ForeignKey(
+                    //    name: "FK_FootballGames_Teams_TeamId",
+                    //    column: x => x.TeamId,
+                    //    principalTable: "Teams",
+                    //    principalColumn: "Id",
+                    //    onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -159,16 +171,25 @@ namespace FootballAnalyzes.Data.Migrations
                 column: "AwayTeamId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_FootballGames_FirstHalfResultId",
+                table: "FootballGames",
+                column: "FirstHalfResultId",
+                unique: true,
+                filter: "[FirstHalfResultId] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_FootballGames_FullTimeResultId",
                 table: "FootballGames",
                 column: "FullTimeResultId",
-                unique: true);
+                unique: true,
+                filter: "[FullTimeResultId] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
                 name: "IX_FootballGames_GameStatisticId",
                 table: "FootballGames",
                 column: "GameStatisticId",
-                unique: true);
+                unique: true,
+                filter: "[GameStatisticId] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
                 name: "IX_FootballGames_HomeTeamId",
@@ -180,30 +201,63 @@ namespace FootballAnalyzes.Data.Migrations
                 table: "FootballGames",
                 column: "LeagueId");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_FootballGames_TeamId",
-                table: "FootballGames",
-                column: "TeamId");
+            //migrationBuilder.CreateIndex(
+            //    name: "IX_FootballGames_TeamId",
+            //    table: "FootballGames",
+            //    column: "TeamId");
+
+            //migrationBuilder.CreateIndex(
+            //    name: "IX_GameResults_GameId",
+            //    table: "GameResults",
+            //    column: "GameId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Predictions_GameId",
                 table: "Predictions",
                 column: "GameId");
+
+            //migrationBuilder.AddForeignKey(
+            //    name: "FK_GameResults_FootballGames_GameId",
+            //    table: "GameResults",
+            //    column: "GameId",
+            //    principalTable: "FootballGames",
+            //    principalColumn: "Id",
+            //    onDelete: ReferentialAction.Cascade);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Predictions");
+            migrationBuilder.DropForeignKey(
+                name: "FK_FootballGames_Teams_AwayTeamId",
+                table: "FootballGames");
+
+            migrationBuilder.DropForeignKey(
+                name: "FK_FootballGames_Teams_HomeTeamId",
+                table: "FootballGames");
+
+            migrationBuilder.DropForeignKey(
+                name: "FK_FootballGames_Teams_TeamId",
+                table: "FootballGames");
+
+            migrationBuilder.DropForeignKey(
+                name: "FK_FootballGames_GameResults_FirstHalfResultId",
+                table: "FootballGames");
+
+            migrationBuilder.DropForeignKey(
+                name: "FK_FootballGames_GameResults_FullTimeResultId",
+                table: "FootballGames");
 
             migrationBuilder.DropTable(
-                name: "FootballGames");
+                name: "Predictions");
 
             migrationBuilder.DropTable(
                 name: "Teams");
 
             migrationBuilder.DropTable(
                 name: "GameResults");
+
+            migrationBuilder.DropTable(
+                name: "FootballGames");
 
             migrationBuilder.DropTable(
                 name: "GameStatistics");

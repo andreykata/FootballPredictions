@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FootballAnalyzes.Services
+﻿namespace FootballAnalyzes.Services
 {
-    public class IService
+    public interface IService
     {
     }
 }

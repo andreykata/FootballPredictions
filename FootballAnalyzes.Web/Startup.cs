@@ -1,10 +1,10 @@
 ﻿namespace FootballAnalyzes.Web
 {
     using AutoMapper;
+    using FootballAnalyzes.Data;
     using FootballAnalyzes.Data.Models;
     using FootballAnalyzes.Services;
     using FootballAnalyzes.Services.Implementations;
-    using FootballAnalyzes.Web.Data;
     using FootballAnalyzes.Web.Infrastructure.Extensions;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
@@ -38,7 +38,7 @@
                  })
                 .AddEntityFrameworkStores<FootballAnalyzesDbContext>()
                 .AddDefaultTokenProviders();
-                        
+
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddAutoMapper();
@@ -50,7 +50,7 @@
                 options.Filters.Add<AutoValidateAntiforgeryTokenAttribute>();
             });
         }
-
+        
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseDatabaseMigration();

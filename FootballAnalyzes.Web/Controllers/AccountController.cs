@@ -1,19 +1,19 @@
-﻿using System;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using FootballAnalyzes.Data.Models;
-using FootballAnalyzes.Services;
-using FootballAnalyzes.Services.Implementations;
-using FootballAnalyzes.Web.Infrastructure.Extensions;
-using FootballAnalyzes.Web.Models.AccountViewModels;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-
-namespace FootballAnalyzes.Web.Controllers
+﻿namespace FootballAnalyzes.Web.Controllers
 {
+    using System;
+    using System.Security.Claims;
+    using System.Threading.Tasks;
+    using FootballAnalyzes.Data.Models;
+    using FootballAnalyzes.Services;
+    using FootballAnalyzes.Web.Models.AccountViewModels;
+    using FootballAnalyzes.Web.Services;
+    using Microsoft.AspNetCore.Authentication;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
+
+
     [Authorize]
     [Route("[controller]/[action]")]
     public class AccountController : Controller

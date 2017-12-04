@@ -1,23 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Encodings.Web;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using FootballAnalyzes.Web.Models;
-using FootballAnalyzes.Web.Models.ManageViewModels;
-using FootballAnalyzes.Data.Models;
-using FootballAnalyzes.Services;
-using FootballAnalyzes.Web.Infrastructure.Extensions;
-
-namespace FootballAnalyzes.Web.Controllers
+﻿namespace FootballAnalyzes.Web.Controllers
 {
+    using System;
+    using System.Linq;
+    using System.Text;
+    using System.Text.Encodings.Web;
+    using System.Threading.Tasks;
+    using FootballAnalyzes.Data.Models;
+    using FootballAnalyzes.Services;
+    using FootballAnalyzes.Web.Models.ManageViewModels;
+    using FootballAnalyzes.Web.Services;
+    using Microsoft.AspNetCore.Authentication;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
+
     [Authorize]
     [Route("[controller]/[action]")]
     public class ManageController : Controller

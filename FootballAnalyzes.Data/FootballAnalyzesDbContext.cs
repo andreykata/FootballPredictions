@@ -1,4 +1,4 @@
-﻿namespace FootballAnalyzes.Web.Data
+﻿namespace FootballAnalyzes.Data
 {
     using System.Linq;
     using FootballAnalyzes.Data.Models;
@@ -21,11 +21,10 @@
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-
             foreach (var relationship in builder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
             {
                 relationship.DeleteBehavior = DeleteBehavior.Restrict;
-            }            
+            }
 
             builder.Entity<FootballGame>()
                 .HasOne(g => g.HomeTeam)
