@@ -5,6 +5,7 @@ using System.Text;
 using AutoMapper.QueryableExtensions;
 using FootballAnalyzes.Data;
 using FootballAnalyzes.Services.Models.Games;
+using FootballAnalyzes.UpdateDatabase;
 
 namespace FootballAnalyzes.Services.Implementations
 {
@@ -24,6 +25,11 @@ namespace FootballAnalyzes.Services.Implementations
                 .OrderByDescending(g => g.Id)
                 .ProjectTo<FootballGameSM>()
                 .ToList();
+        }
+
+        public void UpdateDb()
+        {
+            var updateDb = new StartUpdate(this.db);
         }
     }
 }

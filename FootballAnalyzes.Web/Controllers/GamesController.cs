@@ -22,5 +22,12 @@ namespace FootballAnalyzes.Web.Controllers
 
             return View(list);
         }
+
+        public IActionResult Update()
+        {
+            this.games.UpdateDb();
+
+            return this.View();
+        }
     }
 }

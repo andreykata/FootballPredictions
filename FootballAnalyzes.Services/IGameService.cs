@@ -6,5 +6,6 @@
     public interface IGameService
     {
         IEnumerable<FootballGameSM> All();
+        void UpdateDb();
     }
 }

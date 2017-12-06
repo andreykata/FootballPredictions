@@ -12,5 +12,7 @@
         public int AwayTeamFouls { get; set; }
         public int HomeTeamOffsides { get; set; }
         public int AwayTeamOffsides { get; set; }
+        public int GameId { get; set; }
+        public FootballGameBM Game { get; set; }
     }
 }
