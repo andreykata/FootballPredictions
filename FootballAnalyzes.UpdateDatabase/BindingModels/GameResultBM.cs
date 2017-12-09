@@ -11,6 +11,6 @@ namespace FootballAnalyzes.UpdateDatabase.BindingModels
         public int HomeTeamGoals { get; set; }
         public int AwayTeamGoals { get; set; }
         public int GameId { get; set; }
-        public FootballGameBM Game { get; set; }
+        public FootballGameBM Game { get; set; }        
     }
 }

@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using AutoMapper.QueryableExtensions;
-using FootballAnalyzes.Data;
-using FootballAnalyzes.Services.Models.Games;
-using FootballAnalyzes.UpdateDatabase;
-
-namespace FootballAnalyzes.Services.Implementations
+﻿namespace FootballAnalyzes.Services.Implementations
 {
+    using System.Collections.Generic;
+    using System.Linq;
+    using AutoMapper.QueryableExtensions;
+    using FootballAnalyzes.Data;
+    using FootballAnalyzes.Services.Models.Games;
+
     public class GameService : IGameService
     {
         private readonly FootballAnalyzesDbContext db;
@@ -22,14 +19,10 @@ namespace FootballAnalyzes.Services.Implementations
         {
             return this.db
                 .FootballGames
+                .Where(g => g.FullTimeResult != null)
                 .OrderByDescending(g => g.Id)
                 .ProjectTo<FootballGameSM>()
                 .ToList();
-        }
-
-        public void UpdateDb()
-        {
-            var updateDb = new StartUpdate(this.db);
-        }
+        }        
     }
 }

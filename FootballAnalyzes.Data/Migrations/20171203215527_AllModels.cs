@@ -93,7 +93,7 @@ namespace FootballAnalyzes.Data.Migrations
                     HomeTeamId = table.Column<int>(nullable: false),
                     LeagueId = table.Column<int>(nullable: false),
                     MatchDate = table.Column<DateTime>(nullable: false),
-                    TeamId = table.Column<int>(nullable: true)
+                    //TeamId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -235,9 +235,9 @@ namespace FootballAnalyzes.Data.Migrations
                 name: "FK_FootballGames_Teams_HomeTeamId",
                 table: "FootballGames");
 
-            migrationBuilder.DropForeignKey(
-                name: "FK_FootballGames_Teams_TeamId",
-                table: "FootballGames");
+            //migrationBuilder.DropForeignKey(
+            //    name: "FK_FootballGames_Teams_TeamId",
+            //    table: "FootballGames");
 
             migrationBuilder.DropForeignKey(
                 name: "FK_FootballGames_GameResults_FirstHalfResultId",

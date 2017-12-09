@@ -40,7 +40,7 @@ namespace FootballAnalyzes.Data.Migrations
 
                     b.Property<DateTime>("MatchDate");
 
-                    b.Property<int?>("TeamId");
+                    //b.Property<int?>("TeamId");
 
                     b.HasKey("Id");
 
@@ -62,7 +62,7 @@ namespace FootballAnalyzes.Data.Migrations
 
                     b.HasIndex("LeagueId");
 
-                    b.HasIndex("TeamId");
+                    //b.HasIndex("TeamId");
 
                     b.ToTable("FootballGames");
                 });
@@ -372,9 +372,9 @@ namespace FootballAnalyzes.Data.Migrations
                         .HasForeignKey("LeagueId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("FootballAnalyzes.Data.Models.Team")
-                        .WithMany("Games")
-                        .HasForeignKey("TeamId");
+                    //b.HasOne("FootballAnalyzes.Data.Models.Team")
+                    //    .WithMany("Games")
+                    //    .HasForeignKey("TeamId");
                 });
 
             modelBuilder.Entity("FootballAnalyzes.Data.Models.GameResult", b =>

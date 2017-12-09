@@ -24,7 +24,7 @@
 
                 Task
                     .Run(async () =>
-                    {
+                    {                        
                         await AddAdminUser(userManager, roleManager);
 
                         if (await db.FootballGames.CountAsync() == 0)
