@@ -13,7 +13,11 @@
         public int AwayTeamFouls { get; set; }
         public int HomeTeamOffsides { get; set; }
         public int AwayTeamOffsides { get; set; }
-        public int GameId { get; set; }
-        public FootballGame Game { get; set; }
+
+        public override string ToString()
+        {
+            return $"{this.HomeTeamCorners},{this.AwayTeamCorners},{this.HomeTeamShotsOnTarget},{this.AwayTeamShotsOnTarget}," +
+                $"{this.HomeTeamShotsWide},{this.AwayTeamShotsWide},{this.HomeTeamFouls},{this.AwayTeamFouls},{this.HomeTeamOffsides},{this.AwayTeamOffsides}";
+        }
     }
 }

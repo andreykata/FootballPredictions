@@ -22,7 +22,7 @@
         }
 
         public IConfiguration Configuration { get; }
-        
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<FootballAnalyzesDbContext>(options =>
@@ -52,7 +52,7 @@
                 options.Filters.Add<AutoValidateAntiforgeryTokenAttribute>();
             });
         }
-        
+
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseDatabaseMigration();
@@ -65,7 +65,7 @@
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/home/error");
             }
 
             app.UseStaticFiles();

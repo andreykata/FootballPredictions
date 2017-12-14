@@ -5,7 +5,6 @@
     using System.Diagnostics;
     using System.IO;
     using System.Net;
-    using System.Text;
     using System.Text.RegularExpressions;
     using FootballAnalyzes.Data.Models;
     using FootballAnalyzes.UpdateDatabase.BindingModels;
@@ -206,9 +205,9 @@
                 pattern = "<dt>Kick-off<\\/dt>\\s+<dd>\\s+<[^>]+>(?'KickOff'[^<]+)";
                 rgx = new Regex(pattern);
                 Match kickOffMatch = rgx.Match(text);
-                string kickOff = kickOffMatch.Groups["KickOff"].Value.Trim() != "" ? kickOffMatch.Groups["KickOff"].Value.Trim() : "00:59";
-                currentDate.AddHours(int.Parse(kickOff.Split(new char[] { ':' }, StringSplitOptions.RemoveEmptyEntries)[0]));
-                currentDate.AddMinutes(int.Parse(kickOff.Split(new char[] { ':' }, StringSplitOptions.RemoveEmptyEntries)[1]));
+                string kickOff = kickOffMatch.Groups["KickOff"].Value.Trim() != "" ? kickOffMatch.Groups["KickOff"].Value.Trim() : "00:59"; 
+                currentDate = currentDate.AddHours(int.Parse(kickOff.Split(new char[] { ':' }, StringSplitOptions.RemoveEmptyEntries)[0]));
+                currentDate = currentDate.AddMinutes(int.Parse(kickOff.Split(new char[] { ':' }, StringSplitOptions.RemoveEmptyEntries)[1]));
 
                 // Parse full time goals
                 pattern = "<dt>Full-time<\\/dt>\\s+<dd>(?'HomeTeamFullTimeGoals'\\d+)\\s+-\\s*(?'AwayTeamFullTimeGoals'\\d+)";
@@ -283,7 +282,7 @@
 
                 if (statsMatch.Groups.Count != 2)
                 {
-                    return new GameStatisticBM();
+                    return null;
                 }
 
                 idLink = statsMatch.Groups["Id"].Value.Trim();

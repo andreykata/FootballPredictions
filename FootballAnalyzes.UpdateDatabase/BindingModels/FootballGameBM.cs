@@ -31,5 +31,11 @@ namespace FootballAnalyzes.UpdateDatabase.BindingModels
         public int? GameStatisticId { get; set; }
         
         public GameStatisticBM GameStatistic { get; set; }
+
+        public override string ToString()
+        {
+            return $"{this.MatchDate.ToString("yyyyMMdd HH:mm")},{this.League},{this.HomeTeam},{this.AwayTeam}," +
+                $"{this.FullTimeResult},{this.FirstHalfResult},{this.GameStatistic}";
+        }
     }
 }

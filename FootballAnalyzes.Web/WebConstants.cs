@@ -8,5 +8,7 @@
         //public const string TempDataErrorMessage = "ErrorMessage";
 
         public const string AdminArea = "Admin";
+
+        public const int PagesNumberCount = 10;
     }
 }

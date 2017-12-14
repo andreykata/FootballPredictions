@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace FootballAnalyzes.Data.Migrations
 {
-    public partial class BirthdateNameUser : Migration
+    public partial class AddUserColumns : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

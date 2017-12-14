@@ -11,8 +11,8 @@ using System;
 namespace FootballAnalyzes.Data.Migrations
 {
     [DbContext(typeof(FootballAnalyzesDbContext))]
-    [Migration("20171203210108_AddDb")]
-    partial class AddDb
+    [Migration("20171211223620_AddUserColumns")]
+    partial class AddUserColumns
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,6 +28,8 @@ namespace FootballAnalyzes.Data.Migrations
 
                     b.Property<int>("AccessFailedCount");
 
+                    b.Property<DateTime>("Birthdate");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
 
@@ -39,6 +41,10 @@ namespace FootballAnalyzes.Data.Migrations
                     b.Property<bool>("LockoutEnabled");
 
                     b.Property<DateTimeOffset?>("LockoutEnd");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100);
 
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256);

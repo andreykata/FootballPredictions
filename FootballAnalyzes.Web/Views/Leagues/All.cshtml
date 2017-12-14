@@ -1,0 +1,32 @@
+﻿@model LeagueListingVM
+@{
+    ViewData["Title"] = $"All Leagues - {Model.Page.TotalCount}";
+}
+<h2>@ViewData["Title"]</h2>
+
+@Html.Partial("_Pagination", Model.Page)
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Unique Name</th>
+            <th>Games Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ int count = 1; }
+        @foreach (var team in Model.Leagues)
+        {
+            <tr>
+                <td>@count</td>
+                <td>@team.Name</td>
+                <td>@team.UniqueName</td>
+                <td>@team.LeagueGamesCount</td>
+            </tr>
+            count++;
+        }
+    </tbody>
+</table>
+
+@Html.Partial("_Pagination", Model.Page)

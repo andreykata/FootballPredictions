@@ -8,6 +8,9 @@
         public string Name { get; set; }
         public string UniqueName { get; set; }
 
-        public ICollection<FootballGame> Games { get; set; } = new List<FootballGame>();
+        public override string ToString()
+        {
+            return $"{this.Name}";
+        }
     }
 }

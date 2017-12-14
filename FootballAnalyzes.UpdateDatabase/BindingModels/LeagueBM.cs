@@ -13,5 +13,10 @@
         public string Stage { get; set; }
 
         public string UniqueName => $"{Country},{Name},{Year},{Stage},{Type}";
+
+        public override string ToString()
+        {
+            return $"{this.UniqueName}";
+        }
     }
 }

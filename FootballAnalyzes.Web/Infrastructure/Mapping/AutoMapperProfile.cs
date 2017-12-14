@@ -2,7 +2,9 @@
 using System.Linq;
 using AutoMapper;
 using FootballAnalyzes.Data.Models;
+using FootballAnalyzes.Services.Models;
 using FootballAnalyzes.Services.Models.Games;
+using FootballAnalyzes.Services.Models.Teams;
 using FootballAnalyzes.UpdateDatabase.BindingModels;
 
 namespace FootballAnalyzes.Web.Infrastructure.Mapping
@@ -15,7 +17,11 @@ namespace FootballAnalyzes.Web.Infrastructure.Mapping
             this.CreateMap<GameResult, GameResultSM>();
             this.CreateMap<Team, TeamSM>();
             this.CreateMap<League, LeagueSM>();
+            this.CreateMap<League, LeagueListingSM>()
+                .ForMember(l => l.LeagueGamesCount, cfg =>
+                    cfg.MapFrom(c => c.Games.Count()));
             this.CreateMap<FootballGame, FootballGameSM>();
+
             
             //var allTypes = AppDomain
             //    .CurrentDomain

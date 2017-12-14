@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <UserSecretsId>aspnet-FootballAnalyzes.Web-6D10AE74-9A41-4301-985B-89B4699FE476</UserSecretsId>
+    <UserSecretsId>aspnet-FootballAnalyzes.Web-2A0099F4-B3EF-406F-ACDA-2FD6B2DB6EB9</UserSecretsId>
   </PropertyGroup>
 
 
@@ -22,7 +22,14 @@
   <ItemGroup>
     <ProjectReference Include="..\FootballAnalyzes.Data\FootballAnalyzes.Data.csproj" />
     <ProjectReference Include="..\FootballAnalyzes.Services\FootballAnalyzes.Services.csproj" />
-    <ProjectReference Include="..\FootballAnalyzes.UpdateDatabase\FootballAnalyzes.UpdateDatabase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Infrastructure\Mapping\" />
+    <Folder Include="Areas\" />
   </ItemGroup>
 
 </Project>

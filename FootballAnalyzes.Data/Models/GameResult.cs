@@ -6,7 +6,10 @@
         public ResultEnum Result { get; set; }
         public int HomeTeamGoals { get; set; }
         public int AwayTeamGoals { get; set; }
-        public int GameId { get; set; }
-        public FootballGame Game { get; set; }
+
+        public override string ToString()
+        {
+            return $"{this.Result.ToString()},{this.HomeTeamGoals}:{this.AwayTeamGoals}";
+        }
     }
 }

@@ -5,6 +5,9 @@
 
     public interface IGameService
     {
-        IEnumerable<FootballGameSM> All();        
+        IEnumerable<FootballGameSM> All(int page = 1);
+        IEnumerable<FootballGameSM> Next(int page = 1);
+        int TotalGamesCount();
+        int TotalNextGamesCount();
     }
 }

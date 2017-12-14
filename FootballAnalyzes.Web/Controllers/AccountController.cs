@@ -5,8 +5,8 @@
     using System.Threading.Tasks;
     using FootballAnalyzes.Data.Models;
     using FootballAnalyzes.Services;
+    using FootballAnalyzes.Web.Infrastructure.Extensions;
     using FootballAnalyzes.Web.Models.AccountViewModels;
-    using FootballAnalyzes.Web.Services;
     using Microsoft.AspNetCore.Authentication;
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Identity;

@@ -14,10 +14,16 @@ namespace FootballAnalyzes.UpdateDatabase
         private readonly FootballAnalyzesDbContext db;
         private readonly DateTime nextGamesDate;
 
+        private List<FootballGameBM> lastGamesForUpdate;
+        private List<FootballGameBM> nextGames;
+
         public StartUpdate(FootballAnalyzesDbContext db, DateTime nextGamesDate)
         {
             this.db = db;
             this.nextGamesDate = nextGamesDate;
+
+            this.lastGamesForUpdate = new List<FootballGameBM>();
+            this.nextGames = new List<FootballGameBM>();
 
             this.Start();
         }
@@ -30,12 +36,15 @@ namespace FootballAnalyzes.UpdateDatabase
 
             // Read old games without results from soccerway.com
             ReadDataWeb dataWeb = new ReadDataWeb();
-            List<FootballGameBM> lastGamesForUpdate = dataWeb.ReadDataFromWeb(lastDateGame);
+            this.lastGamesForUpdate = dataWeb.ReadDataFromWeb(lastDateGame);
 
-            AddLastGamesForUpdateToDb(lastGamesForUpdate);
-
+            AddLastGamesForUpdateToDb(this.lastGamesForUpdate);
 
             // Read next games from soccerway.com
+            ReadNextGames nextGamesDataWeb = new ReadNextGames();
+            this.nextGames = nextGamesDataWeb.ReadDataFromWeb(this.nextGamesDate);
+
+            AddLastGamesForUpdateToDb(this.nextGames);
 
         }
 
@@ -127,10 +136,8 @@ namespace FootballAnalyzes.UpdateDatabase
 
                     this.db.Add(existGame);
                     this.db.SaveChanges();
-
-                    homeTeam.Games.Add(existGame);
-                    awayTeam.Games.Add(existGame);
-                    //league.Games.Add(existGame);
+                    
+                    league.Games.Add(existGame);
 
                     this.db.SaveChanges();
                 }
@@ -142,9 +149,7 @@ namespace FootballAnalyzes.UpdateDatabase
                     {
                         Result = game.FullTimeResult.Result,
                         HomeTeamGoals = game.FullTimeResult.HomeTeamGoals,
-                        AwayTeamGoals = game.FullTimeResult.AwayTeamGoals,
-                        Game = existGame,
-                        GameId = existGame.Id
+                        AwayTeamGoals = game.FullTimeResult.AwayTeamGoals
                     };
 
                     this.db.Add(fullTimeResult);
@@ -161,9 +166,7 @@ namespace FootballAnalyzes.UpdateDatabase
                     {
                         Result = game.FirstHalfResult.Result,
                         HomeTeamGoals = game.FirstHalfResult.HomeTeamGoals,
-                        AwayTeamGoals = game.FirstHalfResult.AwayTeamGoals,
-                        Game = existGame,
-                        GameId = existGame.Id
+                        AwayTeamGoals = game.FirstHalfResult.AwayTeamGoals
                     };
 
                     this.db.Add(firstHalf);
@@ -187,9 +190,7 @@ namespace FootballAnalyzes.UpdateDatabase
                         HomeTeamFouls = game.GameStatistic.HomeTeamFouls,
                         AwayTeamFouls = game.GameStatistic.AwayTeamFouls,
                         HomeTeamOffsides = game.GameStatistic.HomeTeamOffsides,
-                        AwayTeamOffsides = game.GameStatistic.AwayTeamOffsides,
-                        Game = existGame,
-                        GameId = existGame.Id
+                        AwayTeamOffsides = game.GameStatistic.AwayTeamOffsides
                     };
 
                     this.db.Add(gameStatistic);

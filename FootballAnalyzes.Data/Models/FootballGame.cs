@@ -40,5 +40,11 @@
         public GameStatistic GameStatistic { get; set; }
 
         public ICollection<Prediction> Predictions { get; set; } = new List<Prediction>();
+
+        public override string ToString()
+        {
+            return $"{this.MatchDate.ToString("yyyyMMdd HH:mm")},{this.League},{this.HomeTeam},{this.AwayTeam}," +
+                $"{this.FullTimeResult},{this.FirstHalfResult},{this.GameStatistic}";
+        }
     }
 }

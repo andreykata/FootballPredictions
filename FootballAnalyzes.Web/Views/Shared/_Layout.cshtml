@@ -7,7 +7,7 @@
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/site.css" type="text/css"/>
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -31,7 +31,18 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Games" asp-action="All">All Games</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">
+                            Games
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-area="" asp-controller="Games" asp-action="All">All Games</a></li>
+                            <li><a asp-area="" asp-controller="Games" asp-action="Next">Next Games</a></li>
+                        </ul>
+                    </li>
+                    <li><a asp-area="" asp-controller="Teams" asp-action="All">Teams</a></li>
+                    <li><a asp-area="" asp-controller="Leagues" asp-action="All">Leagues</a></li>
                     @if (User.IsInRole(WebConstants.AdministratorRole))
                     {
                         <li><a asp-area="Admin" asp-controller="Update" asp-action="Index">Update DB</a></li>

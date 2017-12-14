@@ -34,9 +34,7 @@
                 await AddFirstHalfResult(db, gameParams, currentGame);
                 await AddGameStatistic(db, gameParams, currentGame);
 
-                homeTeam.Games.Add(currentGame);
-                awayTeam.Games.Add(currentGame);
-                league.Games.Add(currentGame);
+                //league.Games.Add(currentGame);
 
                 await db.SaveChangesAsync();
             }
@@ -58,9 +56,7 @@
                     HomeTeamFouls = int.Parse(gameParams[22]),
                     AwayTeamFouls = int.Parse(gameParams[23]),
                     HomeTeamOffsides = int.Parse(gameParams[24]),
-                    AwayTeamOffsides = int.Parse(gameParams[25]),
-                    GameId = currentGame.Id,
-                    Game = currentGame,
+                    AwayTeamOffsides = int.Parse(gameParams[25])
                 };
 
                 db.Add(gameStatistic);
@@ -80,9 +76,7 @@
                 {
                     Result = (ResultEnum)Enum.Parse(typeof(ResultEnum), gameParams[13], true),
                     HomeTeamGoals = int.Parse(gameParams[14]),
-                    AwayTeamGoals = int.Parse(gameParams[15]),
-                    GameId = currentGame.Id,
-                    Game = currentGame
+                    AwayTeamGoals = int.Parse(gameParams[15])
                 };
 
                 db.Add(halfTimeResult);
@@ -100,9 +94,7 @@
             {
                 Result = (ResultEnum)Enum.Parse(typeof(ResultEnum), gameParams[10], true),
                 HomeTeamGoals = int.Parse(gameParams[11]),
-                AwayTeamGoals = int.Parse(gameParams[12]),
-                GameId = currentGame.Id,
-                Game = currentGame
+                AwayTeamGoals = int.Parse(gameParams[12])
             };
 
             db.Add(fullTimeResult);
@@ -121,11 +113,8 @@
             FootballGame currentGame = new FootballGame()
             {
                 MatchDate = matchDate,
-                League = league,
                 LeagueId = league.Id,
-                HomeTeam = homeTeam,
                 HomeTeamId = homeTeam.Id,
-                AwayTeam = awayTeam,
                 AwayTeamId = awayTeam.Id
             };
 
