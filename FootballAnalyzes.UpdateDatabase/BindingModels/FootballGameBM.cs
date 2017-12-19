@@ -34,8 +34,22 @@ namespace FootballAnalyzes.UpdateDatabase.BindingModels
 
         public override string ToString()
         {
-            return $"{this.MatchDate.ToString("yyyyMMdd HH:mm")},{this.League},{this.HomeTeam},{this.AwayTeam}," +
-                $"{this.FullTimeResult},{this.FirstHalfResult},{this.GameStatistic}";
+            string result = $"{this.MatchDate.ToString("yyyyMMdd HH:mm")},{this.League},{this.HomeTeam},{this.AwayTeam}";
+
+            if (this.FullTimeResult != null)
+            {
+                result += $",{this.FullTimeResult}";
+            }
+            if (this.FirstHalfResult != null)
+            {
+                result += $",{this.FirstHalfResult}";
+            }
+            if (this.GameStatistic != null)
+            {
+                result += $",{this.GameStatistic}";
+            }
+
+            return result;
         }
     }
 }

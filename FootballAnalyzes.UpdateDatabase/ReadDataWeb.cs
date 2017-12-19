@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
+    using System.Globalization;
     using System.IO;
     using System.Net;
     using System.Text.RegularExpressions;
@@ -15,15 +16,15 @@
         public static List<FootballGameBM> allGames = new List<FootballGameBM>();
         public static List<string> errors = new List<string>();
 
-        public List<FootballGameBM> ReadDataFromWeb(DateTime currentDate)
+        public List<FootballGameBM> ReadDataFromWeb(DateTime currentDate, DateTime endDate)
         {
-            Console.WriteLine("Reading games from www.soccerway.com ...");
+            Console.WriteLine("Reading old games from www.soccerway.com ...");
 
             try
             {
                 currentDate = currentDate.AddDays(1);
 
-                while (currentDate.Date < DateTime.Now.AddDays(-1).Date)
+                while (currentDate.Date <= endDate)
                 {
 
                     string currentStringDate = currentDate.ToString("yyyy//MM//dd");
@@ -205,9 +206,9 @@
                 pattern = "<dt>Kick-off<\\/dt>\\s+<dd>\\s+<[^>]+>(?'KickOff'[^<]+)";
                 rgx = new Regex(pattern);
                 Match kickOffMatch = rgx.Match(text);
-                string kickOff = kickOffMatch.Groups["KickOff"].Value.Trim() != "" ? kickOffMatch.Groups["KickOff"].Value.Trim() : "00:59"; 
-                currentDate = currentDate.AddHours(int.Parse(kickOff.Split(new char[] { ':' }, StringSplitOptions.RemoveEmptyEntries)[0]));
-                currentDate = currentDate.AddMinutes(int.Parse(kickOff.Split(new char[] { ':' }, StringSplitOptions.RemoveEmptyEntries)[1]));
+                string kickOff = kickOffMatch.Groups["KickOff"].Value.Trim() != "" ? kickOffMatch.Groups["KickOff"].Value.Trim() : "00:59";
+                string dateAsString = currentDate.ToString("yyyyMMdd");
+                DateTime matchDate = DateTime.ParseExact(dateAsString + kickOff, "yyyyMMddHH:mm", CultureInfo.InvariantCulture);
 
                 // Parse full time goals
                 pattern = "<dt>Full-time<\\/dt>\\s+<dd>(?'HomeTeamFullTimeGoals'\\d+)\\s+-\\s*(?'AwayTeamFullTimeGoals'\\d+)";
@@ -239,7 +240,7 @@
                     {
                         Result = halfTimeResult,
                         HomeTeamGoals = homeTeamHalfTimeGoals,
-                        AwayTeamGoals = awayTeamFullTimeGoals
+                        AwayTeamGoals = awayTeamHalfTimeGoals
                     };
                 }
 
@@ -247,7 +248,7 @@
                 FootballGameBM game = new FootballGameBM
                 {
                     League = league,
-                    MatchDate = currentDate,
+                    MatchDate = matchDate,
                     HomeTeam = homeTeam,
                     AwayTeam = awayTeam,
                     FullTimeResult = fullTimeGameResult,

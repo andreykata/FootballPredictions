@@ -27,9 +27,11 @@
                     {                        
                         await AddAdminUser(userManager, roleManager);
 
+
                         if (await db.FootballGames.CountAsync() == 0)
                         {
-                            await Seed.ReadGamesFromFile(db);
+                            var updateDb = new StartUpdate(db);
+                            updateDb.SeedOldGames();
                         }
 
                     })

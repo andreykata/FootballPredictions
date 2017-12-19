@@ -12,40 +12,55 @@ namespace FootballAnalyzes.UpdateDatabase
     public class StartUpdate
     {
         private readonly FootballAnalyzesDbContext db;
-        private readonly DateTime nextGamesDate;
 
         private List<FootballGameBM> lastGamesForUpdate;
         private List<FootballGameBM> nextGames;
 
-        public StartUpdate(FootballAnalyzesDbContext db, DateTime nextGamesDate)
+        public StartUpdate(FootballAnalyzesDbContext db)
         {
             this.db = db;
-            this.nextGamesDate = nextGamesDate;
 
             this.lastGamesForUpdate = new List<FootballGameBM>();
-            this.nextGames = new List<FootballGameBM>();
-
-            this.Start();
+            this.nextGames = new List<FootballGameBM>();            
         }
-
-        public void Start()
+        
+        public void MakeAnalyzesForNextGames(DateTime lastDateGame, DateTime endDate, DateTime nextGamesDate)
         {
-            DateTime startCheckDate = DateTime.Now.AddMonths(-6);
-
-            DateTime lastDateGame = FindOldestPossibleDateForUpdate();
-
             // Read old games without results from soccerway.com
             ReadDataWeb dataWeb = new ReadDataWeb();
-            this.lastGamesForUpdate = dataWeb.ReadDataFromWeb(lastDateGame);
+            this.lastGamesForUpdate = dataWeb.ReadDataFromWeb(lastDateGame, endDate);
 
             AddLastGamesForUpdateToDb(this.lastGamesForUpdate);
 
             // Read next games from soccerway.com
             ReadNextGames nextGamesDataWeb = new ReadNextGames();
-            this.nextGames = nextGamesDataWeb.ReadDataFromWeb(this.nextGamesDate);
 
-            AddLastGamesForUpdateToDb(this.nextGames);
+            var existGamesFromNextDate = this.db
+                .FootballGames
+                .Any(g => g.MatchDate.Date == nextGamesDate.Date);
 
+            if (!existGamesFromNextDate)
+            {
+                this.nextGames = nextGamesDataWeb.ReadDataFromWeb(nextGamesDate);
+
+                AddLastGamesForUpdateToDb(this.nextGames);
+            }
+        }
+
+        public void UpdateOldGames(DateTime startDate, DateTime endDate)
+        {
+            ReadDataWeb dataWeb = new ReadDataWeb();
+            startDate = startDate.AddDays(-1);
+            this.lastGamesForUpdate = dataWeb.ReadDataFromWeb(startDate, endDate);
+
+            AddLastGamesForUpdateToDb(this.lastGamesForUpdate);
+        }
+
+        public void SeedOldGames()
+        {
+            var games = Seed.ReadGamesFromFile();
+
+            this.AddOldGamesToDb(games);
         }
 
         private void AddLastGamesForUpdateToDb(List<FootballGameBM> lastGamesForUpdate)
@@ -204,18 +219,143 @@ namespace FootballAnalyzes.UpdateDatabase
             }
         }
 
-        private DateTime FindOldestPossibleDateForUpdate()
+        private void AddOldGamesToDb(List<FootballGameBM> lastGamesForUpdate)
         {
-            var minDateForNewResults = DateTime.Now.AddDays(-2);
+            foreach (var game in lastGamesForUpdate)
+            {
+                this.db.ChangeTracker.AutoDetectChangesEnabled = false;
 
-            var lastDateGame = this.db
-                .FootballGames
-                .Where(g => g.MatchDate.Date <= minDateForNewResults.Date && g.FullTimeResult != null)
-                .OrderByDescending(g => g.MatchDate)
-                .Select(g => g.MatchDate)
-                .FirstOrDefault();
-            
-            return lastDateGame;
+                // Add home team to the DB and to current game
+                var homeTeam = this.db
+                    .Teams
+                    .Where(t => t.UniqueName == game.HomeTeam.UniqueName)
+                    .FirstOrDefault();
+
+                if (homeTeam == null)
+                {
+                    homeTeam = new Team
+                    {
+                        Name = game.HomeTeam.Name,
+                        UniqueName = game.HomeTeam.UniqueName
+                    };
+
+                    this.db.AddRange(homeTeam);
+                    this.db.SaveChanges();
+                }
+
+                // Add away team to the DB and to current game
+                var awayTeam = this.db
+                    .Teams
+                    .Where(t => t.UniqueName == game.AwayTeam.UniqueName)
+                    .FirstOrDefault();
+
+                if (awayTeam == null)
+                {
+                    awayTeam = new Team
+                    {
+                        Name = game.AwayTeam.Name,
+                        UniqueName = game.AwayTeam.UniqueName
+                    };
+
+                    this.db.AddRange(awayTeam);
+                    this.db.SaveChanges();
+                }
+
+
+                // Add league to the DB and to current game
+                var league = this.db
+                    .Leagues
+                    .Where(l => l.UniqueName == game.League.UniqueName)
+                    .FirstOrDefault();
+
+                if (league == null)
+                {
+                    league = new League
+                    {
+                        Name = game.League.Name,
+                        Country = game.League.Country,
+                        Year = game.League.Year,
+                        Stage = game.League.Stage,
+                        Type = game.League.Type,
+                        UniqueName = game.League.UniqueName
+                    };
+
+                    this.db.AddRange(league);
+                    this.db.SaveChanges();
+                }
+
+                GameResult fullTimeResult = null;
+                if (game.FullTimeResult != null)
+                {
+                    fullTimeResult = new GameResult
+                    {
+                        Result = game.FullTimeResult.Result,
+                        HomeTeamGoals = game.FullTimeResult.HomeTeamGoals,
+                        AwayTeamGoals = game.FullTimeResult.AwayTeamGoals
+                    };
+
+                    this.db.AddRange(fullTimeResult);
+                    this.db.SaveChanges();
+                }
+
+                GameResult firstHalf = null;
+                // Add first time result to the DB and to current game
+                if (game.FirstHalfResult != null)
+                {
+                    firstHalf = new GameResult
+                    {
+                        Result = game.FirstHalfResult.Result,
+                        HomeTeamGoals = game.FirstHalfResult.HomeTeamGoals,
+                        AwayTeamGoals = game.FirstHalfResult.AwayTeamGoals
+                    };
+
+                    this.db.AddRange(firstHalf);
+                    this.db.SaveChanges();
+                }
+
+                GameStatistic gameStatistic = null;
+                // Add game statistic to the DB and to current game
+                if (game.GameStatistic != null)
+                {
+                    gameStatistic = new GameStatistic
+                    {
+                        HomeTeamCorners = game.GameStatistic.HomeTeamCorners,
+                        AwayTeamCorners = game.GameStatistic.AwayTeamCorners,
+                        HomeTeamShotsOnTarget = game.GameStatistic.HomeTeamShotsOnTarget,
+                        AwayTeamShotsOnTarget = game.GameStatistic.AwayTeamShotsOnTarget,
+                        HomeTeamShotsWide = game.GameStatistic.HomeTeamShotsWide,
+                        AwayTeamShotsWide = game.GameStatistic.AwayTeamShotsWide,
+                        HomeTeamFouls = game.GameStatistic.HomeTeamFouls,
+                        AwayTeamFouls = game.GameStatistic.AwayTeamFouls,
+                        HomeTeamOffsides = game.GameStatistic.HomeTeamOffsides,
+                        AwayTeamOffsides = game.GameStatistic.AwayTeamOffsides
+                    };
+
+                    this.db.AddRange(gameStatistic);
+                    this.db.SaveChanges();
+                }
+
+                // Add current game
+                var existGame = new FootballGame
+                {
+                    MatchDate = game.MatchDate,
+                    League = league,
+                    HomeTeam = homeTeam,
+                    AwayTeam = awayTeam,
+                    FullTimeResult = fullTimeResult,
+                    FirstHalfResult = firstHalf,
+                    GameStatistic = gameStatistic
+                };
+
+                this.db.AddRange(existGame);
+                this.db.SaveChanges();
+                                
+
+                // Add full time result to the DB and to current game
+               
+
+                this.db.SaveChanges();
+            }
         }
     }
 }

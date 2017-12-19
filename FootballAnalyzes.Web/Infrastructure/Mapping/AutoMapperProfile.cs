@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 using FootballAnalyzes.Data.Models;
@@ -20,9 +21,11 @@ namespace FootballAnalyzes.Web.Infrastructure.Mapping
             this.CreateMap<League, LeagueListingSM>()
                 .ForMember(l => l.LeagueGamesCount, cfg =>
                     cfg.MapFrom(c => c.Games.Count()));
+            this.CreateMap<Prediction, PredictionSM>();
             this.CreateMap<FootballGame, FootballGameSM>();
+            this.CreateMap<FootballGame, EditGameSM>();
 
-            
+
             //var allTypes = AppDomain
             //    .CurrentDomain
             //    .GetAssemblies()

@@ -37,15 +37,26 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a asp-area="" asp-controller="Games" asp-action="All">All Games</a></li>
-                            <li><a asp-area="" asp-controller="Games" asp-action="Next">Next Games</a></li>
+                            <li><a asp-area="" asp-controller="Games" asp-action="All">All</a></li>
+                            <li><a asp-area="" asp-controller="Games" asp-action="Next">Next</a></li>
+                            <li><a asp-area="" asp-controller="Games" asp-action="ByDate">By Date</a></li>
                         </ul>
                     </li>
                     <li><a asp-area="" asp-controller="Teams" asp-action="All">Teams</a></li>
                     <li><a asp-area="" asp-controller="Leagues" asp-action="All">Leagues</a></li>
                     @if (User.IsInRole(WebConstants.AdministratorRole))
                     {
-                        <li><a asp-area="Admin" asp-controller="Update" asp-action="Index">Update DB</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">
+                                Update DB
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a asp-area="Admin" asp-controller="Update" asp-action="Index">Add new games</a></li>
+                                <li><a asp-area="Admin" asp-controller="Update" asp-action="UpdateOldGames">Update old games</a></li>
+                                <li><a asp-area="Admin" asp-controller="Update" asp-action="Predict">Predict old games</a></li>
+                            </ul>
+                        </li>
                     }
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")
@@ -53,6 +64,18 @@
         </div>
     </nav>
     <div class="container body-content">
+        @if (TempData.ContainsKey(WebConstants.TempDataSuccessMessage))
+        {
+            <div class="alert alert-success">
+                @TempData[WebConstants.TempDataSuccessMessage]
+            </div>
+        }
+        @if (TempData.ContainsKey(WebConstants.TempDataErrorMessage))
+        {
+            <div class="alert alert-danger">
+                @TempData[WebConstants.TempDataErrorMessage]
+            </div>
+        }
         @RenderBody()
         <hr />
         <footer>

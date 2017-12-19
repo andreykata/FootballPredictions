@@ -8,5 +8,10 @@
         {
             tempData[WebConstants.TempDataSuccessMessage] = message;
         }
+
+        public static void AddErrorMessage(this ITempDataDictionary tempData, string message)
+        {
+            tempData[WebConstants.TempDataErrorMessage] = message;
+        }
     }
 }

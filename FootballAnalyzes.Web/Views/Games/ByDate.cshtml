@@ -1,0 +1,54 @@
+﻿@model ByDateListingVM
+@{
+    ViewData["Title"] = $"Games By Date - {Model.Page.TotalCount}";
+}
+<h2>@ViewData["Title"]</h2>
+
+@Html.Partial("_Pagination", Model.Page)
+<table class="table table-bordered table-hover table-nowrap">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>With Result</th>
+            <th>WithOUT Result</th>
+            <th>Total Count</th>
+            @if (User.IsInRole(WebConstants.AdministratorRole))
+            {
+                <th></th>
+                <th></th>
+                <th></th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var date in Model.GamesByDate)
+        {
+            <tr>
+                <td>@(date.GamesDate.ToString("dd-MM-yyyy"))</td>
+                <td>@date.GamesWithResultCount</td>
+                <td>@date.GamesWithoutResultCount</td>
+                <td>@date.TotalGamesCount</td>
+                @if (User.IsInRole(WebConstants.AdministratorRole))
+                {
+                    <td>
+                        <a asp-area="Admin" asp-controller="Update" asp-action="UpdateCurrentDateGames" asp-route-date="@(date.GamesDate.ToString("dd-MM-yyyy"))" class="btn btn-primary btn-sm">Update Games</a>
+                    </td>
+                    if (date.GamesWithoutResultCount > 0)
+                    {
+                        <td>
+                            <a asp-area="" asp-controller="Games" asp-action="WithoutResult" asp-route-date="@(date.GamesDate.ToString("dd-MM-yyyy"))" class="btn btn-primary btn-sm">Edit Games</a>
+                        </td>
+                    }
+                    else
+                    {
+                        <td></td>
+                    }
+                    <td>
+                        <a asp-area="Admin" asp-controller="Update" asp-action="DeleteByDate" asp-route-date="@(date.GamesDate.ToString("dd-MM-yyyy"))" class="btn btn-primary btn-sm btn-danger">Delete Games</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+@Html.Partial("_Pagination", Model.Page)

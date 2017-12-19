@@ -1,10 +1,7 @@
 ﻿namespace FootballAnalyzes.Web.Models.Games
 {
-    using System;
     using System.Collections.Generic;
     using FootballAnalyzes.Services.Models.Games;
-
-    using static FootballAnalyzes.Services.ServiceConstants;
 
     public class GameListingVM
     {

@@ -6,6 +6,7 @@
 
     public class UpdateDetailsFM : IValidatableObject
     {
+        public string DatesInfo { get; set; }
         [DataType(DataType.Date)]
         public DateTime NextGamesDate { get; set; }
 

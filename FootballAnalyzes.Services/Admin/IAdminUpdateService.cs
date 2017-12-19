@@ -6,6 +6,11 @@ namespace FootballAnalyzes.Services.Admin
 {
     public interface IAdminUpdateService
     {
-        void UpdateDb(DateTime nextGamesDate);
+        string UpdateDb(DateTime nextGamesDate);
+        string UpdateOldGames(DateTime startDate, DateTime endDate);
+        bool DeleteGamesByDate(string date);
+        int DeleteGamesByDateCount(string date);
+        string UpdateDatesInfo();
+        void MakePredictionToOldGames();
     }
 }

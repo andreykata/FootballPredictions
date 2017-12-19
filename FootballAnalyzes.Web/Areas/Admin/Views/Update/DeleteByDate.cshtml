@@ -1,0 +1,8 @@
+﻿@model DeleteGamesByDateVM
+@{
+    ViewData["Title"] = "DeleteByDate";
+}
+
+<h3>Are you sure to delete all @Model.DeleteGamesCount games from @Model.Date date?</h3>
+<a asp-area="Admin" asp-controller="Update" asp-action="ConfirmDeleteByDate" asp-route-date="@Model.Date" asp-route-count="@Model.DeleteGamesCount" class="btn btn-primary btn-sm btn-danger">Delete Games</a>
+

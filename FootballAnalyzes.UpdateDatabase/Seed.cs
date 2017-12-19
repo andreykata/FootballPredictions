@@ -1,6 +1,7 @@
 ﻿namespace FootballAnalyzes.UpdateDatabase
 {
     using System;
+    using System.Collections.Generic;
     using System.Globalization;
     using System.IO;
     using System.Linq;
@@ -11,8 +12,10 @@
 
     public static class Seed
     {
-        public static async Task ReadGamesFromFile(FootballAnalyzesDbContext db)
+
+        public static List<FootballGameBM> ReadGamesFromFile()
         {
+            List<FootballGameBM> allGames = new List<FootballGameBM>();
             string input;
 
             using (StreamReader reader = new StreamReader("../FootballAnalyzes.UpdateDatabase/all_games.txt"))
@@ -26,191 +29,88 @@
             {
                 string[] gameParams = game.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 
-                Team homeTeam = await AddHomeTeam(db, gameParams);
-                Team awayTeam = await AddAwayTeam(db, gameParams);
-                League league = await AddLeague(db, gameParams);
-                FootballGame currentGame = await AddGame(db, gameParams, homeTeam, awayTeam, league);
-                await AdduFullTimeResult(db, gameParams, currentGame);
-                await AddFirstHalfResult(db, gameParams, currentGame);
-                await AddGameStatistic(db, gameParams, currentGame);
-
-                //league.Games.Add(currentGame);
-
-                await db.SaveChangesAsync();
-            }
-        }
-
-        private static async Task AddGameStatistic(FootballAnalyzesDbContext db, string[] gameParams, FootballGame currentGame)
-        {
-            // Add game statistic to DB and to the game IF EXCIST
-            if (gameParams[16] != "-1" && gameParams[17] != "-1")
-            {
-                var gameStatistic = new GameStatistic()
+                TeamBM homeTeamBM = new TeamBM()
                 {
-                    HomeTeamCorners = int.Parse(gameParams[16]),
-                    AwayTeamCorners = int.Parse(gameParams[17]),
-                    HomeTeamShotsOnTarget = int.Parse(gameParams[18]),
-                    AwayTeamShotsOnTarget = int.Parse(gameParams[19]),
-                    HomeTeamShotsWide = int.Parse(gameParams[20]),
-                    AwayTeamShotsWide = int.Parse(gameParams[21]),
-                    HomeTeamFouls = int.Parse(gameParams[22]),
-                    AwayTeamFouls = int.Parse(gameParams[23]),
-                    HomeTeamOffsides = int.Parse(gameParams[24]),
-                    AwayTeamOffsides = int.Parse(gameParams[25])
+                    Name = gameParams[6],
+                    UniqueName = gameParams[7]
                 };
 
-                db.Add(gameStatistic);
-                await db.SaveChangesAsync();
-
-                currentGame.GameStatisticId = gameStatistic.Id;
-                currentGame.GameStatistic = gameStatistic;
-            }
-        }
-
-        private static async Task AddFirstHalfResult(FootballAnalyzesDbContext db, string[] gameParams, FootballGame currentGame)
-        {
-            // Add first half result to DB and to the game IF EXCIST    
-            if (gameParams[14] != "-1" && gameParams[15] != "-1")
-            {
-                GameResult halfTimeResult = new GameResult()
+                // Add away team in DB if it doesn't exist
+                TeamBM awayTeamBM = new TeamBM()
                 {
-                    Result = (ResultEnum)Enum.Parse(typeof(ResultEnum), gameParams[13], true),
-                    HomeTeamGoals = int.Parse(gameParams[14]),
-                    AwayTeamGoals = int.Parse(gameParams[15])
+                    Name = gameParams[8],
+                    UniqueName = gameParams[9]
                 };
 
-                db.Add(halfTimeResult);
-                await db.SaveChangesAsync();
-
-                currentGame.FirstHalfResultId = halfTimeResult.Id;
-                currentGame.FirstHalfResult = halfTimeResult;
-            }
-        }
-
-        private static async Task AdduFullTimeResult(FootballAnalyzesDbContext db, string[] gameParams, FootballGame currentGame)
-        {
-            // Add full time result to DB and to the game
-            var fullTimeResult = new GameResult()
-            {
-                Result = (ResultEnum)Enum.Parse(typeof(ResultEnum), gameParams[10], true),
-                HomeTeamGoals = int.Parse(gameParams[11]),
-                AwayTeamGoals = int.Parse(gameParams[12])
-            };
-
-            db.Add(fullTimeResult);
-            await db.SaveChangesAsync();
-
-            currentGame.FullTimeResultId = fullTimeResult.Id;
-            currentGame.FullTimeResult = fullTimeResult;
-        }
-
-        private static async Task<FootballGame> AddGame(FootballAnalyzesDbContext db, string[] gameParams, Team homeTeam, Team awayTeam, League league)
-        {
-            string time = gameParams[1] == "33:33" ? "00:59" : gameParams[1];
-            var matchDate = DateTime.ParseExact(gameParams[0] + time, "yyyyMMddHH:mm", CultureInfo.InvariantCulture);
-
-            // Add game to DB
-            FootballGame currentGame = new FootballGame()
-            {
-                MatchDate = matchDate,
-                LeagueId = league.Id,
-                HomeTeamId = homeTeam.Id,
-                AwayTeamId = awayTeam.Id
-            };
-
-            db.Add(currentGame);
-            await db.SaveChangesAsync();
-            return currentGame;
-        }
-
-        private static async Task<League> AddLeague(FootballAnalyzesDbContext db, string[] gameParams)
-        {
-            // Add current league in DB if it doesn't exist
-            LeagueBM leagueBM = new LeagueBM()
-            {
-                Country = gameParams[2],
-                Name = gameParams[3].Substring(0, gameParams[3].LastIndexOf('-')),
-                Year = gameParams[3].Substring(gameParams[3].LastIndexOf('-') + 1),
-                Stage = gameParams[4],
-                Type = gameParams[5]
-            };
-
-            var league = db
-                .Leagues
-                .Where(l => l.UniqueName.Equals(leagueBM.UniqueName))
-                .FirstOrDefault();
-
-            if (league == null)
-            {
-                league = new League()
+                // Add current league in DB if it doesn't exist
+                LeagueBM leagueBM = new LeagueBM()
                 {
-                    Country = leagueBM.Country,
-                    Name = leagueBM.Name,
-                    Year = leagueBM.Year,
-                    Stage = leagueBM.Stage,
-                    Type = leagueBM.Type,
-                    UniqueName = $"{leagueBM.Country},{leagueBM.Name},{leagueBM.Year},{leagueBM.Stage},{leagueBM.Type}"
+                    Country = gameParams[2],
+                    Name = gameParams[3].Substring(0, gameParams[3].LastIndexOf('-')),
+                    Year = gameParams[3].Substring(gameParams[3].LastIndexOf('-') + 1),
+                    Stage = gameParams[4],
+                    Type = gameParams[5]
                 };
 
-                await db.AddAsync(league);
-                await db.SaveChangesAsync();
+                string time = gameParams[1] == "33:33" ? "00:59" : gameParams[1];
+                var matchDate = DateTime.ParseExact(gameParams[0] + time, "yyyyMMddHH:mm", CultureInfo.InvariantCulture);
+
+                
+                // Add full time result to DB and to the game
+                var fullTimeResult = new GameResultBM()
+                {
+                    Result = (ResultEnum)Enum.Parse(typeof(ResultEnum), gameParams[10], true),
+                    HomeTeamGoals = int.Parse(gameParams[11]),
+                    AwayTeamGoals = int.Parse(gameParams[12])
+                };
+
+                GameResultBM halfTimeResult = null;
+                // Add first half result to DB and to the game IF EXCIST    
+                if (gameParams[14] != "-1" && gameParams[15] != "-1")
+                {
+                    halfTimeResult = new GameResultBM
+                    {
+                        Result = (ResultEnum)Enum.Parse(typeof(ResultEnum), gameParams[13], true),
+                        HomeTeamGoals = int.Parse(gameParams[14]),
+                        AwayTeamGoals = int.Parse(gameParams[15])
+                    };
+                }
+
+                GameStatisticBM gameStatistic = null;
+                if (gameParams[16] != "-1" && gameParams[17] != "-1")
+                {
+                    gameStatistic = new GameStatisticBM()
+                    {
+                        HomeTeamCorners = int.Parse(gameParams[16]),
+                        AwayTeamCorners = int.Parse(gameParams[17]),
+                        HomeTeamShotsOnTarget = int.Parse(gameParams[18]),
+                        AwayTeamShotsOnTarget = int.Parse(gameParams[19]),
+                        HomeTeamShotsWide = int.Parse(gameParams[20]),
+                        AwayTeamShotsWide = int.Parse(gameParams[21]),
+                        HomeTeamFouls = int.Parse(gameParams[22]),
+                        AwayTeamFouls = int.Parse(gameParams[23]),
+                        HomeTeamOffsides = int.Parse(gameParams[24]),
+                        AwayTeamOffsides = int.Parse(gameParams[25])
+                    };
+                    
+                }
+
+                // Add game to DB
+                FootballGameBM currentGame = new FootballGameBM
+                {
+                    MatchDate = matchDate,
+                    League = leagueBM,
+                    HomeTeam = homeTeamBM,
+                    AwayTeam = awayTeamBM,
+                    FullTimeResult = fullTimeResult,
+                    FirstHalfResult = halfTimeResult,
+                    GameStatistic = gameStatistic
+                };
+
+                allGames.Add(currentGame);
             }
 
-            return league;
-        }
-
-        private static async Task<Team> AddAwayTeam(FootballAnalyzesDbContext db, string[] gameParams)
-        {
-            // Add away team in DB if it doesn't exist
-            TeamBM awayTeamBM = new TeamBM()
-            {
-                Name = gameParams[8],
-                UniqueName = gameParams[9]
-            };
-
-            var awayTeam = db
-                .Teams
-                .Where(t => t.UniqueName == awayTeamBM.UniqueName)
-                .FirstOrDefault();
-
-            if (awayTeam == null)
-            {
-                awayTeam = new Team();
-                awayTeam.Name = awayTeamBM.Name;
-                awayTeam.UniqueName = awayTeamBM.UniqueName;
-
-                await db.Teams.AddAsync(awayTeam);
-                await db.SaveChangesAsync();
-            }
-
-            return awayTeam;
-        }
-
-        private static async Task<Team> AddHomeTeam(FootballAnalyzesDbContext db, string[] gameParams)
-        {
-            // Add home team in DB if it doesn't exist
-            TeamBM homeTeamBM = new TeamBM()
-            {
-                Name = gameParams[6],
-                UniqueName = gameParams[7]
-            };
-
-            Team homeTeam = db
-                .Teams
-                .Where(t => t.UniqueName == homeTeamBM.UniqueName)
-                .FirstOrDefault();
-
-            if (homeTeam == null)
-            {
-                homeTeam = new Team();
-                homeTeam.Name = homeTeamBM.Name;
-                homeTeam.UniqueName = homeTeamBM.UniqueName;
-
-                await db.Teams.AddAsync(homeTeam);
-                await db.SaveChangesAsync();
-            }
-
-            return homeTeam;
+            return allGames;
         }
     }
 }

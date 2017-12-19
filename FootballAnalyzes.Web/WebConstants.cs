@@ -5,7 +5,7 @@
         public const string AdministratorRole = "Administrator";
 
         public const string TempDataSuccessMessage = "SuccessMessage";
-        //public const string TempDataErrorMessage = "ErrorMessage";
+        public const string TempDataErrorMessage = "ErrorMessage";
 
         public const string AdminArea = "Admin";
 
