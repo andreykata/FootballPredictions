@@ -11,6 +11,7 @@ namespace FootballAnalyzes.Services.Admin
         bool DeleteGamesByDate(string date);
         int DeleteGamesByDateCount(string date);
         string UpdateDatesInfo();
-        void MakePredictionToOldGames();
+        string MakePredictionToOldGames();
+        string MakePredictionToNewGames(DateTime nextGamesDate);
     }
 }

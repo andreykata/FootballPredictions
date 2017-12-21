@@ -9,6 +9,7 @@
     using FootballAnalyzes.Data.Models;
     using FootballAnalyzes.Services.Admin.Models;
     using FootballAnalyzes.Services.Models.Games;
+    using FootballAnalyzes.Services.Predictions.Analyzes;
     using FootballAnalyzes.UpdateDatabase;
 
     using static FootballAnalyzes.Services.ServiceConstants;
@@ -16,11 +17,7 @@
     public class AdminUpdateService : IAdminUpdateService
     {
         private readonly FootballAnalyzesDbContext db;
-
-        private List<FootballGamePM> games;
-        private Dictionary<string, TeamPM> teams;
-        private SortedDictionary<string, LeaguePM> leagues;
-
+        
         public AdminUpdateService(FootballAnalyzesDbContext db)
         {
             this.db = db;
@@ -134,39 +131,139 @@
             return lastDateGame.Date;
         }
 
-        public void MakePredictionToOldGames()
+        public string MakePredictionToOldGames()
         {
-            DateTime startDate = DateTime.Now.AddMonths(ReturnMonthsForOldGames);
-
-            var allGames = this.db
-                .FootballGames
-                .Where(g => g.FullTimeResult != null)
-                .ToList();
+            DateTime startDate = DateTime.Now.AddDays(-7);
 
             var gamesForPredict = this.db
                 .FootballGames
-                .Where(g => g.MatchDate >= startDate && g.FullTimeResult != null && g.Predictions.Count() == 0)
-                .ProjectTo<FootballGameSM>()
+                .Where(g => g.MatchDate >= startDate && g.FullTimeResult != null)
+                .ProjectTo<FootballGamePM>()
                 .ToList();
 
-            int count = 1;
+            int predictionCount = this.db.Predictions.Count();
+
+            CreatePredictions(gamesForPredict, PastGames);
+
+            int predictionsAfterCount = this.db.Predictions.Count();
+
+            return $"Successfull added {predictionsAfterCount - predictionCount} predictions to {gamesForPredict.Count()}";
+        }
+
+        public string MakePredictionToNewGames(DateTime nextGamesDate)
+        {
+            var gamesForPredict = this.db
+                .FootballGames
+                .Where(g => g.MatchDate.Date == nextGamesDate.Date && g.FullTimeResult == null)
+                .ProjectTo<FootballGamePM>()
+                .ToList();
+
+            int predictionCount = this.db.Predictions.Count();
+
+            CreatePredictions(gamesForPredict, ServiceConstants.NextGames);
+
+            int predictionsAfterCount = this.db.Predictions.Count();
+
+            return $"Successfull added {predictionsAfterCount - predictionCount} predictions to {gamesForPredict.Count()}";
+        }
+
+        private void CreatePredictions(List<FootballGamePM> gamesForPredict, string typeGames)
+        {
+            int count = 0;
             foreach (var game in gamesForPredict)
             {
-                var homeTeamGames = allGames
-                    .Where(g => g.MatchDate.Date < game.MatchDate.Date && (g.HomeTeam.Id == game.HomeTeam.Id || g.AwayTeam.Id == game.HomeTeam.Id) && g.FullTimeResult != null)
+                var homeTeamGames = this.db
+                    .FootballGames
+                    .Where(g => (g.HomeTeam.Id == game.HomeTeam.Id || g.AwayTeam.Id == game.HomeTeam.Id) && g.MatchDate.Date < game.MatchDate.Date && g.FullTimeResult != null)
+                    .ProjectTo<FootballGameSM>()
                     .ToList();
 
-                var awayTeamGames = allGames
-                   .Where(g => g.MatchDate.Date < game.MatchDate.Date && (g.HomeTeam.Id == game.AwayTeam.Id || g.AwayTeam.Id == game.AwayTeam.Id) && g.FullTimeResult != null)
+                var awayTeamGames = this.db
+                    .FootballGames
+                   .Where(g => (g.HomeTeam.Id == game.AwayTeam.Id || g.AwayTeam.Id == game.AwayTeam.Id) && g.MatchDate.Date < game.MatchDate.Date && g.FullTimeResult != null)
+                   .ProjectTo<FootballGameSM>()
                    .ToList();
 
                 var gamesBetweenBothTeams = homeTeamGames
-                    .Where(g => g.HomeTeam.Id == game.AwayTeam.Id || g.AwayTeam.Id == game.AwayTeam.Id)
+                    .Where(g => (g.HomeTeam.Id == game.AwayTeam.Id || g.AwayTeam.Id == game.AwayTeam.Id))
                     .ToList();
+
+                // Add all prediction analyzes to the game
+                AddAllAnalyzesToGame(game, gamesBetweenBothTeams, homeTeamGames, awayTeamGames, typeGames);
+
+                if (typeGames == PastGames)
+                {
+                    List<Tuple<string, bool, bool>> predictions = new List<Tuple<string, bool, bool>>()
+                    {
+                        new Tuple<string, bool, bool>(HTWin, game.FullTimeResult.Result == ResultEnum.H, false),
+                        new Tuple<string, bool, bool>(ATWin, game.FullTimeResult.Result == ResultEnum.A, false),
+                        new Tuple<string, bool, bool>(Draw, game.FullTimeResult.Result == ResultEnum.D, false)
+                    };
+
+                    if (game.GameStatistic != null)
+                    {
+                        predictions.Add(new Tuple<string, bool, bool>(Over8Corners, (game.GameStatistic.HomeTeamCorners + game.GameStatistic.AwayTeamCorners > 8), game.GameStatistic == null));
+                        predictions.Add(new Tuple<string, bool, bool>(Under12Corners, (game.GameStatistic.HomeTeamCorners + game.GameStatistic.AwayTeamCorners < 12), game.GameStatistic == null));
+                    }
+
+                    foreach (var predict in predictions)
+                    {
+                        MakeAnalysis(game, predict.Item1, predict.Item2, predict.Item3);
+                    }
+                }
+
+                foreach (var predict in game.Predictions)
+                {
+                    Prediction PredictDb = new Prediction
+                    {
+                        GameId = game.Id,
+                        Name = predict.Name,
+                        Procent = predict.Procent,
+                        Result = predict.Result
+                    };
+
+                    this.db.AddRange(PredictDb);
+                    this.db.SaveChanges();
+                }
+
                 Console.WriteLine(count++);
             }
+        }
 
+        private void AddAllAnalyzesToGame(FootballGamePM game, List<FootballGameSM> gamesBetweenBothTeams, List<FootballGameSM> homeTeamGames, List<FootballGameSM> awayTeamGames, string typeGames)
+        {
+            Result1X2 result1X2 = new Result1X2(game, gamesBetweenBothTeams, homeTeamGames, awayTeamGames, 40, 20, 10, 5);
 
+            if (typeGames == PastGames && game.GameStatistic != null)
+            {
+                Corners corners = new Corners(game, gamesBetweenBothTeams, homeTeamGames, awayTeamGames, 10, 10, 0, 0);
+            }
+        }
+
+        private void MakeAnalysis(FootballGamePM game, string prediction, bool winCondition, bool deleteCondition)
+        {
+            if (!game.Predictions.Any(p => p.Name == prediction))
+            {
+                return;
+            }
+            
+            PredictionSM predict = game.Predictions.Where(p => p.Name == prediction).FirstOrDefault();
+
+            // That is only for pased games. The new games havn't play yet and they don't have statistics.
+            if (deleteCondition)
+            {
+                game.Predictions.Remove(predict);
+                return;
+            }
+
+            if (winCondition)
+            {
+                predict.Result = ServiceConstants.Yes;
+            }
+            else
+            {
+                predict.Result = ServiceConstants.No;
+            }
         }
     }
 }

@@ -1,0 +1,24 @@
+﻿@model IEnumerable<AllListingSM>
+@{
+    ViewData["Title"] = "All Predictions";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered table-hover table-nowrap">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Games Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var predict in Model)
+        {
+            <tr>
+                <td><a asp-action="Predict" asp-route-name="@predict.PredictName">@predict.PredictName</a></td>
+                <td>@predict.GamesCount</td>
+            </tr>
+        }
+    </tbody>
+</table>

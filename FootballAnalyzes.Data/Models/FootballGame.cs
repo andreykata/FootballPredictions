@@ -39,7 +39,7 @@
         [ForeignKey("GameStatisticId")]
         public GameStatistic GameStatistic { get; set; }
 
-        public ICollection<Prediction> Predictions { get; set; } = new List<Prediction>();
+        public List<Prediction> Predictions { get; set; } = new List<Prediction>();
 
         public override string ToString()
         {

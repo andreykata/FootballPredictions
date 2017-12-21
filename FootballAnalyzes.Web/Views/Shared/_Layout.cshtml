@@ -44,6 +44,7 @@
                     </li>
                     <li><a asp-area="" asp-controller="Teams" asp-action="All">Teams</a></li>
                     <li><a asp-area="" asp-controller="Leagues" asp-action="All">Leagues</a></li>
+                    <li><a asp-area="" asp-controller="Predictions" asp-action="All">Predictions</a></li>
                     @if (User.IsInRole(WebConstants.AdministratorRole))
                     {
                         <li class="dropdown">
@@ -79,7 +80,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2017 - FootballAnalyzes.Web</p>
+            <p>&copy; 2017 - Football Analyzes</p>
         </footer>
     </div>
 

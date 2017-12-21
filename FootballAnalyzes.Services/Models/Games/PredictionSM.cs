@@ -14,7 +14,7 @@ namespace FootballAnalyzes.Services.Models.Games
 
         public string Result { get; set; }
         
-        public FootballGameSM Game { get; set; }
+        public int GameId { get; set; }
 
         public override string ToString()
         {

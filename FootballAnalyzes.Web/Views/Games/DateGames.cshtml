@@ -1,0 +1,7 @@
+﻿@model IEnumerable<FootballGamePM>
+@{
+    ViewData["Title"] = $"All Games - {Model.Count()}";
+}
+<h2>@ViewData["Title"]</h2>
+
+@Html.Partial("_GamesTable", Model)

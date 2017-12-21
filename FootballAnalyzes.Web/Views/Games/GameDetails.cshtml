@@ -1,0 +1,14 @@
+﻿@model GameDetailsVM
+@{
+    ViewData["Title"] = "GameDetails";
+}
+
+<h2>GameDetails</h2>
+@Html.Partial("_SingleGameTable", Model.CurrentGame)
+<h3>Home Team Games</h3>
+@Html.Partial("_GamesTable", Model.HomeTeamGames)
+<h3>Away Team Games</h3>
+@Html.Partial("_GamesTable", Model.AwayTeamGames)
+<h3>Games Between Both Teams</h3>
+@Html.Partial("_GamesTable", Model.GamesBeteenBothTeams)
+

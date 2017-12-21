@@ -6,48 +6,7 @@
 <h2>@ViewData["Title"]</h2>
 
 @Html.Partial("_Pagination", Model.Page)
-<table class="table table-bordered table-hover table-nowrap">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Date</th>
-            <th>League </th>
-            <th>Home Team</th>
-            <th>Away Team</th>
-            <th>FT</th>
-            <th>HT</th>
-            <th>Statistic</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var game in Model.Games)
-        {
-            <tr>
-                <td>@game.Id</td>
-                <td>@(game.MatchDate.ToString("dd-MM-yy HH:mm"))</td>
-                <td>@($"{game.League.Country},{game.League.Name},{game.League.Year},{game.League.Stage}")</td>
-                <td>@game.HomeTeam.Name</td>
-                <td>@game.AwayTeam.Name</td>
-                <td>@($"{ game.FullTimeResult.HomeTeamGoals} - {game.FullTimeResult.AwayTeamGoals}")</td>
-                @if (game.FirstHalfResult != null)
-                {
-                    <td>@($"{game.FirstHalfResult.HomeTeamGoals} - {game.FirstHalfResult.AwayTeamGoals}")</td>
-                }
-                else
-                {
-                        <td></td>
-                }
-                @if (game.GameStatistic != null)
-                {
-                    <td>@($"{game.GameStatistic.ToString()}")</td>
-                }
-                else
-                {
-                    <td></td>
-                }
-            </tr>
-        }
-    </tbody>
-</table>
+
+@Html.Partial("_GamesTable", Model.Games)
 
 @Html.Partial("_Pagination", Model.Page)

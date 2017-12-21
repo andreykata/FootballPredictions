@@ -22,7 +22,6 @@
 
         public IActionResult Index()
         {
-            CultureInfo.CurrentCulture = CultureInfo.CreateSpecificCulture("bg-BG");
             string updateInfo = this.updates.UpdateDatesInfo();
 
             return View(new UpdateDetailsFM
@@ -37,7 +36,7 @@
         {
             if (!ModelState.IsValid)
             {
-                return this.View();
+                return this.BadRequest();
             }
 
             string message = this.updates.UpdateDb(model.NextGamesDate);
@@ -109,9 +108,22 @@
 
         public IActionResult Predict()
         {
-            this.updates.MakePredictionToOldGames();
+            string message = this.updates.MakePredictionToOldGames();
 
-            return View();
+            TempData.AddSuccessMessage($"{message}");
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult PredictNextGames(string date)
+        {
+            DateTime currentDate = DateTime.ParseExact(date, "dd-MM-yyyy", CultureInfo.InvariantCulture);
+
+            string message = this.updates.MakePredictionToNewGames(currentDate);
+
+            TempData.AddSuccessMessage($"{message}");
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

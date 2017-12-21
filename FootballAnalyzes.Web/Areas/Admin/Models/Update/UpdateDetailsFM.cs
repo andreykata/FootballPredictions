@@ -7,7 +7,10 @@
     public class UpdateDetailsFM : IValidatableObject
     {
         public string DatesInfo { get; set; }
+
+        [Display(Name = "Next Date")]
         [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime NextGamesDate { get; set; }
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)

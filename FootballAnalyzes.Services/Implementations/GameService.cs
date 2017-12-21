@@ -2,11 +2,11 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Globalization;
     using System.Linq;
     using AutoMapper.QueryableExtensions;
     using FootballAnalyzes.Data;
     using FootballAnalyzes.Data.Models;
+    using FootballAnalyzes.Services.Admin.Models;
     using FootballAnalyzes.Services.Models.Games;
 
     using static FootballAnalyzes.Services.ServiceConstants;
@@ -19,8 +19,18 @@
         {
             this.db = db;
         }
+        public FootballGamePM ById(int gameId)
+        {
+            var game = this.db
+                .FootballGames
+                .Where(g => g.Id == gameId)
+                .ProjectTo<FootballGamePM>()
+                .FirstOrDefault();
 
-        public IEnumerable<FootballGameSM> All(int page = 1)
+            return game;
+        }
+
+        public IEnumerable<FootballGamePM> All(int page = 1)
         {
             return this.db
                 .FootballGames
@@ -29,21 +39,23 @@
                 .ThenBy(g => g.Id)
                 .Skip((page - 1) * GamesPageSize)
                 .Take(GamesPageSize)
-                .ProjectTo<FootballGameSM>()
+                .ProjectTo<FootballGamePM>()
                 .ToList();
         }
 
-        public IEnumerable<FootballGameSM> Next(int page = 1)
+        public IEnumerable<FootballGamePM> Next(int page = 1)
         {
-            return this.db
+            var games = this.db
                 .FootballGames
                 .Where(g => g.FullTimeResult == null)
                 .OrderByDescending(g => g.MatchDate.Date)
                 .ThenBy(g => g.Id)
                 .Skip((page - 1) * GamesPageSize)
                 .Take(GamesPageSize)
-                .ProjectTo<FootballGameSM>()
+                .ProjectTo<FootballGamePM>()
                 .ToList();
+
+            return games;
         }
 
         public IEnumerable<FootballGameSM> WithoutResult(DateTime date, int page = 1)
@@ -51,7 +63,8 @@
             return this.db
                 .FootballGames
                 .Where(g => g.FullTimeResult == null && g.MatchDate.Date == date.Date)
-                .OrderByDescending(g => g.Id)
+                .OrderByDescending(g => g.MatchDate.Date)
+                .ThenBy(g => g.Id)
                 .Skip((page - 1) * GamesPageSize)
                 .Take(GamesPageSize)
                 .ProjectTo<FootballGameSM>()
@@ -110,6 +123,16 @@
             return result;
         }
 
+        public IEnumerable<FootballGamePM> DateGames(DateTime date, int page = 1)
+        {
+            return this.db
+                .FootballGames
+                .Where(g => g.MatchDate.Date == date.Date)
+                .OrderBy(g => g.Id)
+                .ProjectTo<FootballGamePM>()
+                .ToList();
+        }
+
         public int TotalGamesCount() => this.db.FootballGames.Where(g => g.FullTimeResult != null).Count();
 
         public int TotalNextGamesCount() => this.db.FootballGames.Where(g => g.FullTimeResult == null).Count();
@@ -150,6 +173,37 @@
             this.db.SaveChanges();
 
             return true;
+        }
+
+        public IEnumerable<FootballGamePM> TeamGames(DateTime matchDate, int teamId, int page = 1)
+        {
+            var games = this.db
+                .FootballGames
+                .Where(g => (g.HomeTeamId == teamId || g.AwayTeamId == teamId) && g.MatchDate.Date < matchDate.Date && g.FullTimeResult != null)
+                .OrderByDescending(g => g.MatchDate.Date)
+                .Skip((page - 1) * GameDetailsPageSize)
+                .Take(GameDetailsPageSize)
+                .ProjectTo<FootballGamePM>()
+                .ToList();
+
+            return games;
+        }
+
+       
+
+        public IEnumerable<FootballGamePM> BetweenBothTeams(DateTime matchDate, int homeTeamId, int awayTeamId)
+        {
+            var games = this.db
+                .FootballGames
+                .Where(g => 
+                    (g.HomeTeamId == homeTeamId || g.AwayTeamId == homeTeamId) &&
+                    (g.HomeTeamId == awayTeamId || g.AwayTeamId == awayTeamId) &&
+                    g.MatchDate.Date < matchDate.Date && g.FullTimeResult != null)
+                .OrderByDescending(g => g.MatchDate.Date)
+                .ProjectTo<FootballGamePM>()
+                .ToList();
+
+            return games;
         }
     }
 }

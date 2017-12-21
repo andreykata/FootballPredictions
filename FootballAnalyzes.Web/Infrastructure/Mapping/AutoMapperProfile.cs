@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using AutoMapper;
-using FootballAnalyzes.Data.Models;
-using FootballAnalyzes.Services.Models;
-using FootballAnalyzes.Services.Models.Games;
-using FootballAnalyzes.Services.Models.Teams;
-using FootballAnalyzes.UpdateDatabase.BindingModels;
-
-namespace FootballAnalyzes.Web.Infrastructure.Mapping
+﻿namespace FootballAnalyzes.Web.Infrastructure.Mapping
 {
+    using System.Collections.Generic;
+    using System.Linq;
+    using AutoMapper;
+    using FootballAnalyzes.Data.Models;
+    using FootballAnalyzes.Services.Admin.Models;
+    using FootballAnalyzes.Services.Models;
+    using FootballAnalyzes.Services.Models.Games;
+
     public class AutoMapperProfile : Profile
     {
         public AutoMapperProfile()
@@ -23,6 +21,9 @@ namespace FootballAnalyzes.Web.Infrastructure.Mapping
                     cfg.MapFrom(c => c.Games.Count()));
             this.CreateMap<Prediction, PredictionSM>();
             this.CreateMap<FootballGame, FootballGameSM>();
+            this.CreateMap<FootballGame, FootballGamePM>()
+                .ForMember(g => g.Predictions, cfg =>
+                    cfg.MapFrom(p => p.Predictions));
             this.CreateMap<FootballGame, EditGameSM>();
 
 

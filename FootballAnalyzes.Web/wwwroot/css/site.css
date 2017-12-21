@@ -36,6 +36,13 @@
     color: grey !important;
 }
 
+.winPred {
+    background-color: #ADFFA5;
+}
+
+.loosePred {
+    background-color: #FFCFC9;
+}
 /* QR code generator */
 #qrCode {
     margin: 15px;

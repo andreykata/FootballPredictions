@@ -24,7 +24,7 @@
         @foreach (var date in Model.GamesByDate)
         {
             <tr>
-                <td>@(date.GamesDate.ToString("dd-MM-yyyy"))</td>
+                <td><a asp-action="DateGames" asp-route-date="@(date.GamesDate.ToString("dd-MM-yyyy"))">@(date.GamesDate.ToString("dd-MM-yyyy"))</a></td>
                 <td>@date.GamesWithResultCount</td>
                 <td>@date.GamesWithoutResultCount</td>
                 <td>@date.TotalGamesCount</td>
@@ -46,6 +46,12 @@
                     <td>
                         <a asp-area="Admin" asp-controller="Update" asp-action="DeleteByDate" asp-route-date="@(date.GamesDate.ToString("dd-MM-yyyy"))" class="btn btn-primary btn-sm btn-danger">Delete Games</a>
                     </td>
+                    if (date.GamesDate.Date >= DateTime.Now.Date)
+                    {
+                        <td>
+                            <a asp-area="Admin" asp-controller="Update" asp-action="PredictNextGames" asp-route-date="@(date.GamesDate.ToString("dd-MM-yyyy"))" class="btn btn-primary btn-sm">Predict Games</a>
+                        </td>
+                    }
                 }
             </tr>
         }

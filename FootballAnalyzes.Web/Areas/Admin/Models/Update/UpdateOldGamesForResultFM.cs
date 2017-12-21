@@ -18,10 +18,6 @@
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-            if (this.StartDate >= DateTime.UtcNow)
-            {
-                yield return new ValidationResult("Start date should be in the past.");
-            }
             if (this.StartDate > this.EndDate)
             {
                 yield return new ValidationResult("Start date should be before end date.");

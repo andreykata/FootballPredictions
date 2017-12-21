@@ -5,39 +5,20 @@ using FootballAnalyzes.Services.Models.Games;
 
 namespace FootballAnalyzes.Services.Admin.Models
 {
-    public class FootballGamePM
+    public class FootballGamePM : FootballGameSM
     {
-        public int Id { get; set; }
-
-        public DateTime MatchDate { get; set; }
-
-        public LeaguePM League { get; set; }
-
-        public TeamPM HomeTeam { get; set; }
-
-        public TeamPM AwayTeam { get; set; }
-
-        public GameResultSM FullTimeResult { get; set; }
-
-        public GameResultSM FirstHalfResult { get; set; }
-
-        public GameStatisticSM GameStatistic { get; set; }
+        public List<PredictionSM> Predictions { get; set; } = new List<PredictionSM>();
 
         public override string ToString()
         {
-            string result = $"{this.MatchDate.ToString("yyyyMMdd HH:mm")},{this.League},{this.HomeTeam},{this.AwayTeam}";
+            string result = base.ToString();
 
-            if (this.FullTimeResult != null)
+            if (this.Predictions.Count != 0)
             {
-                result += $",{this.FullTimeResult}";
-            }
-            if (this.FirstHalfResult != null)
-            {
-                result += $",{this.FirstHalfResult}";
-            }
-            if (this.GameStatistic != null)
-            {
-                result += $",{this.GameStatistic}";
+                foreach (var predict in this.Predictions)
+                {
+                    result += $"{predict.Name}: {predict.Procent}";
+                }
             }
 
             return result;
