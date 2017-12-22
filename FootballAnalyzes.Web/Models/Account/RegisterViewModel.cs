@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
-
-using static FootballAnalyzes.Data.DataConstants;
-
-namespace FootballAnalyzes.Web.Models.AccountViewModels
+﻿namespace FootballAnalyzes.Web.Models.AccountViewModels
 {
+    using System;
+    using System.ComponentModel.DataAnnotations;
+
+    using static FootballAnalyzes.Data.DataConstants;
+
     public class RegisterViewModel
     {
         [Required]

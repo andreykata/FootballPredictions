@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FootballAnalyzes.Services.Models.Games
+﻿namespace FootballAnalyzes.Services.Models.Games
 {
+    using System;
+
     public class ByDateSM
     {
         public DateTime GamesDate { get; set; }

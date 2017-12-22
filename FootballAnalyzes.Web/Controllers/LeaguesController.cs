@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using FootballAnalyzes.Services;
-using FootballAnalyzes.Web.Models;
-using FootballAnalyzes.Web.Models.Leagues;
-using Microsoft.AspNetCore.Mvc;
-
-namespace FootballAnalyzes.Web.Controllers
+﻿namespace FootballAnalyzes.Web.Controllers
 {
+    using FootballAnalyzes.Services;
+    using FootballAnalyzes.Web.Models;
+    using FootballAnalyzes.Web.Models.Leagues;
+    using Microsoft.AspNetCore.Mvc;
+
+
     public class LeaguesController : Controller
     {
         private readonly ILeagueService leagues;
@@ -31,6 +28,28 @@ namespace FootballAnalyzes.Web.Controllers
             };
 
             return View(allLeagues);
+        }
+
+        public IActionResult ById(int leagueId)
+        {
+            if (!ModelState.IsValid)
+            {
+                return NotFound();
+            }
+
+            var name = this.leagues.NameById(leagueId);
+            var games = this.leagues.LeagueGames(leagueId);
+
+            if (name == null)
+            {
+                return NotFound();
+            }
+
+            return View(new LeagueDetailsVM
+            {
+                Name = name,
+                Games = games
+            }); ;
         }
     }
 }

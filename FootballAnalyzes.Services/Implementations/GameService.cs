@@ -47,7 +47,7 @@
         {
             var games = this.db
                 .FootballGames
-                .Where(g => g.FullTimeResult == null)
+                .Where(g => g.MatchDate.Date >= DateTime.Now.Date && g.FullTimeResult == null)
                 .OrderByDescending(g => g.MatchDate.Date)
                 .ThenBy(g => g.Id)
                 .Skip((page - 1) * GamesPageSize)
@@ -60,15 +60,16 @@
 
         public IEnumerable<FootballGameSM> WithoutResult(DateTime date, int page = 1)
         {
-            return this.db
+            var games = this.db
                 .FootballGames
                 .Where(g => g.FullTimeResult == null && g.MatchDate.Date == date.Date)
-                .OrderByDescending(g => g.MatchDate.Date)
-                .ThenBy(g => g.Id)
+                .OrderByDescending(g => g.Id)
                 .Skip((page - 1) * GamesPageSize)
                 .Take(GamesPageSize)
                 .ProjectTo<FootballGameSM>()
                 .ToList();
+
+            return games;
         }
 
         public IEnumerable<ByDateSM> GroupByDate(int page = 1)
@@ -188,8 +189,6 @@
 
             return games;
         }
-
-       
 
         public IEnumerable<FootballGamePM> BetweenBothTeams(DateTime matchDate, int homeTeamId, int awayTeamId)
         {

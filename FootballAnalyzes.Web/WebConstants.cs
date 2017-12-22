@@ -3,6 +3,7 @@
     public class WebConstants
     {
         public const string AdministratorRole = "Administrator";
+        public const string CustomerRole = "Customer";
 
         public const string TempDataSuccessMessage = "SuccessMessage";
         public const string TempDataErrorMessage = "ErrorMessage";

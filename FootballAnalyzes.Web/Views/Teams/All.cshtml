@@ -21,7 +21,7 @@
         {
             <tr>
                 <td>@count</td>
-                <td>@team.Name</td>
+                <td><a asp-controller="Teams" asp-action="ById" asp-route-teamId="@team.Id">@team.Name</a></td>
                 <td>@team.UniqueName</td>
                 <td>@team.TeamGamesCount</td>
             </tr>

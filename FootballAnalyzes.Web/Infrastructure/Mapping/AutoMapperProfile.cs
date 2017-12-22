@@ -1,6 +1,5 @@
 ﻿namespace FootballAnalyzes.Web.Infrastructure.Mapping
 {
-    using System.Collections.Generic;
     using System.Linq;
     using AutoMapper;
     using FootballAnalyzes.Data.Models;

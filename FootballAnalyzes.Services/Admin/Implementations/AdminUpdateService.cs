@@ -133,11 +133,11 @@
 
         public string MakePredictionToOldGames()
         {
-            DateTime startDate = DateTime.Now.AddDays(-7);
+            DateTime startDate = DateTime.Now.AddMonths(-1);
 
             var gamesForPredict = this.db
                 .FootballGames
-                .Where(g => g.MatchDate >= startDate && g.FullTimeResult != null)
+                .Where(g => g.MatchDate >= startDate && g.FullTimeResult != null && g.Predictions.Count == 0)
                 .ProjectTo<FootballGamePM>()
                 .ToList();
 
@@ -154,7 +154,7 @@
         {
             var gamesForPredict = this.db
                 .FootballGames
-                .Where(g => g.MatchDate.Date == nextGamesDate.Date && g.FullTimeResult == null)
+                .Where(g => g.MatchDate.Date == nextGamesDate.Date && g.Predictions.Count == 0)
                 .ProjectTo<FootballGamePM>()
                 .ToList();
 
@@ -223,11 +223,12 @@
                     };
 
                     this.db.AddRange(PredictDb);
-                    this.db.SaveChanges();
                 }
 
                 Console.WriteLine(count++);
             }
+
+            this.db.SaveChanges();
         }
 
         private void AddAllAnalyzesToGame(FootballGamePM game, List<FootballGameSM> gamesBetweenBothTeams, List<FootballGameSM> homeTeamGames, List<FootballGameSM> awayTeamGames, string typeGames)
@@ -235,6 +236,10 @@
             Result1X2 result1X2 = new Result1X2(game, gamesBetweenBothTeams, homeTeamGames, awayTeamGames, 40, 20, 10, 5);
 
             if (typeGames == PastGames && game.GameStatistic != null)
+            {
+                Corners corners = new Corners(game, gamesBetweenBothTeams, homeTeamGames, awayTeamGames, 10, 10, 0, 0);
+            }
+            else if (typeGames == NextGames)
             {
                 Corners corners = new Corners(game, gamesBetweenBothTeams, homeTeamGames, awayTeamGames, 10, 10, 0, 0);
             }

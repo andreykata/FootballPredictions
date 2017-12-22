@@ -5,7 +5,6 @@
     using AutoMapper.QueryableExtensions;
     using FootballAnalyzes.Data;
     using FootballAnalyzes.Services.Admin.Models;
-    using FootballAnalyzes.Services.Models.Games;
     using FootballAnalyzes.Services.Models.Prediction;
 
     public class PredictionService : IPredictionService

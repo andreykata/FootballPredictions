@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FootballAnalyzes.Services.Admin.Models;
-
-namespace FootballAnalyzes.Services.Models.Prediction
+﻿namespace FootballAnalyzes.Services.Models.Prediction
 {
+    using System.Collections.Generic;
+    using FootballAnalyzes.Services.Admin.Models;
+
     public class PredictGamesSM
     {
         public string Name { get; set; }

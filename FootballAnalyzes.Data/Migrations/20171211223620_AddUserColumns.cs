@@ -1,9 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
-using System;
-using System.Collections.Generic;
-
-namespace FootballAnalyzes.Data.Migrations
+﻿namespace FootballAnalyzes.Data.Migrations
 {
+    using System;
+    using Microsoft.EntityFrameworkCore.Migrations;
+
     public partial class AddUserColumns : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)

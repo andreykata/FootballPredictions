@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FootballAnalyzes.Services.Models.Games
+﻿namespace FootballAnalyzes.Services.Models.Games
 {
     public class PredictionSM
     {

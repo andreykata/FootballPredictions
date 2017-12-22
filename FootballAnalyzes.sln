@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballAnalyzes.Data", "Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballAnalyzes.Services", "FootballAnalyzes.Services\FootballAnalyzes.Services.csproj", "{3C7D7368-4895-405F-A504-89D238B8AA6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballAnalyzes.UpdateDatabase", "FootballAnalyzes.UpdateDatabase\FootballAnalyzes.UpdateDatabase.csproj", "{3A331B9E-FA91-42DA-90C3-7DBB561A7B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballAnalyzes.UpdateDatabase", "FootballAnalyzes.UpdateDatabase\FootballAnalyzes.UpdateDatabase.csproj", "{3A331B9E-FA91-42DA-90C3-7DBB561A7B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballAnalyzes.Tests", "FootballAnalyzes.Tests\FootballAnalyzes.Tests.csproj", "{58D14E24-8FEE-461B-BC62-09CD7315D3B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3A331B9E-FA91-42DA-90C3-7DBB561A7B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A331B9E-FA91-42DA-90C3-7DBB561A7B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A331B9E-FA91-42DA-90C3-7DBB561A7B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D14E24-8FEE-461B-BC62-09CD7315D3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D14E24-8FEE-461B-BC62-09CD7315D3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D14E24-8FEE-461B-BC62-09CD7315D3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D14E24-8FEE-461B-BC62-09CD7315D3B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

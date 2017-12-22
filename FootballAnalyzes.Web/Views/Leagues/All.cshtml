@@ -16,13 +16,13 @@
     </thead>
     <tbody>
         @{ int count = 1; }
-        @foreach (var team in Model.Leagues)
+        @foreach (var league in Model.Leagues)
         {
             <tr>
                 <td>@count</td>
-                <td>@team.Name</td>
-                <td>@team.UniqueName</td>
-                <td>@team.LeagueGamesCount</td>
+                <td>@league.Name</td>
+                <td><a asp-controller="Leagues" asp-action="ById" asp-route-leagueId="@league.Id">@league.UniqueName</a></td>
+                <td>@league.LeagueGamesCount</td>
             </tr>
             count++;
         }

@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FootballAnalyzes.Services.Admin
+﻿namespace FootballAnalyzes.Services.Admin
 {
+    using System;
+
     public interface IAdminUpdateService
     {
         string UpdateDb(DateTime nextGamesDate);

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace FootballAnalyzes.Web.Models.ManageViewModels
+﻿namespace FootballAnalyzes.Web.Models.ManageViewModels
 {
+    using System.ComponentModel;
+    using System.ComponentModel.DataAnnotations;
+
     public class EnableAuthenticatorViewModel
     {
             [Required]

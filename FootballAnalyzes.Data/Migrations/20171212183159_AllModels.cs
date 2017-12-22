@@ -1,10 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
-using System;
-using System.Collections.Generic;
-
-namespace FootballAnalyzes.Data.Migrations
+﻿namespace FootballAnalyzes.Data.Migrations
 {
+    using System;
+    using Microsoft.EntityFrameworkCore.Metadata;
+    using Microsoft.EntityFrameworkCore.Migrations;
+
     public partial class AllModels : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)

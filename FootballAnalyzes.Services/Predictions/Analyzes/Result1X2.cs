@@ -1,21 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using FootballAnalyzes.Data.Models;
-using FootballAnalyzes.Services.Admin.Models;
-using FootballAnalyzes.Services.Models.Games;
-
-namespace FootballAnalyzes.Services.Predictions.Analyzes
+﻿namespace FootballAnalyzes.Services.Predictions.Analyzes
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using FootballAnalyzes.Data.Models;
+    using FootballAnalyzes.Services.Admin.Models;
+    using FootballAnalyzes.Services.Models.Games;
+
     public class Result1X2 : BasicAnalysis
     {
         private double hTWin;
         private double aTWin;
         private double drawsBothTeams = 0;
-
-        //protected FootballDatabase db;
-        //protected Dictionary<League, double> leaguesByProcent = new Dictionary<League, double>();
+        
 
         public Result1X2(FootballGamePM game, List<FootballGameSM> gamesBetweenBothTeams,
             List<FootballGameSM> homeTeamGames, List<FootballGameSM> awayTeamGames,
@@ -26,10 +23,6 @@ namespace FootballAnalyzes.Services.Predictions.Analyzes
             {
                 return;
             }
-
-            //this.db = db;
-            //this.leaguesByProcent = leaguesByProcent;
-
 
             this.GamesBothTeams();
             this.Result1();

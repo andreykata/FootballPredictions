@@ -5,8 +5,7 @@
     using Microsoft.AspNetCore.Identity;
 
     using static FootballAnalyzes.Data.DataConstants;
-
-    // Add profile data for application users by adding properties to the User class
+    
     public class User : IdentityUser
     {
         [Required]

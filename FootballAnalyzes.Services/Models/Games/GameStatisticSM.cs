@@ -1,7 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace FootballAnalyzes.Services.Models.Games
+﻿namespace FootballAnalyzes.Services.Models.Games
 {
+    using System.ComponentModel.DataAnnotations;
+
     public class GameStatisticSM
     {
         [Required]

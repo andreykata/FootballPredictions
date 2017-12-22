@@ -19,22 +19,32 @@
             <th>ATWin</th>
             <th>HTWBBT</th>
             <th>ATWBBT</th>
+            <th>Over8Cor</th>
+            <th>Under8Cor</th>
             <th>HTCor</th>
             <th>ATCor</th>
             <th>SumCor</th>
-            <th>Over8Cor</th>
-            <th>Under8Cor</th>
         </tr>
     </thead>
     <tbody>
+        @{ int count = 0; }
         @foreach (var game in Model)
         {
-            <tr>
-                <td><a asp-action="GameDetails" asp-route-gameId="@game.Id">Info</a></td>
-                <td><a asp-action="DateGames" asp-route-date="@(game.MatchDate.ToString("dd-MM-yyyy"))">@(game.MatchDate.ToString("dd-MM-yy HH:mm"))</a></td>
-                <td>@($"{game.League.Country},{game.League.Name},{game.League.Year},{game.League.Stage}")</td>
-                <td>@game.HomeTeam.Name</td>
-                <td>@game.AwayTeam.Name</td>
+            <tr class="@(count % 2 == 1 ? "oddRow" : "")">
+                <td><a asp-controller="Games" asp-action="GameDetails" asp-route-gameId="@game.Id">Info</a></td>
+                <td><a asp-controller="Games" asp-action="DateGames" asp-route-date="@(game.MatchDate.ToString("dd-MM-yyyy"))">@(game.MatchDate.ToString("dd-MM-yy HH:mm"))</a></td>
+                <td><a asp-controller="Leagues" asp-action="ById" asp-route-leagueId="@game.League.Id">@($"{game.League.Country},{game.League.Name},{game.League.Year},{game.League.Stage}")</a></td>
+
+                @if (game.FullTimeResult != null)
+                {
+                    <td class="@(game.FullTimeResult.Result == ResultEnum.H ? "winnerBold" : "")"><a asp-controller="Teams" asp-action="ById" asp-route-teamId="@game.HomeTeam.Id">@game.HomeTeam.Name</a></td>
+                    <td class="@(game.FullTimeResult.Result == ResultEnum.A ? "winnerBold" : "")"><a asp-controller="Teams" asp-action="ById" asp-route-teamId="@game.AwayTeam.Id">@game.AwayTeam.Name</a></td>
+                }
+                else
+                {
+                    <td><a asp-controller="Teams" asp-action="ById" asp-route-teamId="@game.HomeTeam.Id">@game.HomeTeam.Name</a></td>
+                    <td><a asp-controller="Teams" asp-action="ById" asp-route-teamId="@game.AwayTeam.Id">@game.AwayTeam.Name</a></td>
+                }
 
                 @if (Model.Any(g => g.FullTimeResult != null))
                 {
@@ -82,11 +92,11 @@
                     }
                     @if (game.Predictions.Any(p => p.Name == ServiceConstants.HTCorners))
                     {
+                        <td>@game.Predictions.Where(p => p.Name == ServiceConstants.Over8Corners).Select(p => p.Procent.ToString("0.00")).FirstOrDefault()</td>
+                        <td>@game.Predictions.Where(p => p.Name == ServiceConstants.Under12Corners).Select(p => p.Procent.ToString("0.00")).FirstOrDefault()</td>
                         <td>@game.Predictions.Where(p => p.Name == ServiceConstants.HTCorners).Select(p => p.Procent.ToString("0")).FirstOrDefault()</td>
                         <td>@game.Predictions.Where(p => p.Name == ServiceConstants.ATCorners).Select(p => p.Procent.ToString("0")).FirstOrDefault()</td>
                         <td>@game.Predictions.Where(p => p.Name == ServiceConstants.SumCorners).Select(p => p.Procent.ToString("0")).FirstOrDefault()</td>
-                        <td>@game.Predictions.Where(p => p.Name == ServiceConstants.Over8Corners).Select(p => p.Procent.ToString("0.00")).FirstOrDefault()</td>
-                        <td>@game.Predictions.Where(p => p.Name == ServiceConstants.Under12Corners).Select(p => p.Procent.ToString("0.00")).FirstOrDefault()</td>
                     }
                     else
                     {
@@ -112,6 +122,7 @@
                         <td></td>
                 }
             </tr>
+            count++;
         }
     </tbody>
 </table>

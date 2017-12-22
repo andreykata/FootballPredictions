@@ -44,10 +44,12 @@
         private static async Task AddAdminUser(UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
         {
             var adminName = WebConstants.AdministratorRole;
+            var customerName = WebConstants.CustomerRole;
 
             var roles = new[]
             {
-                adminName
+                adminName,
+                customerName
             };
 
             foreach (var role in roles)

@@ -1,10 +1,11 @@
 ﻿namespace FootballAnalyzes.Services.Implementations
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using AutoMapper.QueryableExtensions;
     using FootballAnalyzes.Data;
-    using FootballAnalyzes.Services.Models.Games;
+    using FootballAnalyzes.Services.Admin.Models;
     using FootballAnalyzes.Services.Models.Teams;
 
     using static FootballAnalyzes.Services.ServiceConstants;
@@ -39,7 +40,20 @@
                 })
                 .ToList();
         }
+        
+        public IEnumerable<FootballGamePM> TeamGames(int teamId)
+        {
+            var games = this.db
+                .FootballGames
+                .Where(g => (g.HomeTeamId == teamId || g.AwayTeamId == teamId) && (g.FullTimeResult != null || g.MatchDate.Date >= DateTime.Now.Date))
+                .OrderByDescending(g => g.MatchDate.Date)
+                .ProjectTo<FootballGamePM>()
+                .ToList();
 
+            return games;
+        }
+
+        public string NameById(int teamId) => this.db.Teams.Where(t => t.Id == teamId).Select(t => t.Name).FirstOrDefault();
         public int TotalTeamsCount() => this.db.Teams.Count();
     }
 }

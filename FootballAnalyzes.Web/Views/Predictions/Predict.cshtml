@@ -22,11 +22,11 @@
             <th>ATWin</th>
             <th>HTWBBT</th>
             <th>ATWBBT</th>
+            <th>Over8Cor</th>
+            <th>Under8Cor</th>
             <th>HTCor</th>
             <th>ATCor</th>
             <th>SumCor</th>
-            <th>Over8Cor</th>
-            <th>Under8Cor</th>
         </tr>
     </thead>
     <tbody>
@@ -40,8 +40,18 @@
                 <td>@game.Predictions.Where(p => p.Name == Model.Name).Select(p => p.Procent.ToString("0.00")).FirstOrDefault()</td>
                 <td><a asp-action="DateGames" asp-route-date="@(game.MatchDate.ToString("dd-MM-yyyy"))">@(game.MatchDate.ToString("dd-MM-yy HH:mm"))</a></td>
                 <td>@($"{game.League.Country},{game.League.Name},{game.League.Year},{game.League.Stage}")</td>
-                <td>@game.HomeTeam.Name</td>
-                <td>@game.AwayTeam.Name</td>
+
+                @if (game.FullTimeResult != null)
+                {
+                    <td class="@(game.FullTimeResult.Result == ResultEnum.H ? "winnerBold" : "")">@game.HomeTeam.Name</td>
+                    <td class="@(game.FullTimeResult.Result == ResultEnum.A ? "winnerBold" : "")">@game.AwayTeam.Name</td>
+                }
+                else
+                {
+                    <td>@game.HomeTeam.Name</td>
+                    <td>@game.AwayTeam.Name</td>
+                }
+
                 <td>@($"{ game.FullTimeResult.HomeTeamGoals} - {game.FullTimeResult.AwayTeamGoals}")</td>
 
                 @if (game.FirstHalfResult != null)
@@ -79,11 +89,11 @@
                     }
                     @if (game.Predictions.Any(p => p.Name == ServiceConstants.HTCorners))
                     {
+                        <td>@game.Predictions.Where(p => p.Name == ServiceConstants.Over8Corners).Select(p => p.Procent.ToString("0.00")).FirstOrDefault()</td>
+                        <td>@game.Predictions.Where(p => p.Name == ServiceConstants.Under12Corners).Select(p => p.Procent.ToString("0.00")).FirstOrDefault()</td>
                         <td>@game.Predictions.Where(p => p.Name == ServiceConstants.HTCorners).Select(p => p.Procent.ToString("0")).FirstOrDefault()</td>
                         <td>@game.Predictions.Where(p => p.Name == ServiceConstants.ATCorners).Select(p => p.Procent.ToString("0")).FirstOrDefault()</td>
                         <td>@game.Predictions.Where(p => p.Name == ServiceConstants.SumCorners).Select(p => p.Procent.ToString("0")).FirstOrDefault()</td>
-                        <td>@game.Predictions.Where(p => p.Name == ServiceConstants.Over8Corners).Select(p => p.Procent.ToString("0.00")).FirstOrDefault()</td>
-                        <td>@game.Predictions.Where(p => p.Name == ServiceConstants.Under12Corners).Select(p => p.Procent.ToString("0.00")).FirstOrDefault()</td>
                     }
                     else
                     {

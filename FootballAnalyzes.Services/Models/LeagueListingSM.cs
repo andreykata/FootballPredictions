@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FootballAnalyzes.Services.Models.Games;
-
-namespace FootballAnalyzes.Services.Models
+﻿namespace FootballAnalyzes.Services.Models
 {
+    using FootballAnalyzes.Services.Models.Games;
+
     public class LeagueListingSM : LeagueSM
     {
         public int LeagueGamesCount { get; set; }

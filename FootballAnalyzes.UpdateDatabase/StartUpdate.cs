@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using FootballAnalyzes.Data;
-using FootballAnalyzes.Data.Models;
-using FootballAnalyzes.UpdateDatabase.BindingModels;
-using AutoMapper.QueryableExtensions;
-
-namespace FootballAnalyzes.UpdateDatabase
+﻿namespace FootballAnalyzes.UpdateDatabase
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using FootballAnalyzes.Data;
+    using FootballAnalyzes.Data.Models;
+    using FootballAnalyzes.UpdateDatabase.BindingModels;
+
     public class StartUpdate
     {
         private readonly FootballAnalyzesDbContext db;

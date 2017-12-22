@@ -29,8 +29,16 @@
         <tr>
             <td><a asp-action="DateGames" asp-route-date="@(Model.MatchDate.ToString("dd-MM-yyyy"))">@(Model.MatchDate.ToString("dd-MM-yy HH:mm"))</a></td>
             <td>@($"{Model.League.Country},{Model.League.Name},{Model.League.Year},{Model.League.Stage}")</td>
-            <td>@Model.HomeTeam.Name</td>
-            <td>@Model.AwayTeam.Name</td>
+            @if (Model.FullTimeResult != null)
+            {
+                <td class="@(Model.FullTimeResult.Result == ResultEnum.H ? "winnerBold" : "")">@Model.HomeTeam.Name</td>
+                <td class="@(Model.FullTimeResult.Result == ResultEnum.A ? "winnerBold" : "")">@Model.AwayTeam.Name</td>
+            }
+            else
+            {
+                <td>@Model.HomeTeam.Name</td>
+                <td>@Model.AwayTeam.Name</td>
+            }
 
             @if (Model.FullTimeResult != null)
             {

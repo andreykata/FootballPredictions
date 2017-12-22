@@ -1,6 +1,5 @@
 ﻿namespace FootballAnalyzes.Data
 {
-    using System.Linq;
     using FootballAnalyzes.Data.Models;
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;

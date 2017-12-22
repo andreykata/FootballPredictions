@@ -1,37 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using FootballAnalyzes.Web.Models;
-
-namespace FootballAnalyzes.Web.Controllers
+﻿namespace FootballAnalyzes.Web.Controllers
 {
+    using FootballAnalyzes.Services;
+    using Microsoft.AspNetCore.Mvc;
+
     public class HomeController : Controller
     {
+        private readonly IHomeService homes;
+
+        public HomeController(IHomeService homes)
+        {
+            this.homes = homes;
+        }
+
         public IActionResult Index()
         {
-            return View();
-        }
+            var model = this.homes.HomeInfo();
 
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(model);
         }
     }
 }

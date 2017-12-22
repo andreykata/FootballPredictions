@@ -22,9 +22,20 @@
 }
 
 .table-nowrap {
-    white-space:nowrap;
+    white-space: nowrap;
     display: inline-table;
+    border: 1px solid #337ab7 !important;
 }
+
+    .table-nowrap td {
+        padding: 2px !important;
+        border: 1px solid #337ab7 !important;
+        color: black !important;
+    }
+
+    .table-nowrap a {
+        color: black !important;
+    }
 
 .current-page-item {
     background-color: #337ab7 !important;
@@ -43,7 +54,49 @@
 .loosePred {
     background-color: #FFCFC9;
 }
-/* QR code generator */
+
+.oddRow {
+    background-color: #c8c4c4;
+}
+
+.winnerBold {
+    font-weight: bolder;
+}
+
+
+.backgroundImage {
+    position: relative;
+}
+
+.backgroundImage img{
+    width: 100%;
+}
+
+    .backgroundImage table {
+        position: absolute;
+        top: 200px;
+        left: 0;
+    }
+
+        .backgroundImage table h2{
+            margin: 1px;
+        }
+
+        .backgroundImage table td {
+            text-align:right;
+        }
+
+h2 span {
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    display: block;
+}
+
+    /* QR code generator */
 #qrCode {
     margin: 15px;
 }

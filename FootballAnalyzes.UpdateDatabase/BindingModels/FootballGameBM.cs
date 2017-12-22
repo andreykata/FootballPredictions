@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FootballAnalyzes.UpdateDatabase.BindingModels
+﻿namespace FootballAnalyzes.UpdateDatabase.BindingModels
 {
+    using System;
+
     public class FootballGameBM
     {
         public DateTime MatchDate { get; set; }

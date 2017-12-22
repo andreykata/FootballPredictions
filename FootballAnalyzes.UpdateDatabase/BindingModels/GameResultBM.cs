@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FootballAnalyzes.Data.Models;
-
-namespace FootballAnalyzes.UpdateDatabase.BindingModels
+﻿namespace FootballAnalyzes.UpdateDatabase.BindingModels
 {
+    using FootballAnalyzes.Data.Models;
+
     public class GameResultBM
     {
         public ResultEnum Result { get; set; }

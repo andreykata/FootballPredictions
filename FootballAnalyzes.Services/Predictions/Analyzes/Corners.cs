@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using FootballAnalyzes.Services.Admin.Models;
-using FootballAnalyzes.Services.Models.Games;
-
-namespace FootballAnalyzes.Services.Predictions.Analyzes
+﻿namespace FootballAnalyzes.Services.Predictions.Analyzes
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using FootballAnalyzes.Services.Admin.Models;
+    using FootballAnalyzes.Services.Models.Games;
+
     public class Corners : BasicAnalysis
     {
-        public Corners(FootballGamePM game, List<FootballGameSM> gamesBetweenBothTeams, 
-            List<FootballGameSM> homeTeamGames, List<FootballGameSM> awayTeamGames, 
-            int allGamesCount, int allHomeOrAwayGamesCount, int lastGamesCount = 0, int lastHomeOrAwayGamesCount = 0) 
+        public Corners(FootballGamePM game, List<FootballGameSM> gamesBetweenBothTeams,
+            List<FootballGameSM> homeTeamGames, List<FootballGameSM> awayTeamGames,
+            int allGamesCount, int allHomeOrAwayGamesCount, int lastGamesCount = 0, int lastHomeOrAwayGamesCount = 0)
             : base(game, gamesBetweenBothTeams, homeTeamGames, awayTeamGames, allGamesCount, allHomeOrAwayGamesCount, lastGamesCount, lastHomeOrAwayGamesCount)
         {
             if (this.CheckForGameStatistic())
@@ -38,14 +37,14 @@ namespace FootballAnalyzes.Services.Predictions.Analyzes
 
         public void HTCorners()
         {
-            double hTHomeCornersAvg = HTGames.Where(g => g.HomeTeam.UniqueName == this.HomeTeam.UniqueName).Sum(g => g.GameStatistic.HomeTeamCorners) / 
+            double hTHomeCornersAvg = HTGames.Where(g => g.HomeTeam.UniqueName == this.HomeTeam.UniqueName).Sum(g => g.GameStatistic.HomeTeamCorners) /
                 (double)HTGames.Where(g => g.HomeTeam.UniqueName == this.HomeTeam.UniqueName).Count();
-            double hTAwayCornersAvg = HTGames.Where(g => g.AwayTeam.UniqueName == this.HomeTeam.UniqueName).Sum(g => g.GameStatistic.AwayTeamCorners) / 
+            double hTAwayCornersAvg = HTGames.Where(g => g.AwayTeam.UniqueName == this.HomeTeam.UniqueName).Sum(g => g.GameStatistic.AwayTeamCorners) /
                 (double)HTGames.Where(g => g.AwayTeam.UniqueName == this.HomeTeam.UniqueName).Count();
 
-            double aTHomeAllowedCornersAvg = ATGames.Where(g => g.HomeTeam.UniqueName == this.AwayTeam.UniqueName).Sum(g => g.GameStatistic.AwayTeamCorners) / 
+            double aTHomeAllowedCornersAvg = ATGames.Where(g => g.HomeTeam.UniqueName == this.AwayTeam.UniqueName).Sum(g => g.GameStatistic.AwayTeamCorners) /
                 (double)ATGames.Where(g => g.HomeTeam.UniqueName == this.AwayTeam.UniqueName).Count();
-            double aTAwayAllowedCornersAvg = ATGames.Where(g => g.AwayTeam.UniqueName == this.AwayTeam.UniqueName).Sum(g => g.GameStatistic.HomeTeamCorners) / 
+            double aTAwayAllowedCornersAvg = ATGames.Where(g => g.AwayTeam.UniqueName == this.AwayTeam.UniqueName).Sum(g => g.GameStatistic.HomeTeamCorners) /
                 (double)ATGames.Where(g => g.AwayTeam.UniqueName == this.AwayTeam.UniqueName).Count();
 
 
@@ -91,7 +90,7 @@ namespace FootballAnalyzes.Services.Predictions.Analyzes
                 predict = this.Predictions.Where(p => p.Name == ServiceConstants.ATCorners).FirstOrDefault();
                 predict.Procent = aTCorners;
             }
-            
+
             this.SumPredictCorners += aTCorners;
         }
 
@@ -149,7 +148,7 @@ namespace FootballAnalyzes.Services.Predictions.Analyzes
                 predict.Procent = over8Corners;
             }
         }
-        
+
         private void Under12Corners()
         {
             var hTAllGamesCorners = this.HTGames.Where(g => (g.GameStatistic.HomeTeamCorners + g.GameStatistic.AwayTeamCorners) < 12).Count() /
@@ -183,7 +182,11 @@ namespace FootballAnalyzes.Services.Predictions.Analyzes
         public bool CheckForGameStatistic()
         {
             if (HTGames.Count() < 5 || ATGames.Count() < 5 ||
-                HTHomeGames.Count() < 5 || ATAwayGames.Count() < 5)
+                HTHomeGames.Count() < 5 || ATAwayGames.Count() < 5 ||
+                HTGames.Where(g => g.HomeTeam.UniqueName == this.HomeTeam.UniqueName).Count() < 1 ||
+                HTGames.Where(g => g.AwayTeam.UniqueName == this.HomeTeam.UniqueName).Count() < 1 ||
+                ATGames.Where(g => g.HomeTeam.UniqueName == this.AwayTeam.UniqueName).Count() < 1 ||
+                ATGames.Where(g => g.AwayTeam.UniqueName == this.AwayTeam.UniqueName).Count() < 1)
             {
                 return true;
             }
