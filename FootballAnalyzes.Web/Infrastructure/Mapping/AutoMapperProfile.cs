@@ -25,6 +25,8 @@
                     cfg.MapFrom(p => p.Predictions));
             this.CreateMap<FootballGame, EditGameSM>();
 
+            this.CreateMap<User, AdminUserListingSM>();
+
 
             //var allTypes = AppDomain
             //    .CurrentDomain

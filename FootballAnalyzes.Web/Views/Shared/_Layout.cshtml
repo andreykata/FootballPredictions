@@ -31,20 +31,24 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown">
-                            Games
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a asp-area="" asp-controller="Games" asp-action="All">All</a></li>
-                            <li><a asp-area="" asp-controller="Games" asp-action="Next">Next</a></li>
-                            <li><a asp-area="" asp-controller="Games" asp-action="ByDate">By Date</a></li>
-                        </ul>
-                    </li>
-                    <li><a asp-area="" asp-controller="Teams" asp-action="All">Teams</a></li>
-                    <li><a asp-area="" asp-controller="Leagues" asp-action="All">Leagues</a></li>
-                    <li><a asp-area="" asp-controller="Predictions" asp-action="All">Predictions</a></li>
+                    @if (User.IsInRole(WebConstants.AdministratorRole) || User.IsInRole(WebConstants.CustomerRole))
+                    {
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">
+                                Games
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a asp-area="" asp-controller="Games" asp-action="All">All</a></li>
+                                <li><a asp-area="" asp-controller="Games" asp-action="Next">Next</a></li>
+                                <li><a asp-area="" asp-controller="Games" asp-action="ByDate">By Date</a></li>
+                            </ul>
+                        </li>
+                        <li><a asp-area="" asp-controller="Teams" asp-action="All">Teams</a></li>
+                        <li><a asp-area="" asp-controller="Leagues" asp-action="All">Leagues</a></li>
+                        <li><a asp-area="" asp-controller="Predictions" asp-action="All">Predictions</a></li>
+                    }
+                    
                     @if (User.IsInRole(WebConstants.AdministratorRole))
                     {
                         <li class="dropdown">
@@ -58,6 +62,7 @@
                                 <li><a asp-area="Admin" asp-controller="Update" asp-action="Predict">Predict old games</a></li>
                             </ul>
                         </li>
+                        <li><a asp-area="Admin" asp-controller="Users" asp-action="Index">Users</a></li>
                     }
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")

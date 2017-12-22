@@ -133,7 +133,7 @@
 
         public string MakePredictionToOldGames()
         {
-            DateTime startDate = DateTime.Now.AddMonths(-1);
+            DateTime startDate = DateTime.Now.AddMonths(-2);
 
             var gamesForPredict = this.db
                 .FootballGames
@@ -147,7 +147,7 @@
 
             int predictionsAfterCount = this.db.Predictions.Count();
 
-            return $"Successfull added {predictionsAfterCount - predictionCount} predictions to {gamesForPredict.Count()}";
+            return $"Successfull added {predictionsAfterCount - predictionCount} predictions to {gamesForPredict.Count()} games";
         }
 
         public string MakePredictionToNewGames(DateTime nextGamesDate)
@@ -164,7 +164,7 @@
 
             int predictionsAfterCount = this.db.Predictions.Count();
 
-            return $"Successfull added {predictionsAfterCount - predictionCount} predictions to {gamesForPredict.Count()}";
+            return $"Successfull added {predictionsAfterCount - predictionCount} predictions to {gamesForPredict.Count()} games";
         }
 
         private void CreatePredictions(List<FootballGamePM> gamesForPredict, string typeGames)

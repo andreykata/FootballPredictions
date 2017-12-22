@@ -38,18 +38,18 @@
             <tr class="@color">
                 <td><a asp-controller="Games" asp-action="GameDetails" asp-route-gameId="@game.Id">Info</a></td>
                 <td>@game.Predictions.Where(p => p.Name == Model.Name).Select(p => p.Procent.ToString("0.00")).FirstOrDefault()</td>
-                <td><a asp-action="DateGames" asp-route-date="@(game.MatchDate.ToString("dd-MM-yyyy"))">@(game.MatchDate.ToString("dd-MM-yy HH:mm"))</a></td>
-                <td>@($"{game.League.Country},{game.League.Name},{game.League.Year},{game.League.Stage}")</td>
+                <td><a asp-controller="Games" asp-action="DateGames" asp-route-date="@(game.MatchDate.ToString("dd-MM-yyyy"))">@(game.MatchDate.ToString("dd-MM-yy HH:mm"))</a></td>
+                <td><a asp-controller="Leagues" asp-action="ById" asp-route-leagueId="@game.League.Id">@($"{game.League.Country},{game.League.Name},{game.League.Year},{game.League.Stage}")</a></td>
 
                 @if (game.FullTimeResult != null)
                 {
-                    <td class="@(game.FullTimeResult.Result == ResultEnum.H ? "winnerBold" : "")">@game.HomeTeam.Name</td>
-                    <td class="@(game.FullTimeResult.Result == ResultEnum.A ? "winnerBold" : "")">@game.AwayTeam.Name</td>
+                    <td class="@(game.FullTimeResult.Result == ResultEnum.H ? "winnerBold" : "")"><a asp-controller="Teams" asp-action="ById" asp-route-teamId="@game.HomeTeam.Id">@game.HomeTeam.Name</a></td>
+                    <td class="@(game.FullTimeResult.Result == ResultEnum.A ? "winnerBold" : "")"><a asp-controller="Teams" asp-action="ById" asp-route-teamId="@game.AwayTeam.Id">@game.AwayTeam.Name</a></td>
                 }
                 else
                 {
-                    <td>@game.HomeTeam.Name</td>
-                    <td>@game.AwayTeam.Name</td>
+                    <td><a asp-controller="Teams" asp-action="ById" asp-route-teamId="@game.HomeTeam.Id">@game.HomeTeam.Name</a></td>
+                    <td><a asp-controller="Teams" asp-action="ById" asp-route-teamId="@game.AwayTeam.Id">@game.AwayTeam.Name</a></td>
                 }
 
                 <td>@($"{ game.FullTimeResult.HomeTeamGoals} - {game.FullTimeResult.AwayTeamGoals}")</td>

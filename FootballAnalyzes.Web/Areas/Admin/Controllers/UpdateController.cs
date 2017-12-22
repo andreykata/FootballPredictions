@@ -9,9 +9,7 @@
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
 
-    [Area(WebConstants.AdminArea)]
-    [Authorize(Roles = WebConstants.AdministratorRole)]
-    public class UpdateController : Controller
+    public class UpdateController : BaseAdminController
     {
         private readonly IAdminUpdateService updates;
 

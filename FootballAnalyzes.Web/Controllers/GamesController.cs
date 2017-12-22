@@ -9,7 +9,8 @@
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
 
-
+    
+    [Authorize(Roles = WebConstants.AdministratorAndCustomerRoles)]
     public class GamesController : Controller
     {
         private readonly IGameService games;
